@@ -35,16 +35,6 @@
             "m_owner": "65c557e2-0639-4953-ba4a-078e075bb575"
         },
         {
-            "id": "11a1d7f8-a444-43fb-b6f2-53218e3e6279",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 10,
-            "eventtype": 7,
-            "m_owner": "65c557e2-0639-4953-ba4a-078e075bb575"
-        },
-        {
             "id": "1b82c598-077b-4a9d-8eed-033823ee54d3",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -52,16 +42,6 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "65c557e2-0639-4953-ba4a-078e075bb575"
-        },
-        {
-            "id": "902726ba-2ad3-4b7b-bdf3-daacc4a97bb4",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 13,
-            "eventtype": 5,
             "m_owner": "65c557e2-0639-4953-ba4a-078e075bb575"
         },
         {
@@ -75,7 +55,7 @@
             "m_owner": "65c557e2-0639-4953-ba4a-078e075bb575"
         },
         {
-            "id": "4382aafc-ed47-4d18-b445-4d422103f94b",
+            "id": "c566d793-7d64-414b-9569-d6932ac2b30c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -85,13 +65,13 @@
             "m_owner": "65c557e2-0639-4953-ba4a-078e075bb575"
         },
         {
-            "id": "37aa58ed-dc8c-4bde-8d0d-507a42d5323d",
+            "id": "baac81bc-8dfa-4831-b90c-8622a8fd75e8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 11,
-            "eventtype": 7,
+            "enumb": 13,
+            "eventtype": 5,
             "m_owner": "65c557e2-0639-4953-ba4a-078e075bb575"
         }
     ],

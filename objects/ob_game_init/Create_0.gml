@@ -204,4 +204,10 @@ size_text[_SIZE.giant	] = "giant"
 globalvar trainer_inv_size; trainer_inv_size = 16;
 
 globalvar path; path = "pokedex.ini"
+globalvar popup_appeared; popup_appeared = false
 
+//////////////////////////////////
+
+globalvar trainer_preset; trainer_preset = ds_map_create()
+trainer_preset[? "name"]	= ""
+trainer_preset[? "avatar"]	= 0   // image_index from 

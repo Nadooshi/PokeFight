@@ -1,6 +1,6 @@
-/// @desc 
+/// @desc
 
 // Inherit the parent event
 event_inherited();
 
-popup_appeared = false
+room_goto(room_next(room))

@@ -113,7 +113,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "",
-            "varName": "value",
+            "varName": "value_str",
             "varType": 2
         },
         {
@@ -157,6 +157,34 @@
             "value": "",
             "varName": "parameter_name",
             "varType": 2
+        },
+        {
+            "id": "65c6656e-c3b2-49ff-9e24-df0ebd37c3b6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "edited_map",
+            "varType": 0
+        },
+        {
+            "id": "dc278143-529b-41f1-ba9e-6c0a35b2e0bc",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "value_int",
+            "varType": 0
         }
     ],
     "solid": false,
