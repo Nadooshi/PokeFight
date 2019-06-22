@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "2d589cc4-d8bc-4ef6-bd49-6730a14655cb",
+            "Value": {
+                "id": "a85784bd-322b-4a3a-aeaa-12343bc2e79a",
+                "resourcePath": "objects\\ob_init_trainer_setup\\ob_init_trainer_setup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "317b708a-0f50-4816-b980-f5efb7aefdf8",
             "Value": {
                 "id": "7b671fb8-a03c-4f46-be34-af9c254b7262",
@@ -170,7 +178,15 @@
             "Key": "34784ef9-2daf-49c5-80dd-17fdb084c09b",
             "Value": {
                 "id": "aab42392-ed46-428e-900e-7cc65d8eff0f",
-                "resourcePath": "objects\\ob_control\\ob_control.yy",
+                "resourcePath": "objects\\ob_init_start\\ob_init_start.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "382997a7-bfb3-404e-96f2-c54079d435d1",
+            "Value": {
+                "id": "cb2a598e-d79d-426a-a6c4-dfe94701eeaf",
+                "resourcePath": "objects\\ob_text\\ob_text.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -399,6 +415,14 @@
             }
         },
         {
+            "Key": "81e90ae1-66a4-497c-a212-c66e7c4e1351",
+            "Value": {
+                "id": "d310ef6e-6801-4793-8b3b-0f64591c4cbd",
+                "resourcePath": "scripts\\sc_refresh_ui\\sc_refresh_ui.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "84a12b20-951b-4d13-a7b5-b5e9ca13aaee",
             "Value": {
                 "id": "9b73bb03-959f-440e-b84d-b1a02ad86668",
@@ -587,6 +611,14 @@
             "Value": {
                 "id": "5cf3b081-9ede-40b0-aa02-df0b5e5d4789",
                 "resourcePath": "objects\\ob_frame1\\ob_frame1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c9715b99-c439-4ee5-b2ad-35db124ee4f0",
+            "Value": {
+                "id": "53914948-9206-40f5-b80f-f5d1dcbe08b5",
+                "resourcePath": "objects\\ob_scroll_control\\ob_scroll_control.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -800,7 +832,8 @@
         "3931c4b3-2c6b-4813-9e5c-44b49ac07ec7",
         "6756e87d-f604-47b3-98cd-6ab510edcbff",
         "6336c777-f30c-4060-8b81-8e9b8c13a137",
-        "317b708a-0f50-4816-b980-f5efb7aefdf8"
+        "317b708a-0f50-4816-b980-f5efb7aefdf8",
+        "81e90ae1-66a4-497c-a212-c66e7c4e1351"
     ],
     "tutorial": ""
 }

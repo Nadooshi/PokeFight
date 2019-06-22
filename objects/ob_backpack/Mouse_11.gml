@@ -3,6 +3,6 @@
 // Inherit the parent event
 event_inherited();
 
-current_trainer = trainer_preset
+image_speed = -1.2
 
-room_goto(room_next(room))
+
