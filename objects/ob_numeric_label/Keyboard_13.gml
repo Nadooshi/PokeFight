@@ -1,11 +1,14 @@
 /// @desc
 
-if editing {
+if editing
+if parameter_name != "" {
 	if string_digits(keyboard_string)=""
-		value = 0
+		value_int = 0
 	else
-		value = real(string_digits(keyboard_string))
-	ds_map_set(current_pokemon, parameter_name, value)
+		value_int = real(string_digits(keyboard_string))
+		
+	if ds_exists(edited_map, ds_type_map)
+		edited_map[? parameter_name] = value_int
 		
 	event_perform(ev_other, ev_user0)
 }

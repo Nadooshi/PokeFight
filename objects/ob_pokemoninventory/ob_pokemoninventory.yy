@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "ob_pokemoninventory",
     "eventList": [
-        
+        {
+            "id": "a13ec70d-91a3-4bc8-b8e3-d64fec22abd3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "fcebd176-8420-4d68-93b4-8867d28e2a64"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -36,6 +45,34 @@
             "value": "",
             "varName": "hint",
             "varType": 2
+        },
+        {
+            "id": "fa6edacc-1e3d-40f5-885d-60c5436cb131",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "slot_num",
+            "varType": 1
+        },
+        {
+            "id": "233b94f0-a9bf-4714-9fe1-523f3698c565",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "item_id",
+            "varType": 5
         }
     ],
     "solid": false,

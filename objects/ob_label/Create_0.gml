@@ -3,7 +3,7 @@
 event_inherited()
 
 editing = false
-value = ""
+value_str = ""
 _w = 0
 _h = 0
 

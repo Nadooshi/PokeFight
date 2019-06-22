@@ -58,7 +58,7 @@
             "Key": "082cefa8-0ae7-43e0-ad86-fb9595eeec6e",
             "Value": {
                 "id": "5fe0849f-1ec9-4ce2-bcaa-e859616136b1",
-                "resourcePath": "rooms\\rm_start\\rm_start.yy",
+                "resourcePath": "rooms\\rm_select_trainer\\rm_select_trainer.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -132,6 +132,14 @@
                 "id": "73592e52-9416-4072-933e-283637cfc65d",
                 "resourcePath": "sprites\\sp_beautyButton\\sp_beautyButton.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1bd14ab2-63e1-4ce9-a73e-fcf97a8da14c",
+            "Value": {
+                "id": "1c51d632-2c35-46ef-9120-fcbe964332d0",
+                "resourcePath": "scripts\\sc_save_trainer\\sc_save_trainer.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -228,6 +236,14 @@
                 "id": "20eff7e4-e01a-4b4c-9613-c20a49cdbc4e",
                 "resourcePath": "objects\\ob_button_create_trainer\\ob_button_create_trainer.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "430ca95d-a3a2-427f-bd99-389ed5f1ec9d",
+            "Value": {
+                "id": "285e24b1-ee91-4ffe-b6ca-b16a78645216",
+                "resourcePath": "scripts\\sc_add_slot_composed\\sc_add_slot_composed.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -415,6 +431,14 @@
             }
         },
         {
+            "Key": "7f2529b6-08b8-49be-a1c2-cf7b0e26fdc8",
+            "Value": {
+                "id": "a175d94c-7bee-4165-9ab6-b7530bbc70ab",
+                "resourcePath": "views\\7f2529b6-08b8-49be-a1c2-cf7b0e26fdc8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "81e90ae1-66a4-497c-a212-c66e7c4e1351",
             "Value": {
                 "id": "d310ef6e-6801-4793-8b3b-0f64591c4cbd",
@@ -427,6 +451,14 @@
             "Value": {
                 "id": "9b73bb03-959f-440e-b84d-b1a02ad86668",
                 "resourcePath": "objects\\ob_numeric_label\\ob_numeric_label.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "87e3e7a2-1665-4e8b-a7c8-612ff43dafc4",
+            "Value": {
+                "id": "e0244477-32c9-4908-9d94-ec474d1c6e60",
+                "resourcePath": "objects\\ob_button_clear_ini\\ob_button_clear_ini.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -516,6 +548,14 @@
                 "id": "9e1fb554-29fe-4aed-bb0d-8efddb8e17a1",
                 "resourcePath": "views\\a3fdeec5-2e25-402b-8796-03fe4eb07cd2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a495d5eb-ba60-4dbb-b4fa-a6abbd53bcec",
+            "Value": {
+                "id": "efb0314f-382a-449f-b586-771956dbd1d4",
+                "resourcePath": "objects\\ob_frame_composed\\ob_frame_composed.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -824,16 +864,18 @@
         }
     ],
     "script_order": [
+        "3931c4b3-2c6b-4813-9e5c-44b49ac07ec7",
+        "6756e87d-f604-47b3-98cd-6ab510edcbff",
+        "6336c777-f30c-4060-8b81-8e9b8c13a137",
+        "317b708a-0f50-4816-b980-f5efb7aefdf8",
         "f0e81ad2-819e-47bb-b5cb-55d1154113bd",
         "e3469cda-50b6-4504-81e7-a7e78c48a578",
         "b5d87cd5-a23b-49f0-a092-6bf22827da60",
         "931c7612-da13-4157-b9e3-c60c54a888fd",
         "cff76169-f101-481d-a15a-ce625bb4111a",
-        "3931c4b3-2c6b-4813-9e5c-44b49ac07ec7",
-        "6756e87d-f604-47b3-98cd-6ab510edcbff",
-        "6336c777-f30c-4060-8b81-8e9b8c13a137",
-        "317b708a-0f50-4816-b980-f5efb7aefdf8",
-        "81e90ae1-66a4-497c-a212-c66e7c4e1351"
+        "1bd14ab2-63e1-4ce9-a73e-fcf97a8da14c",
+        "81e90ae1-66a4-497c-a212-c66e7c4e1351",
+        "430ca95d-a3a2-427f-bd99-389ed5f1ec9d"
     ],
     "tutorial": ""
 }

@@ -203,14 +203,31 @@ size_text[_SIZE.giant	] = "giant"
 
 globalvar trainer_inv_size; trainer_inv_size = 16;
 
-globalvar path; path = "pokedex.ini"
 globalvar popup_appeared; popup_appeared = false
 
 //////////////////////////////////
 
 globalvar trainer_preset; trainer_preset = sc_new_trainer()
-trainer_preset[? "name"]	= ""
+trainer_preset[? "name"]	= "New trainer"
 trainer_preset[? "avatar"]	= 0   // image_index from 
 
 globalvar current_trainer; current_trainer = noone
 globalvar trainer_slot; 
+
+globalvar trainer_arr; trainer_arr = [] 
+globalvar trainer_count; trainer_count = 0
+
+globalvar trainer_path; trainer_path = "trainer_saves.ini"
+//var _i = 0
+if file_exists(trainer_path) {
+	ini_open(trainer_path)
+		while ini_key_exists("trainer_list", string(trainer_count)) {
+			trainer_arr[trainer_count] = ini_read_string("trainer_list", string(trainer_count), "<none>")
+			show_message(string(trainer_count) + " = " + trainer_arr[trainer_count])
+			trainer_count++
+		}
+	ini_close()
+	
+} else
+	show_message("You lose")
+ 
