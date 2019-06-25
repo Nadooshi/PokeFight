@@ -1,1 +1,1 @@
-edited_map = current_trainer
+map = current_trainer

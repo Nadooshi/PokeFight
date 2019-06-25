@@ -218,16 +218,16 @@ globalvar trainer_arr; trainer_arr = []
 globalvar trainer_count; trainer_count = 0
 
 globalvar trainer_path; trainer_path = "trainer_saves.ini"
-//var _i = 0
 if file_exists(trainer_path) {
 	ini_open(trainer_path)
 		while ini_key_exists("trainer_list", string(trainer_count)) {
 			trainer_arr[trainer_count] = ini_read_string("trainer_list", string(trainer_count), "<none>")
-			show_message(string(trainer_count) + " = " + trainer_arr[trainer_count])
 			trainer_count++
 		}
 	ini_close()
-	
-} else
-	show_message("You lose")
- 
+}
+
+globalvar edit_value; edit_value = noone
+globalvar edit_mode; edit_mode = true
+globalvar previous_room; previous_room = noone
+

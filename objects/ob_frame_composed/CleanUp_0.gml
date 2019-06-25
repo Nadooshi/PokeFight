@@ -1,3 +1,3 @@
 /// @desc
 
-ds_map_destroy(edited_map)
+ds_map_destroy(map)

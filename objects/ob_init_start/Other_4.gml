@@ -36,7 +36,8 @@ if place_meeting(x, y, fr_trainer_slot) {
 
 #endregion
 
-// create action slots
+
+////////////////////////////////////////
 var slot_w;
 var slot_h;
 
@@ -65,10 +66,13 @@ for (i=0; i<rowcount; i++)
 for (k=0; k<rowlength; k++) {
 	if _count = trainer_count
 		break
-	with sc_add_slot_composed(k*slot_w+32 + _xoffset, i*slot_h+32, trainer_arr[_count], trainer_slot, ob_frame_composed)
+	with sc_add_slot_composed(k*slot_w+32 + _xoffset, i*slot_h+32, trainer_arr[_count], trainer_slot, ob_frame_trainer)
 		index = _count
 	_count++
 }
+
+previous_room = room_next(room) // set next room to move to after selection
+edit_mode = false
 
 room_height = max(1080, slot_h * rowcount + 128)
 

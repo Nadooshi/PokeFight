@@ -7,8 +7,8 @@ if parameter_name != "" {
 	else
 		value_int = real(string_digits(keyboard_string))
 		
-	if ds_exists(edited_map, ds_type_map)
-		edited_map[? parameter_name] = value_int
+	if ds_exists(map, ds_type_map)
+		map[? parameter_name] = value_int
 		
 	event_perform(ev_other, ev_user0)
 }

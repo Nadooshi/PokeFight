@@ -169,7 +169,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "noone",
-            "varName": "edited_map",
+            "varName": "map",
             "varType": 0
         },
         {

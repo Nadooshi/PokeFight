@@ -1,1 +1,1 @@
-edited_map = trainer_preset
+map = trainer_preset
