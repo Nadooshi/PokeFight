@@ -209,9 +209,9 @@ globalvar popup_appeared; popup_appeared = false
 
 globalvar trainer_preset; trainer_preset = sc_new_trainer()
 trainer_preset[? "name"]	= "New trainer"
-trainer_preset[? "avatar"]	= 0   // image_index from 
+trainer_preset[? "avatar"]	= 0   // image_index from
 
-globalvar current_trainer; current_trainer = noone
+globalvar current_trainer; current_trainer = ds_map_create()
 globalvar trainer_slot; 
 
 globalvar trainer_arr; trainer_arr = [] 

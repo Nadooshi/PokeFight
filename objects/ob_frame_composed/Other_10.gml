@@ -1,5 +1,6 @@
 /// @desc
 
+// map should be created in child object
 for (var i=0; i<ui_objects_count; i++)
 with ui_objects[i] {
 	map = other.map

@@ -7,5 +7,5 @@ ui_objects = []
 ui_objects_count = 0
 
 name = ""
-map = ds_map_create()
+map = noone
 

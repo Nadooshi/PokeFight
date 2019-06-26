@@ -15,3 +15,6 @@ result[? "awards"]		= ds_list_create()
 
 
 return result
+
+
+// what if ds_map you try to evaluate to already exists?
