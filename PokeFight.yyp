@@ -247,11 +247,27 @@
             }
         },
         {
+            "Key": "472c70fb-5e4c-41ab-881b-0b503b156424",
+            "Value": {
+                "id": "81a50b98-580a-4c56-9e58-4dbe789ee08b",
+                "resourcePath": "views\\472c70fb-5e4c-41ab-881b-0b503b156424.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "48e508a2-a77d-48af-9bc2-b4ba190da606",
             "Value": {
                 "id": "c6d5376c-a91c-4e70-97e5-1a73642e12bf",
                 "resourcePath": "views\\48e508a2-a77d-48af-9bc2-b4ba190da606.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4cb03214-5ce4-49a2-a556-f1614f68444b",
+            "Value": {
+                "id": "a8be2acd-2a1c-48e6-84d2-026d13eb9190",
+                "resourcePath": "datafiles_yy\\pokedex.ini.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -507,6 +523,14 @@
             "Value": {
                 "id": "5786ebd6-9f43-4ea6-af8b-86f35e687776",
                 "resourcePath": "scripts\\sc_load_pokemon\\sc_load_pokemon.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "93ff6dea-7a26-4696-8107-8c8925fe1a26",
+            "Value": {
+                "id": "7e2248f3-0146-4852-9213-0f286877cd2e",
+                "resourcePath": "scripts\\sc_add_slot_caught_pokemon\\sc_add_slot_caught_pokemon.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -892,7 +916,8 @@
         "cff76169-f101-481d-a15a-ce625bb4111a",
         "1bd14ab2-63e1-4ce9-a73e-fcf97a8da14c",
         "81e90ae1-66a4-497c-a212-c66e7c4e1351",
-        "430ca95d-a3a2-427f-bd99-389ed5f1ec9d"
+        "430ca95d-a3a2-427f-bd99-389ed5f1ec9d",
+        "93ff6dea-7a26-4696-8107-8c8925fe1a26"
     ],
     "tutorial": ""
 }

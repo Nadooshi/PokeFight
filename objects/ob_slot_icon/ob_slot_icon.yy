@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "ob_slot_icon",
     "eventList": [
-        
+        {
+            "id": "a2c8ecc9-3ecd-456a-80f8-f90d99766133",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "e4cda399-06c9-4e0a-99ca-8c5f4c0a7ca7"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

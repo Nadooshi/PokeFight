@@ -231,3 +231,14 @@ globalvar edit_value; edit_value = noone
 globalvar edit_mode; edit_mode = true
 globalvar previous_room; previous_room = noone
 
+globalvar pokemon_path; pokemon_path = "pokedex.ini"
+globalvar pokemon_list; pokemon_list = ds_map_create()
+globalvar pokemon_list_count; pokemon_list_count = 0
+
+ini_open(pokemon_path)
+	ds_map_read(pokemon_list, ini_read_string("pokemons", "pokemon_list", ""))
+	pokemon_list_count = ds_map_size(pokemon_list)
+ini_close()
+
+
+
