@@ -8,6 +8,7 @@ var _name = argument2
 with instance_create_layer(_x, _y, "Frames", ob_slot_fireball) {
 	image_xscale = 2
 	image_yscale = 2
+	image_alpha = 0.5
 }
 
 with instance_create_layer(_x, _y, "Interactives", ob_slot_icon) {

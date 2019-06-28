@@ -164,7 +164,7 @@ attack_type_text[i++] = "aura"
 enum _ATTACK_AFFECT {
 	friend = 1,
 	enemy  = 2,
-	itself   = 4
+	itself = 4
 }
 globalvar attack_affect_text
 var i=0
@@ -207,15 +207,15 @@ globalvar popup_appeared; popup_appeared = false
 
 //////////////////////////////////
 
-globalvar trainer_preset; trainer_preset = sc_new_trainer()
+globalvar trainer_preset;	trainer_preset = sc_new_trainer()
 trainer_preset[? "name"]	= "New trainer"
 trainer_preset[? "avatar"]	= 0   // image_index from
 
-globalvar current_trainer; current_trainer = ds_map_create()
+globalvar current_trainer;	current_trainer = ds_map_create()
 globalvar trainer_slot; 
 
-globalvar trainer_arr; trainer_arr = [] 
-globalvar trainer_count; trainer_count = 0
+globalvar trainer_arr;		trainer_arr = [] 
+globalvar trainer_count;	trainer_count = 0
 
 globalvar trainer_path; trainer_path = "trainer_saves.ini"
 if file_exists(trainer_path) {
@@ -227,12 +227,12 @@ if file_exists(trainer_path) {
 	ini_close()
 }
 
-globalvar edit_value; edit_value = noone
-globalvar edit_mode; edit_mode = true
-globalvar previous_room; previous_room = noone
+globalvar edit_value;		edit_value = noone
+globalvar edit_mode;		edit_mode = true
+globalvar previous_room;	previous_room = noone
 
-globalvar pokemon_path; pokemon_path = "pokedex.ini"
-globalvar pokemon_list; pokemon_list = ds_map_create()
+globalvar pokemon_path;		pokemon_path = "pokedex.ini"
+globalvar pokemon_list;		pokemon_list = ds_map_create()
 globalvar pokemon_list_count; pokemon_list_count = 0
 
 ini_open(pokemon_path)
@@ -240,5 +240,9 @@ ini_open(pokemon_path)
 	pokemon_list_count = ds_map_size(pokemon_list)
 ini_close()
 
+globalvar current_pokemon;	current_pokemon = ds_map_create()
+//////////////////////////////////
+// saved slots
 
+globalvar action_slot;
 

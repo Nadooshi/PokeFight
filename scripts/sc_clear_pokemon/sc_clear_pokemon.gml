@@ -21,4 +21,16 @@ if ds_exists(_ds, ds_type_map) {
 	_ds[? "actions"] = ds_map_create()  // action names
 	_ds[? "position_stage"] = 1 // start position (underground, ground, fly)
 	_ds[? "maxlevel"] = 100
+	
+	_ds[? "exp"] = 0
+	_ds[? "level"] = 0
+	_ds[? "loses"] = 0
+	_ds[? "wins"] = 0
+	_ds[? "artefact"] = noone
+	_ds[? "berry"] = noone
+	_ds[? "potion"] = noone
+	if not is_undefined(_ds[? "active_actions"])
+	if ds_exists(_ds[? "active_actions"], ds_type_list)
+		ds_list_destroy(_ds[? "active_actions"])
+	_ds[? "active_actions"] = ds_list_create()
 }

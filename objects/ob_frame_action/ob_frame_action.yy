@@ -1,23 +1,14 @@
 {
-    "id": "6c5a706f-8107-46e5-a8bd-c69e4978fa3e",
+    "id": "f1d05340-6187-4925-bf45-838b0f108edc",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "ob_icon_pokemon_element",
+    "name": "ob_frame_action",
     "eventList": [
-        {
-            "id": "b966ff16-d897-439a-8087-4bf3e2bdcfd5",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 10,
-            "eventtype": 7,
-            "m_owner": "6c5a706f-8107-46e5-a8bd-c69e4978fa3e"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "0970a505-043b-4cd0-a0f5-66d881cd8d33",
+    "parentObjectId": "a495d5eb-ba60-4dbb-b4fa-a6abbd53bcec",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "f4a8b0d3-0bbd-4d13-8b76-5a602f4c66cc",
+    "spriteId": "d94abf1c-6e54-459f-af4f-1351f926a3e3",
     "visible": true
 }
