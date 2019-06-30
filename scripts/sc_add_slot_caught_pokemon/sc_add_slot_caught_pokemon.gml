@@ -18,4 +18,7 @@ with instance_create_layer(_x, _y, "Interactives", ob_slot_icon) {
 	hint = _name
 }
 
+with instance_create_layer(_x+48, _y-48, "Interactives", ob_button_add) {
+	name = _name
+}
 

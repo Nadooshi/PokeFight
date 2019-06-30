@@ -6,7 +6,8 @@
     "children": [
         "621b04b9-08be-43d9-8fb8-933341a11ec7",
         "778b5107-5e60-4637-95c7-75ce3560ff9b",
-        "e4cda399-06c9-4e0a-99ca-8c5f4c0a7ca7"
+        "e4cda399-06c9-4e0a-99ca-8c5f4c0a7ca7",
+        "9f489fa7-bf99-4874-891f-6a13e692af3c"
     ],
     "filterType": "GMObject",
     "folderName": "Slot pokebol",

@@ -3,6 +3,8 @@
 // Inherit the parent event
 event_inherited();
 
+
+/*
 sc_clear_pokemon(current_pokemon)
 sc_load_pokemon(name, current_pokemon)
 
@@ -14,3 +16,4 @@ with frame_pokemon {
 	event_perform(ev_other, ev_user0)
 }
 
+*/

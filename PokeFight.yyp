@@ -583,6 +583,14 @@
             }
         },
         {
+            "Key": "9f489fa7-bf99-4874-891f-6a13e692af3c",
+            "Value": {
+                "id": "8fb0cdf3-4be4-4afc-a05c-6ab15b223cdc",
+                "resourcePath": "objects\\ob_button_add\\ob_button_add.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9f78ba1f-1333-4512-890c-c6b188af4fe1",
             "Value": {
                 "id": "9b27353c-b7ed-4cbb-9a44-4d40ce2fc784",
@@ -604,6 +612,14 @@
                 "id": "efb0314f-382a-449f-b586-771956dbd1d4",
                 "resourcePath": "objects\\ob_frame_composed\\ob_frame_composed.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a4a57db2-3964-47e8-9657-d4f3d426aba1",
+            "Value": {
+                "id": "d51d54ff-9141-4f6c-9c1c-07f8f230167d",
+                "resourcePath": "sprites\\sp_button_delete\\sp_button_delete.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -772,6 +788,14 @@
                 "id": "f9f060f8-18dc-4c49-991a-1c96a1578448",
                 "resourcePath": "scripts\\sc_clear_trainer\\sc_clear_trainer.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d414ce98-33a5-4773-9fdf-f737ccebec75",
+            "Value": {
+                "id": "df1e2f7d-e1da-40f7-8e72-bafae8f53ef2",
+                "resourcePath": "sprites\\sp_button_add\\sp_button_add.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
