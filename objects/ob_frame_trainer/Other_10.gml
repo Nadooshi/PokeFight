@@ -2,13 +2,10 @@
 
 // Inherit the parent event
 
-ini_open(trainer_path)
+if not ds_exists(map, ds_type_map)
+	map = ds_map_create()
+sc_load_trainer(name, map)	
 
-	if not ds_exists(map, ds_type_map)
-		map = ds_map_create()
-	ds_map_read(map, ini_read_string("trainers", name, map))
+event_inherited();
 	
-	event_inherited();
-	
-	ds_map_destroy(map)
-ini_close()
+ds_map_destroy(map)

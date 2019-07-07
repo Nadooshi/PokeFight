@@ -5,16 +5,6 @@
     "name": "ob_button_clear_ini",
     "eventList": [
         {
-            "id": "0a45053f-2b33-4250-907f-3d2d9e6417ef",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "87e3e7a2-1665-4e8b-a7c8-612ff43dafc4"
-        },
-        {
             "id": "4a984eed-d0d0-4fad-8af2-4d95986e293d",
             "modelName": "GMEvent",
             "mvc": "1.0",

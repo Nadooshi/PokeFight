@@ -34,7 +34,7 @@ for (k=0; k<_maxcount; k++) {
 // set pictures for icons
 var _temp = ds_map_create() // temporary pokemon
 with ob_slot_icon {
-	sc_load_pokemon(name, _temp)
+	sc_load_pokemon_dex(name, _temp)
 	if not ( is_undefined(_temp[? "face"]) or (_temp[? "face"]="") )
 		image_index = _temp[? "face"]
 }

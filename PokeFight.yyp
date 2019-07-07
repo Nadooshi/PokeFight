@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "5a825da8-8a96-40ba-bc7a-bf1378a3c2ab",
+            "Value": {
+                "id": "41072aeb-d94b-4a96-ac12-24794c35acf0",
+                "resourcePath": "scripts\\sc_clear_pokemon\\sc_clear_pokemon.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5ba870f0-9dad-4071-a5ee-398f45038c29",
             "Value": {
                 "id": "a5886641-955f-4f47-9268-9a37a23bac7f",
@@ -546,7 +554,7 @@
             "Key": "931c7612-da13-4157-b9e3-c60c54a888fd",
             "Value": {
                 "id": "5786ebd6-9f43-4ea6-af8b-86f35e687776",
-                "resourcePath": "scripts\\sc_load_pokemon\\sc_load_pokemon.yy",
+                "resourcePath": "scripts\\sc_load_pokemon_dex\\sc_load_pokemon_dex.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -754,7 +762,7 @@
             "Key": "cff76169-f101-481d-a15a-ce625bb4111a",
             "Value": {
                 "id": "33e7a128-56f2-4eca-abf1-796e78cb85d0",
-                "resourcePath": "scripts\\sc_clear_pokemon\\sc_clear_pokemon.yy",
+                "resourcePath": "scripts\\sc_new_pokemon\\sc_new_pokemon.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -874,7 +882,7 @@
             "Key": "e3469cda-50b6-4504-81e7-a7e78c48a578",
             "Value": {
                 "id": "61bf60a9-41b6-41f1-a5fe-5baecab32cc7",
-                "resourcePath": "scripts\\sc_new_pokemon\\sc_new_pokemon.yy",
+                "resourcePath": "scripts\\sc_load_new_pokemon\\sc_load_new_pokemon.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -892,6 +900,14 @@
                 "id": "3af89dde-b53f-48b3-a158-1ceb3bbdf86f",
                 "resourcePath": "objects\\ob_slot_icon\\ob_slot_icon.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e882ea02-6d70-43fe-98cc-8cb74be13ab9",
+            "Value": {
+                "id": "89da8188-1af5-42ca-b745-b762b272f65c",
+                "resourcePath": "scripts\\sc_load_trainer\\sc_load_trainer.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -974,12 +990,14 @@
         "317b708a-0f50-4816-b980-f5efb7aefdf8",
         "f0e81ad2-819e-47bb-b5cb-55d1154113bd",
         "d316076b-5d9a-4b73-924f-892eb48b8e00",
-        "e3469cda-50b6-4504-81e7-a7e78c48a578",
-        "b5d87cd5-a23b-49f0-a092-6bf22827da60",
-        "931c7612-da13-4157-b9e3-c60c54a888fd",
-        "cff76169-f101-481d-a15a-ce625bb4111a",
         "1bd14ab2-63e1-4ce9-a73e-fcf97a8da14c",
+        "cff76169-f101-481d-a15a-ce625bb4111a",
+        "e3469cda-50b6-4504-81e7-a7e78c48a578",
+        "931c7612-da13-4157-b9e3-c60c54a888fd",
+        "5a825da8-8a96-40ba-bc7a-bf1378a3c2ab",
+        "b5d87cd5-a23b-49f0-a092-6bf22827da60",
         "41a92cb6-eb92-44e6-8f77-5f64dd77bf5f",
+        "e882ea02-6d70-43fe-98cc-8cb74be13ab9",
         "81e90ae1-66a4-497c-a212-c66e7c4e1351",
         "430ca95d-a3a2-427f-bd99-389ed5f1ec9d",
         "93ff6dea-7a26-4696-8107-8c8925fe1a26",

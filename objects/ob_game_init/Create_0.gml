@@ -207,25 +207,28 @@ globalvar popup_appeared; popup_appeared = false
 
 //////////////////////////////////
 
-globalvar trainer_preset;	trainer_preset = sc_new_trainer()
+globalvar trainer_preset; trainer_preset = sc_new_trainer()
 trainer_preset[? "name"]	= "New trainer"
 trainer_preset[? "avatar"]	= 0   // image_index from
 
 globalvar current_trainer;	current_trainer = ds_map_create()
 globalvar trainer_slot; 
 
-globalvar trainer_arr;		trainer_arr = [] 
+globalvar trainer_fnames;	trainer_fnames = [] 
 globalvar trainer_count;	trainer_count = 0
 
-globalvar trainer_path; trainer_path = "trainer_saves.ini"
-if file_exists(trainer_path) {
-	ini_open(trainer_path)
-		while ini_key_exists("trainer_list", string(trainer_count)) {
-			trainer_arr[trainer_count] = ini_read_string("trainer_list", string(trainer_count), "<none>")
-			trainer_count++
-		}
-	ini_close()
+
+if not directory_exists("trainer_saves")
+	directory_create("trainer_saves")
+
+var fn = file_find_first("trainer_saves/*.ini",0)
+while fn<>"" {
+	trainer_fnames[trainer_count] = fn;
+	trainer_count++
+	fn = file_find_next()
 }
+file_find_close()
+
 
 globalvar edit_value;		edit_value = noone
 globalvar edit_mode;		edit_mode = true

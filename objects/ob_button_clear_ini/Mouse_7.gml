@@ -4,9 +4,11 @@
 event_inherited();
 
 if show_question("Really clear all saves?") {
-	if file_delete("trainer_saves.ini")
-		show_message("ini file deleted")
+	if directory_exists("trainer_saves") {
+		directory_destroy("trainer_saves")
+		show_message("save folder cleared")
+	}
 	trainer_count = 0
-	trainer_arr = []
+	trainer_fnames = []
 } else 
 	show_message("nothing deleted")
