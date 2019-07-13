@@ -29,6 +29,7 @@ with instance_create_layer(_x, _y, "Elements", ds_map_find_value(_arr[i], "ob"))
 	image_xscale = ds_map_find_value(_arr[i], "xs")
 	image_yscale = ds_map_find_value(_arr[i], "ys")
 	parameter_name = ds_map_find_value(_arr[i], "param")
+	index = ds_map_find_value(_arr[i], "index")
 }
 
 return _parent_frame

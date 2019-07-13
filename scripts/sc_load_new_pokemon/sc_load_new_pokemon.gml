@@ -15,3 +15,4 @@ if ds_exists(_pokemon, ds_type_map) {
 	_pokemon[? "active_actions"] = ds_list_create()	
 }
 
+return _pokemon

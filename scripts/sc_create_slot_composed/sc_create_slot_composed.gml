@@ -28,6 +28,8 @@ if place_meeting(x, y, base_frame) {
 	_elem[? "ys"] = image_yscale
 	_elem[? "ob"] = object_index
 	_elem[? "param"] = parameter_name
+	if variable_instance_exists(id, "index")
+		_elem[? "index"] = index
 	
 	result_slot[slot_elements_count] = ds_map_create()
 	ds_map_copy(result_slot[slot_elements_count], _elem)
