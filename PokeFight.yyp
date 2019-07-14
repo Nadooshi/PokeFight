@@ -447,14 +447,6 @@
             }
         },
         {
-            "Key": "778b5107-5e60-4637-95c7-75ce3560ff9b",
-            "Value": {
-                "id": "01614981-5125-4d4a-8def-fbbc4816c50a",
-                "resourcePath": "objects\\ob_slot_fireball\\ob_slot_fireball.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "7940510b-f4c3-4084-9efd-940d18d8c2b9",
             "Value": {
                 "id": "0b594ad6-3ea7-4e67-adf1-07b62310c891",
