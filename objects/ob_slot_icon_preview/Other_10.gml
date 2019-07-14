@@ -9,6 +9,4 @@ if not is_undefined(map) and ds_exists(map, ds_type_map) {
 		visible = true
 	} else
 		visible = false
-	
-	show_debug_message("index = " +string(index)+ "; size = " +string(ds_list_size(_list)) )
 }

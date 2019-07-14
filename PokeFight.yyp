@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "60d1b37b-7c29-4016-aca2-1d707d5874be",
+            "Value": {
+                "id": "5c98c7db-7286-4737-aa85-60398264da8d",
+                "resourcePath": "objects\\ob_slot_icon_preview\\ob_slot_icon_preview.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "621b04b9-08be-43d9-8fb8-933341a11ec7",
             "Value": {
                 "id": "ccb7cd76-42b8-4782-ba2d-0401c5d507bf",

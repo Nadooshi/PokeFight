@@ -13,6 +13,7 @@ if ds_exists(_pokemon, ds_type_map) {
 	_pokemon[? "berry"] = noone
 	_pokemon[? "potion"] = noone
 	_pokemon[? "active_actions"] = ds_list_create()	
+	ds_list_clear(_pokemon[? "active_actions"])
 }
 
 return _pokemon

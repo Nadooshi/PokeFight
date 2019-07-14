@@ -18,13 +18,15 @@ for (k=0; k<_maxcount; k++) {
 		break
 	if _count >= _caught_count
 		break
-	sc_add_slot_caught_pokemon(k*_sz+32+48+1920, i*_sz+32+48, _pokemon)
+	sc_add_slot_caught_pokemon(k*_sz+32+48+1920, i*_sz+32+48, _pokemon, _count)
 	_count++
 	_pokemon = ds_list_find_value(current_trainer[? "caught_pokemon_list"], _count)
 }
 
 // set pictures for icons
 with ob_slot_icon {
+	// should be like this
+	// event_perform(ev_other, ev_user0) // update
 	if not is_undefined(map) and ds_exists(map, ds_type_map)
 	if not (is_undefined(map[? "face"]) or (map[? "face"] == ""))
 		image_index = map[? "face"]
