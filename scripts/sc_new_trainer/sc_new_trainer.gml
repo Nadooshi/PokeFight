@@ -6,8 +6,8 @@ result[? "avatar"]	= 0
 result[? "world_x"] = 0
 result[? "world_y"] = 0
 
-result[? "caught_pokemon_list"] = ds_list_create() // list of maps from sc_load_pokemon
-result[? "active_pokemon_list"] = ds_list_create() // list of list ids from caught_pokemon_list
+result[? "caught_pokemon_list"] = ds_list_create() // list of maps from sc_load_new_pokemon
+result[? "active_pokemon_list"] = ds_list_create() // list of maps from sc_load_new_pokemon
 ds_list_clear(result[? "caught_pokemon_list"])
 ds_list_clear(result[? "active_pokemon_list"])
 

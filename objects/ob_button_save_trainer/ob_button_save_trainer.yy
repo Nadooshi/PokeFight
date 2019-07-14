@@ -1,23 +1,23 @@
 {
-    "id": "778b5107-5e60-4637-95c7-75ce3560ff9b",
+    "id": "d7775205-490c-470b-8bc4-cc812686b31f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "ob_slot_fireball",
+    "name": "ob_button_save_trainer",
     "eventList": [
         {
-            "id": "7f9b6067-63b8-4db7-8b3c-e7942fa76fc9",
+            "id": "ba73a997-a503-48fe-b36d-7ac159748cb6",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "778b5107-5e60-4637-95c7-75ce3560ff9b"
+            "enumb": 7,
+            "eventtype": 6,
+            "m_owner": "d7775205-490c-470b-8bc4-cc812686b31f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "ec12697e-e396-492e-ac2d-702c186126f1",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "a62238bb-b045-4dbe-8e71-52f44aadf0bd",
+    "spriteId": "77746885-50eb-48eb-9d05-aa527707af58",
     "visible": true
 }

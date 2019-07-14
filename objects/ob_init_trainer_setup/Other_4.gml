@@ -24,14 +24,15 @@ for (k=0; k<_maxcount; k++) {
 }
 
 // set pictures for icons
+/*
 with ob_slot_icon {
 	// should be like this
-	// event_perform(ev_other, ev_user0) // update
+	event_perform(ev_other, ev_user0) // update
 	if not is_undefined(map) and ds_exists(map, ds_type_map)
 	if not (is_undefined(map[? "face"]) or (map[? "face"] == ""))
 		image_index = map[? "face"]
 }
-
+*/
 
 room_height = max(1080, _sz * _rowscount + 96+112)
 

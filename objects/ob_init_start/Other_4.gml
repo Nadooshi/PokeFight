@@ -34,6 +34,16 @@ for (k=0; k<rowlength; k++) {
 	_count++
 }
 
+/*
+// set map for every ob_slot_icon
+// so that map references directly to pokemon
+with ob_slot_icon {
+	var _list = parent.map[? "active_pokemon_list"]
+	var _pokemon = ds_list_find_value( parent.map[? "caught_pokemon_list"], _list[| index] )
+	map = _pokemon
+}
+*/
+
 previous_room = room_next(room) // set next room to move to after selection
 edit_mode = false
 

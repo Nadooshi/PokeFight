@@ -823,6 +823,14 @@
             }
         },
         {
+            "Key": "d7775205-490c-470b-8bc4-cc812686b31f",
+            "Value": {
+                "id": "cf550ca8-3032-4353-859a-de3fb959fa82",
+                "resourcePath": "objects\\ob_button_save_trainer\\ob_button_save_trainer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d87dcec4-0dd8-4166-914c-5c7acbe22870",
             "Value": {
                 "id": "ae1c6419-f975-46aa-804c-badd490e6d8e",
