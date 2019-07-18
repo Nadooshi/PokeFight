@@ -2,7 +2,7 @@
     "id": "20e05e56-7d43-430d-a646-1ad80006dbd0",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sp_tariner_avatar",
+    "name": "sp_trainer_avatar",
     "For3D": false,
     "HTile": false,
     "VTile": false,

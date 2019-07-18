@@ -154,7 +154,7 @@
             "Key": "20e05e56-7d43-430d-a646-1ad80006dbd0",
             "Value": {
                 "id": "61549022-b630-4d19-a542-2b9758140b32",
-                "resourcePath": "sprites\\sp_tariner_avatar\\sp_tariner_avatar.yy",
+                "resourcePath": "sprites\\sp_trainer_avatar\\sp_trainer_avatar.yy",
                 "resourceType": "GMSprite"
             }
         },

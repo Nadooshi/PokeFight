@@ -17,6 +17,8 @@ if file_exists("trainer_saves/" + _fname) {
 		while ini_key_exists("caught pokemons", string(i)) {
 			var _pokemon = ds_map_create()
 			ds_map_read(_pokemon, ini_read_string("caught pokemons", string(i), ""))
+			_pokemon[? "actions"]		 = ds_map_create(); 
+			ds_map_read(_pokemon[? "actions"], ini_read_string("actions", string(i), ""))
 			_pokemon[? "active_actions"] = ds_list_create(); ds_list_clear(_pokemon[? "active_actions"])
 			ds_list_read(_pokemon[? "active_actions"], ini_read_string("active actions", string(i), ""))
 			ds_list_add(_ds[? "caught_pokemon_list"], _pokemon)

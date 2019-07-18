@@ -206,13 +206,12 @@ globalvar trainer_inv_size; trainer_inv_size = 16;
 globalvar popup_appeared; popup_appeared = false
 
 //////////////////////////////////
-
+randomize()
 globalvar trainer_preset; trainer_preset = sc_new_trainer()
 trainer_preset[? "name"]	= "New trainer"
-trainer_preset[? "avatar"]	= 0   // image_index from
+trainer_preset[? "avatar"]	= irandom(sprite_get_number(sp_trainer_avatar))   // image_index from sp_trainer_avatar
 
 globalvar current_trainer;	current_trainer = ds_map_create()
-globalvar trainer_slot; 
 
 globalvar trainer_fnames;	trainer_fnames = [] 
 globalvar trainer_count;	trainer_count = 0
@@ -236,7 +235,7 @@ globalvar previous_room;	previous_room = noone
 
 globalvar pokemon_path;		pokemon_path = "pokedex.ini"
 globalvar pokemon_list;		pokemon_list = ds_map_create()
-globalvar pokemon_list_count; pokemon_list_count = 0
+globalvar pokemon_list_count
 
 ini_open(pokemon_path)
 	ds_map_read(pokemon_list, ini_read_string("pokemons", "pokemon_list", ""))
@@ -244,8 +243,10 @@ ini_open(pokemon_path)
 ini_close()
 
 globalvar current_pokemon;	current_pokemon = ds_map_create()
+
 //////////////////////////////////
 // saved slots
 
 globalvar action_slot;
+globalvar trainer_slot; 
 
