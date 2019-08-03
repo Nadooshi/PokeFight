@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "074bb349-bfec-4c0e-befd-2dda663861ab",
+            "Value": {
+                "id": "fe0445e2-3046-419b-adda-911b3ea6bd71",
+                "resourcePath": "views\\074bb349-bfec-4c0e-befd-2dda663861ab.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "082cefa8-0ae7-43e0-ad86-fb9595eeec6e",
             "Value": {
                 "id": "5fe0849f-1ec9-4ce2-bcaa-e859616136b1",
@@ -243,6 +251,14 @@
             "Value": {
                 "id": "cb2a598e-d79d-426a-a6c4-dfe94701eeaf",
                 "resourcePath": "objects\\ob_text\\ob_text.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "387f3eba-a000-4ddf-bf31-c7af832ce58a",
+            "Value": {
+                "id": "d24e1786-ca90-4e5e-9098-a2ee8eba3a3e",
+                "resourcePath": "objects\\ob_gameobject\\ob_gameobject.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -719,6 +735,14 @@
             }
         },
         {
+            "Key": "9b08714c-da4b-43ce-935f-2c8ba2a62d85",
+            "Value": {
+                "id": "7d82e9f4-64a8-4a99-a6c3-9bcd0e4099c4",
+                "resourcePath": "sprites\\sp_start_area\\sp_start_area.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9e504488-d233-442c-9b4b-b1276b41f3df",
             "Value": {
                 "id": "7be201e5-7cb5-43c4-9b91-d3222441f9f9",
@@ -807,6 +831,14 @@
             }
         },
         {
+            "Key": "a9845b40-eff2-4c58-9a19-e0e641aec3e1",
+            "Value": {
+                "id": "5766cfbb-1c13-4422-bd86-78c17e99a353",
+                "resourcePath": "sprites\\sp_hazard\\sp_hazard.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9e970fa-5885-47ce-ac0d-bf65b4f81632",
             "Value": {
                 "id": "314184ac-330b-4478-868e-709477eaab52",
@@ -883,6 +915,14 @@
             "Value": {
                 "id": "5cf3b081-9ede-40b0-aa02-df0b5e5d4789",
                 "resourcePath": "objects\\ob_frame1\\ob_frame1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bd809f52-de22-485f-a6f0-7d014644f4e2",
+            "Value": {
+                "id": "f929585e-f06f-4197-81fb-e95ab1ff7855",
+                "resourcePath": "objects\\ob_hazard\\ob_hazard.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1103,6 +1143,14 @@
             }
         },
         {
+            "Key": "e32a1c7a-8318-4b64-94c4-1d80a86dddd7",
+            "Value": {
+                "id": "b6b1f98d-0b1d-4c23-8520-87048af0c1b9",
+                "resourcePath": "objects\\ob_start_area\\ob_start_area.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e3469cda-50b6-4504-81e7-a7e78c48a578",
             "Value": {
                 "id": "61bf60a9-41b6-41f1-a5fe-5baecab32cc7",
@@ -1156,6 +1204,14 @@
                 "id": "9aaf81e7-cdfa-426d-8c0b-b7e0b72e2e93",
                 "resourcePath": "sprites\\sp_pokeworld_5\\sp_pokeworld_5.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ea88bd8d-0afd-4e65-9b24-4fab711650fc",
+            "Value": {
+                "id": "3dafeb23-b5bf-4420-b714-39f44070c83a",
+                "resourcePath": "objects\\ob_init_battle\\ob_init_battle.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -7,7 +7,6 @@ ds_map_copy(current_trainer, trainer_preset)
 
 
 #region // add random pokemons
-randomize()
 var _count = irandom(5)+1  // 1..3
 repeat (_count) {
 	var n		 = irandom(pokemon_list_count-1)
