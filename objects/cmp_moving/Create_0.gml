@@ -1,0 +1,3 @@
+/// @desc 
+moveSpeed = 0
+

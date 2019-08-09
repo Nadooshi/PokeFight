@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "15901f28-787c-4e78-b0f4-de50629f9e20",
+            "Value": {
+                "id": "1c29faa5-3eba-4468-9a4f-8437a24eb0a6",
+                "resourcePath": "objects\\cmp_control_keyb\\cmp_control_keyb.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "17910f99-bce8-406c-8a6f-55459d4bd1d1",
             "Value": {
                 "id": "ffc77649-d294-4864-a312-63983146fc56",
