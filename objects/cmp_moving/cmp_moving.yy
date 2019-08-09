@@ -1,8 +1,8 @@
 {
-    "id": "387f3eba-a000-4ddf-bf31-c7af832ce58a",
+    "id": "72643bc6-8c45-4514-8c6f-cc4a41cffd87",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "ob_gameobject",
+    "name": "cmp_moving",
     "eventList": [
         
     ],
@@ -25,5 +25,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
-    "visible": true
+    "visible": false
 }

@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "1cbce3a2-0e4d-4104-bfb7-76723b3063e4",
+            "Value": {
+                "id": "6ad8ea84-3a05-4d42-b341-2fc7d8dfd6ff",
+                "resourcePath": "notes\\note0.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "1e976f95-723c-4ccd-b5b2-163296d5b98e",
             "Value": {
                 "id": "a5e981eb-f4c0-4146-b4a2-44cdb2ab4a50",
@@ -258,7 +266,7 @@
             "Key": "387f3eba-a000-4ddf-bf31-c7af832ce58a",
             "Value": {
                 "id": "d24e1786-ca90-4e5e-9098-a2ee8eba3a3e",
-                "resourcePath": "objects\\ob_gameobject\\ob_gameobject.yy",
+                "resourcePath": "objects\\ob_composed\\ob_composed.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -540,6 +548,14 @@
                 "id": "de9e3476-6ed1-4db9-a77b-4c49b48fd1b9",
                 "resourcePath": "views\\6e470903-c77d-4f12-86df-8bd7dbd58314.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "72643bc6-8c45-4514-8c6f-cc4a41cffd87",
+            "Value": {
+                "id": "dae67e03-93a6-4e00-8f5f-a9f162b4778e",
+                "resourcePath": "objects\\cmp_moving\\cmp_moving.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1063,14 +1079,6 @@
             }
         },
         {
-            "Key": "d7775205-490c-470b-8bc4-cc812686b31f",
-            "Value": {
-                "id": "cf550ca8-3032-4353-859a-de3fb959fa82",
-                "resourcePath": "objects\\ob_button_save_trainer\\ob_button_save_trainer.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "d87dcec4-0dd8-4166-914c-5c7acbe22870",
             "Value": {
                 "id": "ae1c6419-f975-46aa-804c-badd490e6d8e",
@@ -1211,6 +1219,14 @@
             "Value": {
                 "id": "3dafeb23-b5bf-4420-b714-39f44070c83a",
                 "resourcePath": "objects\\ob_init_battle\\ob_init_battle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "eb3a2aff-1159-4baa-92ea-5c1f55c15cc1",
+            "Value": {
+                "id": "aa46ce2e-ac2d-4acb-9d94-bf20a5c72c4e",
+                "resourcePath": "objects\\cmp_selectable\\cmp_selectable.yy",
                 "resourceType": "GMObject"
             }
         },
