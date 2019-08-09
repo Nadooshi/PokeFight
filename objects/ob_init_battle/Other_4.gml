@@ -15,5 +15,11 @@ with instance_create_layer(_start_area.x, _start_area.y, "Game", ob_player) {
 	_sp = asset_get_index("sp_pokeworld_" + string(pokemon_map[? "face"]))
 	if sprite_exists(_sp)
 		sprite_index = _sp
+	/// create shadow
+	with instance_create_layer(x, y, "Shadow", ob_shadowplayer) {
+		pokemon_map = _list[| i]
+		image_index = pokemon_map[? "size"]
+		player = other
+	}	
 }
 

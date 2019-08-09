@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "260daa99-b968-4f20-b915-a2b682bd528c",
+            "Value": {
+                "id": "3d5af00f-f963-40bd-b787-a0bce1e535e3",
+                "resourcePath": "views\\260daa99-b968-4f20-b915-a2b682bd528c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "267eae5e-0971-4524-86d9-886278d58ec4",
             "Value": {
                 "id": "7feef752-51fb-4451-8e73-a009b77a5d79",
@@ -799,6 +807,14 @@
             }
         },
         {
+            "Key": "a2c1e0bf-a1de-40de-a393-3825b59e6789",
+            "Value": {
+                "id": "271497bb-c763-43f6-b912-825360058305",
+                "resourcePath": "objects\\ob_shadowplayer\\ob_shadowplayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a3fdeec5-2e25-402b-8796-03fe4eb07cd2",
             "Value": {
                 "id": "9e1fb554-29fe-4aed-bb0d-8efddb8e17a1",
@@ -908,6 +924,14 @@
                 "id": "b08aaac8-1daa-4590-85b2-9e23b5d6da07",
                 "resourcePath": "objects\\ob_trade\\ob_trade.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b56b43a1-7684-4266-8cf6-da8222dd35f8",
+            "Value": {
+                "id": "e4e34b75-5d60-431e-8957-b155ce1330b5",
+                "resourcePath": "sprites\\sp_shadowworld\\sp_shadowworld.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
