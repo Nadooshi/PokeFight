@@ -215,14 +215,6 @@
             }
         },
         {
-            "Key": "260daa99-b968-4f20-b915-a2b682bd528c",
-            "Value": {
-                "id": "3d5af00f-f963-40bd-b787-a0bce1e535e3",
-                "resourcePath": "views\\260daa99-b968-4f20-b915-a2b682bd528c.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "267eae5e-0971-4524-86d9-886278d58ec4",
             "Value": {
                 "id": "7feef752-51fb-4451-8e73-a009b77a5d79",
@@ -324,6 +316,14 @@
                 "id": "ae9edc54-c8b3-4bce-b9a6-821370381fe3",
                 "resourcePath": "sprites\\sp_temp\\sp_temp.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3d57d0b2-6105-43fc-b2e6-7369f898741a",
+            "Value": {
+                "id": "6d3be556-1d40-4788-af8e-4bf1969c7099",
+                "resourcePath": "views\\3d57d0b2-6105-43fc-b2e6-7369f898741a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -804,14 +804,6 @@
                 "id": "2aa4e3fa-ad10-4b6f-bc4f-256f0be25a84",
                 "resourcePath": "sprites\\sp_pokeworld_15\\sp_pokeworld_15.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "a2c1e0bf-a1de-40de-a393-3825b59e6789",
-            "Value": {
-                "id": "271497bb-c763-43f6-b912-825360058305",
-                "resourcePath": "objects\\ob_shadowplayer\\ob_shadowplayer.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1359,6 +1351,14 @@
             }
         },
         {
+            "Key": "fdc40fad-75a6-4422-8a3e-ef523a0feec4",
+            "Value": {
+                "id": "b99fdca4-0fa6-4721-a136-b36e8678f610",
+                "resourcePath": "scripts\\sc_create_player\\sc_create_player.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "feac03b2-dc42-41cf-aadb-4566c570d317",
             "Value": {
                 "id": "0349fd27-9175-4b40-8ed7-856c854e526b",
@@ -1386,7 +1386,8 @@
         "430ca95d-a3a2-427f-bd99-389ed5f1ec9d",
         "93ff6dea-7a26-4696-8107-8c8925fe1a26",
         "cf2ed5a2-e42c-4c9c-890b-d4e3ad5a017b",
-        "7aabb181-d80a-4a7e-b80f-4484a93c0d56"
+        "7aabb181-d80a-4a7e-b80f-4484a93c0d56",
+        "fdc40fad-75a6-4422-8a3e-ef523a0feec4"
     ],
     "tutorial": ""
 }

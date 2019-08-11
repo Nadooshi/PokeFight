@@ -6,22 +6,23 @@ if not selected
 for (var i=0; i<k.count; i++)
 	keys[i] = keyboard_check(keyCodes[i])
 
+var newangle = 0
+var dcount = 0
+if keys[k.Left ] { newangle += dirangle[d.Left ]; dcount++ }
+if keys[k.Right] { newangle += dirangle[d.Right]; dcount++; if keys[k.Down] newangle += 360 }
+if keys[k.Up   ] { newangle += dirangle[d.Up   ]; dcount++ }
+if keys[k.Down ] { newangle += dirangle[d.Down ]; dcount++ }
+if dcount>0	newangle = newangle / dcount
 
-if keys[k.Left] {
-	if not doMove
-		direction = d.Left
-} else
-if keys[k.Right] {
-	if not doMove
-		direction = d.Right
-} else
-if keys[k.Down] {
-	if not doMove
-		direction = d.Down
-} else
-if keys[k.Up] {
-	if not doMove
-		direction = d.Up
+if not doMove {
+	if dcount > 0	{
+		direction = newangle
+		tgAngle = direction
+	}
+} else {
+	if dcount > 0
+		tgAngle = newangle
 }
 
-doMove = (keys[k.Left] or keys[k.Right] or keys[k.Up] or keys[k.Down])
+doMove = (dcount > 0)
+
