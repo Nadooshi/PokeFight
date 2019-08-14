@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "05e9458d-f021-4d37-a71b-b21a4f39c6c7",
+            "Value": {
+                "id": "a50529e3-0108-4c16-bfc6-3df95b0ae32f",
+                "resourcePath": "views\\05e9458d-f021-4d37-a71b-b21a4f39c6c7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0725f87c-2522-4efc-92ed-2ef4991ac7e5",
             "Value": {
                 "id": "1d21c605-90d4-4b4b-a8bf-a213156af88c",
@@ -188,6 +196,14 @@
                 "id": "1c51d632-2c35-46ef-9120-fcbe964332d0",
                 "resourcePath": "scripts\\sc_save_trainer\\sc_save_trainer.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1c9e29c8-f5d6-463b-80f1-d25904ef2af8",
+            "Value": {
+                "id": "b96f6b30-7acf-4eba-9ea1-f10bed6166b8",
+                "resourcePath": "sprites\\sp_icon_force\\sp_icon_force.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -380,6 +396,14 @@
                 "id": "94a5a1fd-691b-4363-9521-d4897d37d794",
                 "resourcePath": "views\\49ea39c6-ca2d-41cf-a5eb-a456fd544ad8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4acddd97-de84-404a-9f19-1a503fb9ac84",
+            "Value": {
+                "id": "580c3763-74c8-44f5-a0e6-61d29fe88eca",
+                "resourcePath": "objects\\ob_ui_pokeface\\ob_ui_pokeface.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -799,6 +823,14 @@
             }
         },
         {
+            "Key": "9fec0a5f-48ff-477f-9d74-fcb01a2685b0",
+            "Value": {
+                "id": "ebe9772d-dfc7-47db-9f82-033b949a2778",
+                "resourcePath": "views\\9fec0a5f-48ff-477f-9d74-fcb01a2685b0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a1ac1e1b-a521-44df-b81d-7a82e7d9f768",
             "Value": {
                 "id": "2aa4e3fa-ad10-4b6f-bc4f-256f0be25a84",
@@ -828,6 +860,14 @@
                 "id": "d51d54ff-9141-4f6c-9c1c-07f8f230167d",
                 "resourcePath": "sprites\\sp_button_delete\\sp_button_delete.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a593820e-3844-4952-b1b7-789b96ced510",
+            "Value": {
+                "id": "aafc594c-3c37-47e9-be30-26e255e8f251",
+                "resourcePath": "objects\\ob_ui_force\\ob_ui_force.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1004,6 +1044,14 @@
                 "id": "72427c3b-52c0-4953-9538-95ef8cbc8a6c",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cdc7bdbc-46b0-4bbb-9cd3-3d7b97b0038b",
+            "Value": {
+                "id": "f75f060c-bd6f-4dc6-8c56-3aa99bdc65d9",
+                "resourcePath": "sprites\\sp_pokemon_icon\\sp_pokemon_icon.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
