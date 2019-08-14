@@ -1,5 +1,5 @@
 09.08.19
-	Import "power" sprites from pokemon editor project
+	Import "power" sprites from pokemon editor project < Done >
 
 
 	

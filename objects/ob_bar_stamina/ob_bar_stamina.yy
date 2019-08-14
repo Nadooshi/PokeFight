@@ -1,8 +1,8 @@
 {
-    "id": "4acddd97-de84-404a-9f19-1a503fb9ac84",
+    "id": "3520e051-8df8-42b9-974c-ca695001b093",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "ob_ui_pokeface",
+    "name": "ob_bar_stamina",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "cdc7bdbc-46b0-4bbb-9cd3-3d7b97b0038b",
+    "spriteId": "db412bc7-4daa-46ee-b1ea-7669d1a4df11",
     "visible": true
 }

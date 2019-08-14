@@ -1,8 +1,8 @@
 {
-    "id": "a593820e-3844-4952-b1b7-789b96ced510",
+    "id": "07a1f61d-a01a-442e-9cda-f5e2e63f4b11",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "ob_ui_force",
+    "name": "ob_bar_health",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "1c9e29c8-f5d6-463b-80f1-d25904ef2af8",
+    "spriteId": "3b848be6-03da-41e6-9a4e-be42254369ed",
     "visible": true
 }

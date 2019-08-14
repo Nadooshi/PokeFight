@@ -1,8 +1,8 @@
 {
-    "id": "4acddd97-de84-404a-9f19-1a503fb9ac84",
+    "id": "43e0986d-25d7-4935-9793-693f4cdd4362",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "ob_ui_pokeface",
+    "name": "ob_bar_hurt",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "cdc7bdbc-46b0-4bbb-9cd3-3d7b97b0038b",
+    "spriteId": "2e5aa882-d413-44a2-b4f6-526b9d9583d1",
     "visible": true
 }

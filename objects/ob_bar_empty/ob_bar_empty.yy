@@ -1,8 +1,8 @@
 {
-    "id": "4acddd97-de84-404a-9f19-1a503fb9ac84",
+    "id": "26c1f1b0-5a79-40fd-9a81-bd3f2174d649",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "ob_ui_pokeface",
+    "name": "ob_bar_empty",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "cdc7bdbc-46b0-4bbb-9cd3-3d7b97b0038b",
+    "spriteId": "887e4af4-27a4-4e15-af69-56cfcec99b8d",
     "visible": true
 }
