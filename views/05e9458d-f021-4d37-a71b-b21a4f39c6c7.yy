@@ -9,7 +9,8 @@
         "3520e051-8df8-42b9-974c-ca695001b093",
         "43e0986d-25d7-4935-9793-693f4cdd4362",
         "26c1f1b0-5a79-40fd-9a81-bd3f2174d649",
-        "01fa760c-e860-48fb-8806-8fda9e15ad31"
+        "01fa760c-e860-48fb-8806-8fda9e15ad31",
+        "74978457-a291-482c-abdb-6b68b9aa3c8d"
     ],
     "filterType": "GMObject",
     "folderName": "in battle",
