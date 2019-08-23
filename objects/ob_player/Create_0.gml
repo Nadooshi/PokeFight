@@ -34,4 +34,5 @@ frameSpeed = 0
 shadowFrame = 0
 
 tgAngle = 0
-dAngle = 2
+dAngle = 0
+
