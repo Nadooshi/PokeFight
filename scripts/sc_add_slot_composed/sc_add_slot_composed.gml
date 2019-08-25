@@ -4,12 +4,17 @@
 /// @arg arr_elements
 /// @arg frame_object
 
-var _x = argument0
-var _y = argument1
-var _name = argument2
-var _arr = argument3
-var _frame_object = argument4
+var _x =    argument[0]
+var _y =    argument[1]
+var _name = argument[2]
+var _arr =  argument[3]
+var _frame_object = noone
 
+if argument_count > 4
+	_frame_object = argument[4]
+else
+	_frame_object = ds_map_find_value(_arr[0], "ob")
+	
 var _arr_count = array_length_1d(_arr)
 var _parent_frame
 

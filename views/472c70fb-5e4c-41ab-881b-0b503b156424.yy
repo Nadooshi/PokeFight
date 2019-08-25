@@ -8,7 +8,8 @@
         "43007b37-96cd-4ed2-bde4-f6e0d34963e2",
         "f1d05340-6187-4925-bf45-838b0f108edc",
         "1994425f-de87-4045-a616-04a9092829f6",
-        "d61e77a9-6709-4f08-8445-a9faedf06e0f"
+        "d61e77a9-6709-4f08-8445-a9faedf06e0f",
+        "6a8fcfe2-436c-4d3d-8a68-8cfd4bbd6cd8"
     ],
     "filterType": "GMObject",
     "folderName": "Trainer_setup",

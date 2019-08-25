@@ -19,11 +19,10 @@ with frame_pokemon {
 	// update actions
 	var _name = ds_map_find_first(current_pokemon[? "actions"])
 	var _count = 0
-	var exitfor = false
 
 	ini_open(pokemon_path)
 	while not is_undefined(_name) {
-		with sc_add_slot_composed(3200 + 8, 8+80*_count, _name, action_slot, ob_frame_action) {
+		with sc_add_slot_composed(3200 + 8, 8+80*_count, _name, action_slot) {
 			map = ds_map_create()
 			ds_map_read(map, ini_read_string("actions", _name, ""))
 		}

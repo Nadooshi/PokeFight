@@ -229,10 +229,6 @@ while fn<>"" {
 file_find_close()
 
 
-globalvar edit_value;		edit_value = noone
-globalvar edit_mode;		edit_mode = true
-globalvar previous_room;	previous_room = noone
-
 globalvar pokemon_path;		pokemon_path = "pokedex.ini"
 globalvar pokemon_list;		pokemon_list = ds_map_create()
 globalvar pokemon_list_count

@@ -44,9 +44,6 @@ with ob_slot_icon {
 }
 */
 
-previous_room = room_next(room) // set next room to move to after selection
-edit_mode = false
-
 room_height = max(1080, slot_h * rowcount + 128)
 
 sc_refresh_ui()
