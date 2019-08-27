@@ -153,13 +153,23 @@ material_text[i++] = "none"
 enum _ATTACK_TYPE {
 	melee,
 	range,
-	aura
+	aura,
+	front,
+	lunge,     // выпад
+	mortar,    // ballistic traectory
+	pool,
+	cloud
 }
 globalvar attack_type_text
 var i=0
 attack_type_text[i++] = "melee"
 attack_type_text[i++] = "range"
 attack_type_text[i++] = "aura"
+attack_type_text[i++] = "front"
+attack_type_text[i++] = "lunge"
+attack_type_text[i++] = "mortar"
+attack_type_text[i++] = "pool"
+attack_type_text[i++] = "cloud"
 
 enum _ATTACK_AFFECT {
 	friend = 1,
