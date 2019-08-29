@@ -1,5 +1,7 @@
 /// @desc
 
+event_inherited()
+
 if ds_exists(map, ds_type_map) {
 	value_int = map[? parameter_name]
 	

@@ -13,7 +13,7 @@
         "74978457-a291-482c-abdb-6b68b9aa3c8d"
     ],
     "filterType": "GMObject",
-    "folderName": "in battle",
+    "folderName": "UI",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

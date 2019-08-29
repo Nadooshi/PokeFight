@@ -13,6 +13,8 @@ while not is_undefined(_name) {
 	with sc_add_slot_composed(3200 + 8, 8+80*_count, _name, action_slot) {
 		map = ds_map_create()
 		ds_map_read(map, ini_read_string("actions", _name, ""))
+		enabled = (ds_list_find_index(current_pokemon[? "active_actions"], _name) = -1)
+		index = _count
 	}
 	_name = ds_map_find_next(current_pokemon[? "actions"], _name)
 	_count++
@@ -21,10 +23,11 @@ while not is_undefined(_name) {
 // create list of active actions
 for (var i=0; i<ds_list_size(current_pokemon[? "active_actions"]); i++) {
 	_name = ds_list_find_value(current_pokemon[? "active_actions"], i)
-	with sc_add_slot_composed(16, 576+80*i, _name, action_slot, ob_frame_action_acive) {
+	with sc_add_slot_composed(16, 525+92*i, _name, action_slot, ob_frame_action_active) {
 		map = ds_map_create()
 		ds_map_read(map, ini_read_string("actions", _name, ""))
 		if is_undefined(map) break
+		index = i
 	}
 }
 	

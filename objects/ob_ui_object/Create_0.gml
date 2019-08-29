@@ -5,3 +5,4 @@ clicked = false
 parent = noone
 
 map = noone
+enabled = true

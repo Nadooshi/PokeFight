@@ -1103,6 +1103,14 @@
             }
         },
         {
+            "Key": "8ff5cc8e-cd0f-4305-aa7f-199df400a59e",
+            "Value": {
+                "id": "fe37ea1a-cc52-4e4c-a293-ed1e57036604",
+                "resourcePath": "sprites\\sp_frame_exp\\sp_frame_exp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9024a4d1-9e2f-4f99-b85c-9294014adf8d",
             "Value": {
                 "id": "fca6871c-c73b-4b06-af53-671abe7390d9",
@@ -1447,6 +1455,14 @@
             }
         },
         {
+            "Key": "c0b61692-739a-4666-b76d-ac6c6cd46b49",
+            "Value": {
+                "id": "921498a8-a5ac-47c6-a58e-fb4651039386",
+                "resourcePath": "objects\\ob_frame_exp\\ob_frame_exp.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c2c4aa10-96e0-4fc6-8f22-a45e99239834",
             "Value": {
                 "id": "3bfd3300-c81a-4274-80dc-2b4993ca5d0e",
@@ -1707,6 +1723,14 @@
             "Value": {
                 "id": "f9ef8fb2-e141-49f6-b9a1-36d676c6b730",
                 "resourcePath": "sprites\\sp_trainer_trade\\sp_trainer_trade.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e1d9f6e3-e602-4ef8-ad89-ebf1b864206c",
+            "Value": {
+                "id": "91ba6c37-ce65-4163-bcb6-2e92521a2d8e",
+                "resourcePath": "sprites\\sp_frame_level\\sp_frame_level.yy",
                 "resourceType": "GMSprite"
             }
         },

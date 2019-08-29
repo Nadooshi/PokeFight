@@ -1,5 +1,7 @@
 /// @desc Update
 
+event_inherited()
+
 if parameter_name != ""
 if not is_undefined(map) and ds_exists(map, ds_type_map) {
 	var _pokemon = ds_list_find_value(map[? parameter_name], index)
