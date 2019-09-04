@@ -15,6 +15,7 @@ _elem[? "y"] = 0
 _elem[? "xs"] = base_frame.image_xscale
 _elem[? "ys"] = base_frame.image_yscale
 _elem[? "ob"] = base_frame.object_index
+_elem[? "layer"] = layer_get_name(base_frame.layer)
 _elem[? "param"] = ""
 
 result_slot[0] = ds_map_create()
@@ -27,6 +28,7 @@ if place_meeting(x, y, base_frame) {
 	_elem[? "xs"] = image_xscale
 	_elem[? "ys"] = image_yscale
 	_elem[? "ob"] = object_index
+	_elem[? "layer"] = layer_get_name(layer)
 	_elem[? "param"] = parameter_name
 	if variable_instance_exists(id, "index")
 		_elem[? "index"] = index

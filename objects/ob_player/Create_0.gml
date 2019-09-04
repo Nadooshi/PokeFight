@@ -13,12 +13,6 @@ enum d {
 	Down
 }
 
-dirangle[d.Left ] = 180
-dirangle[d.Right] = 0
-dirangle[d.Up   ] = 90
-dirangle[d.Down ] = 270
-
-
 pokemon_map = ds_map_create()
 doMove = false
 
