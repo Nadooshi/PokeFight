@@ -7,6 +7,7 @@ result[? "type"		] = _ATTACK_TYPE.melee
 result[? "affect"	] = _ATTACK_AFFECT.enemy  // combination of _ATTACK_AFFECT
 result[? "range"	] = 0
 result[? "level"	] = 0
+result[? "exp"		] = 0
 result[? "radius"	] = 0
 result[? "warmup"	] = 0
 result[? "delay"	] = 0

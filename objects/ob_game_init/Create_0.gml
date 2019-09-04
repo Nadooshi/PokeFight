@@ -256,3 +256,8 @@ globalvar current_pokemon;	current_pokemon = ds_map_create()
 globalvar action_slot;
 globalvar trainer_slot; 
 
+globalvar player1_list;
+globalvar player2_list;
+player1_list = ds_list_create(); ds_list_clear(player1_list)
+player2_list = ds_list_create(); ds_list_clear(player2_list)
+
