@@ -1,2 +1,0 @@
-/// @desc 
-selected = false

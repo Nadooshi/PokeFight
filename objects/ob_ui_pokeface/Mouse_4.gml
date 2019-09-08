@@ -3,7 +3,5 @@
 // Inherit the parent event
 event_inherited();
 
-list = noone
-
-selected = false
-
+if image_alpha != 0
+	selected = not selected

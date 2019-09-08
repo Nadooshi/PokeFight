@@ -1839,14 +1839,6 @@
             }
         },
         {
-            "Key": "eb3a2aff-1159-4baa-92ea-5c1f55c15cc1",
-            "Value": {
-                "id": "aa46ce2e-ac2d-4acb-9d94-bf20a5c72c4e",
-                "resourcePath": "objects\\cmp_selectable\\cmp_selectable.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "ec12697e-e396-492e-ac2d-702c186126f1",
             "Value": {
                 "id": "d90f4b08-d17b-4558-b759-a9745428405e",
