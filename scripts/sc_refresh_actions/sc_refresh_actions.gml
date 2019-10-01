@@ -13,6 +13,14 @@ while not is_undefined(_name) {
 	with sc_add_slot_composed(3200 + 64, 8+92*_count, _name, action_slot) {
 		map = ds_map_create()
 		ds_map_read(map, ini_read_string("actions", _name, ""))
+		// load ability for action
+		if not is_undefined(map[? "active"]) {
+			var _map_abil = ds_map_create()
+			ds_map_read(_map_abil, ini_read_string("abilities", map[? "active"], ""))
+			if not is_undefined(_map_abil) and ds_exists(_map_abil, ds_type_map)
+				map[? "active"] = _map_abil
+		}
+		// set ui properties
 		enabled = (ds_list_find_index(current_pokemon[? "active_actions"], _name) = -1)
 		index = _count
 	}
@@ -26,7 +34,12 @@ for (var i=0; i<ds_list_size(current_pokemon[? "active_actions"]); i++) {
 	with sc_add_slot_composed(80, 525+92*i, _name, action_slot, ob_frame_action_active) {
 		map = ds_map_create()
 		ds_map_read(map, ini_read_string("actions", _name, ""))
-		if is_undefined(map) break
+		if not is_undefined(map[? "active"]) {
+			var _map_abil = ds_map_create()
+			ds_map_read(_map_abil, ini_read_string("abilities", map[? "active"], ""))
+			if not is_undefined(_map_abil) and ds_exists(_map_abil, ds_type_map)
+				map[? "active"] = _map_abil
+		}
 		index = i
 	}
 }

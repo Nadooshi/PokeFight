@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "ob_state_ability",
     "eventList": [
-        
+        {
+            "id": "225df681-87ec-4d73-914f-2a2eea4764b2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 7,
+            "m_owner": "d89bc7d1-353d-429a-9651-ffbbcb13f3d9"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

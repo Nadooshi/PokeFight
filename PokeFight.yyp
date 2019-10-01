@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "0c72bd2e-18a3-4746-8743-01c38bb7e434",
+            "Value": {
+                "id": "f6c67e18-f1b5-4682-a905-11e5ca359586",
+                "resourcePath": "scripts\\sc_new_ability\\sc_new_ability.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0cd0b092-ddaf-47d6-adc7-e87664767a7a",
             "Value": {
                 "id": "232f3cc1-7bb5-45e0-bab5-2b677bbfcb15",
@@ -1980,6 +1988,7 @@
         "5a825da8-8a96-40ba-bc7a-bf1378a3c2ab",
         "b5d87cd5-a23b-49f0-a092-6bf22827da60",
         "41a92cb6-eb92-44e6-8f77-5f64dd77bf5f",
+        "0c72bd2e-18a3-4746-8743-01c38bb7e434",
         "8e3cd309-1514-4f3b-a3e1-aff7e396283f",
         "72251d4d-eca6-446b-9164-c6e5d8b287c8",
         "5c85c07a-de40-4089-9d95-54f1a69ece8b",

@@ -13,7 +13,8 @@
         "931c7612-da13-4157-b9e3-c60c54a888fd",
         "5a825da8-8a96-40ba-bc7a-bf1378a3c2ab",
         "b5d87cd5-a23b-49f0-a092-6bf22827da60",
-        "41a92cb6-eb92-44e6-8f77-5f64dd77bf5f"
+        "41a92cb6-eb92-44e6-8f77-5f64dd77bf5f",
+        "0c72bd2e-18a3-4746-8743-01c38bb7e434"
     ],
     "filterType": "GMScript",
     "folderName": "pokemon",
