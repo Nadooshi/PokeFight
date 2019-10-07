@@ -13,6 +13,8 @@ enum d {
 }
 
 pokemon_map = ds_map_create()
+action_list = ds_list_create()
+
 doMove = false
 
 dirframe[d.Right] = 0

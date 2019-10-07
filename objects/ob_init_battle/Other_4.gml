@@ -21,4 +21,8 @@ with ob_ui_pokeface_2
 
 with ob_ui_pokeface
 	event_perform(ev_other, ev_user0)
-	
+
+with ob_frame1 {
+	visible = false
+	sc_group_ui_objects(id)
+}

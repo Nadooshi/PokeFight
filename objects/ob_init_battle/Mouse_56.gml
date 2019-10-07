@@ -4,15 +4,18 @@
 
 var _ok = false;
 var _map_id = noone;
+selected_id = noone;
 
 with ob_player {
 	selected = point_in_rectangle(mouse_x, mouse_y, bbox_left, bbox_top, bbox_right, bbox_bottom)
-	if not _ok _ok = selected
+	if not _ok {
+		_ok = selected
+		if _ok selected_id = id
+	}
 	_map_id = pokemon_map
 	with ob_ui_pokeface 
 	if _map_id == list[| index]
 		selected = other.selected
-		
 }
 
 _map_id = noone
@@ -23,8 +26,10 @@ with ob_ui_pokeface {
 	_ok = selected
 	_map_id = list[| index]
 	with ob_player 
-	if _map_id == pokemon_map	
+	if _map_id == pokemon_map {
 		selected = other.selected
-
+		if _ok selected_id = id
+	}
 	if _ok break
 }
+
