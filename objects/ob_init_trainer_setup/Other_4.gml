@@ -34,7 +34,8 @@ with ob_slot_icon {
 }
 */
 
-room_height = max(1080, _sz * _rowscount + 96+112)
+height_pokemon_list = max(1080, _sz * _rowscount + 96+112)
+room_height = height_pokemon_list
 
 #endregion
 

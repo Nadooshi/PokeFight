@@ -33,3 +33,4 @@ with ob_ui_pokeface {
 	if _ok break
 }
 
+sc_battle_update_actions()
