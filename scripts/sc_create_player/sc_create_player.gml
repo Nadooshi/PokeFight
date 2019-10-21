@@ -13,6 +13,10 @@ with instance_create_layer(0, 0, "Game", ob_player) {
 	_sp = asset_get_index("sp_pokeworld_" + string(pokemon_map[? "face"]))
 	if sprite_exists(_sp)
 		sprite_index = _sp
+	if pokemon_map[? "size"] = _SIZE.giant { 
+		image_xscale = 1.5
+		image_yscale = 1.5
+	}
 	
 	// create action list
 	ds_list_clear(action_list)

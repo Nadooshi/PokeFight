@@ -158,7 +158,9 @@ enum _ATTACK_TYPE {
 	lunge,     // выпад
 	mortar,    // ballistic traectory
 	pool,
-	cloud
+	cloud,
+	wave,
+	barrier
 }
 globalvar attack_type_text
 var i=0
@@ -170,6 +172,8 @@ attack_type_text[i++] = "lunge"
 attack_type_text[i++] = "mortar"
 attack_type_text[i++] = "pool"
 attack_type_text[i++] = "cloud"
+attack_type_text[i++] = "wave"
+attack_type_text[i++] = "barrier"
 
 enum _ATTACK_AFFECT {
 	friend = 1,
