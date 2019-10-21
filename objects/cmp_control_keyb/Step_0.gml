@@ -3,8 +3,16 @@
 if not selected
 	exit
 	
-for (var i=0; i<k.count; i++)
-	keys[i] = keyboard_check(keyCodes[i])
+for (var i=0; i<k._count; i++) 
+switch (keyCodes[i, 1]) {
+	case 0:
+		keys[i] = keyboard_check(keyCodes[i, 0])
+		break
+	case 1:
+		keys[i] = mouse_check_button(keyCodes[i, 0])
+		break
+}
+
 
 var newangle = 0
 var dcount = 0

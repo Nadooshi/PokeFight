@@ -2,6 +2,8 @@
 component_count = 0
 component_list[component_count++] = cmp_moving
 component_list[component_count++] = cmp_control_keyb
+component_list[component_count++] = cmp_selectable
+
 
 event_inherited()
 
@@ -27,7 +29,6 @@ dir = d.Right
 frame = 0
 frameSpeed = 0
 shadowFrame = 0
-selected = false
 
 tgAngle = 0
 dAngle = 0

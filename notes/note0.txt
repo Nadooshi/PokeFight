@@ -1,5 +1,9 @@
 09.08.19
 	Import "power" sprites from pokemon editor project < Done >
 
+21.10.19
+	for cmp_selectable :  make it more universal. not only for hardcoded objects (ob_player,..)
+	[		]
+
 
 	

@@ -1,6 +1,7 @@
-/// @desc Select pokemon
+/// @desc /// Disabled
 
 // set selection
+exit
 
 var _ok = false;
 var _map_id = noone;
