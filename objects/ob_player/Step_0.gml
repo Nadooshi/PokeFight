@@ -1,5 +1,8 @@
 /// @desc 
 event_inherited()
 
-sc_player_move()
+if script_exists(scBehaviour)
+	script_execute(scBehaviour)
+else
+	sc_player_stop_set()
 

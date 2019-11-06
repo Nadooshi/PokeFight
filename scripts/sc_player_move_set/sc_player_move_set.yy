@@ -1,8 +1,8 @@
 {
-    "id": "b2be4fce-9799-46f1-9fbb-4c0677201c00",
+    "id": "c9cd6222-9928-4a9f-a223-74782851e51b",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "sc_player_before_shoot",
+    "name": "sc_player_move_set",
     "IsCompatibility": false,
     "IsDnD": false
 }

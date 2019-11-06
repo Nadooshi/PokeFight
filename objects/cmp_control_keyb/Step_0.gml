@@ -22,15 +22,18 @@ if keys[k.Up   ] { newangle += dirangle[d.Up   ]; dcount++ }
 if keys[k.Down ] { newangle += dirangle[d.Down ]; dcount++ }
 if dcount>0	newangle = newangle / dcount
 
+// detect changes in control direction
 if not doMove {
 	if dcount > 0	{
 		direction = newangle
 		tgAngle = direction
+		scBehaviour = sc_player_move_set
 	}
 } else {
 	if dcount > 0
 		tgAngle = newangle
+	else
+		scBehaviour = sc_player_stop_set
 }
 
 doMove = (dcount > 0)
-
