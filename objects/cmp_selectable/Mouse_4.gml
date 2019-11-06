@@ -9,5 +9,4 @@ if not selected {
 		selected = false
 	selected = true
 	selected_id = id
-	_map_id = pokemon_map
 }
