@@ -49,6 +49,8 @@ if doActionNum = 0 {
 	if not is_undefined(_a_map) {
 		doActionNum = i
 		scBehaviour = sc_player_attack_set
+		tgX = mouse_x
+		tgY = mouse_y
 		ok = true
 		break
 	}

@@ -144,6 +144,41 @@ material_text[i++] = "muddy"
 material_text[i++] = "woody"
 material_text[i++] = "none"
 
+globalvar material_colour
+var i=0
+
+material_colour[i++] = make_colour_rgb(255,255,255)		//white
+material_colour[i++] = make_colour_rgb(45,45,45)		//dark
+material_colour[i++] = make_colour_rgb(255,110,10)		//flame
+material_colour[i++] = make_colour_rgb(70,70,255)		//water
+material_colour[i++] = make_colour_rgb(127,90,38)		//ground
+material_colour[i++] = make_colour_rgb(255,100,100)		//psy
+material_colour[i++] = make_colour_rgb(10,160,100)		//poison
+material_colour[i++] = make_colour_rgb(255,255,0)		//electric
+material_colour[i++] = make_colour_rgb(255,230,190)		//wind
+material_colour[i++] = make_colour_rgb(196,200,255)		//lunar
+material_colour[i++] = make_colour_rgb(255,255,150)		//solar
+material_colour[i++] = make_colour_rgb(160,0,15)		//flesh
+material_colour[i++] = make_colour_rgb(109,8,160)		//ghost
+material_colour[i++] = make_colour_rgb(170,255,0)		//plant
+material_colour[i++] = make_colour_rgb(255,246,204)		//steel
+material_colour[i++] = make_colour_rgb(50,38,15)		//rock
+material_colour[i++] = make_colour_rgb(127,120,102)		//furry
+material_colour[i++] = make_colour_rgb(250,0,255)		//mystic
+material_colour[i++] = make_colour_rgb(165,165,255)		//ancient
+material_colour[i++] = make_colour_rgb(166,170,121)		//shielded
+material_colour[i++] = make_colour_rgb(12,12,127)		//marine
+material_colour[i++] = make_colour_rgb(127,100,100)		//bird
+material_colour[i++] = make_colour_rgb(211,2,103)		//cosmic
+material_colour[i++] = make_colour_rgb(97,217,229)		//spike
+material_colour[i++] = make_colour_rgb(186,255,240)		//frozen
+material_colour[i++] = make_colour_rgb(162,204,95)		//insect
+material_colour[i++] = make_colour_rgb(225,0,0)			//dragon
+material_colour[i++] = make_colour_rgb(110,121,127)		//robotic
+material_colour[i++] = make_colour_rgb(127,114,94)		//muddy
+material_colour[i++] = make_colour_rgb(127,55,0)		//woody
+material_colour[i++] = make_colour_rgb(255,255,255)		//none
+
 #endregion
 
 //////////////////////////////////

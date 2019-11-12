@@ -33,6 +33,9 @@ shadowFrame = 0
 
 tgAngle = 0
 dAngle = 0
+tgX = 0
+tgY = 0 
+attack_ob_id = noone
 
 scBehaviour = noone
 
