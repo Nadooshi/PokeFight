@@ -2,10 +2,10 @@
 
 if not selected
 	exit
-	
+
 if not canMove
 	exit
-	
+
 for (var i=0; i<k._count; i++) 
 switch (keyCodes[i, 1]) {
 	case 0:
@@ -43,18 +43,19 @@ doMove = (dcount > 0)
 // do attacks
 var ok = false
 for (i=0; i<6; i++)
-if keys[i+k.action1]
-if doActionNum = 0 {
-	var _a_map = action_list[| i]
-	if not is_undefined(_a_map) {
-		doActionNum = i
-		scBehaviour = sc_player_attack_set
-		tgX = mouse_x
-		tgY = mouse_y
-		ok = true
-		break
+if keys[i+k.action1] {
+	ok = true
+	if doActionNum = 0 {
+		var _a_map = action_list[| i]
+		if not is_undefined(_a_map) {
+			doActionNum = i
+			scBehaviour = sc_player_attack_set
+			tgX = mouse_x
+			tgY = mouse_y
+			ok = true
+			break
+		}
 	}
 }
-
 if not ok
 	doActionNum = 0

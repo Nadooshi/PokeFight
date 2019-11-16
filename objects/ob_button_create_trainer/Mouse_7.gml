@@ -7,7 +7,7 @@ ds_map_copy(current_trainer, trainer_preset)
 
 
 #region // add random pokemons
-var _count = irandom(5)+1  // 1..3
+var _count = irandom(7)+3  // 3..10
 repeat (_count) {
 	var n		 = irandom(pokemon_list_count-1)
 	var _name	 = ds_map_find_first(pokemon_list)
@@ -24,4 +24,9 @@ trainer_count++
 
 sc_save_trainer()
 
-room_goto(room_next(room))
+with ob_frame_trainer
+	instance_destroy()
+
+sc_create_trainer_slots()
+
+//room_goto(room_next(room))

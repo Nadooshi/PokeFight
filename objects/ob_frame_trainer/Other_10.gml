@@ -2,10 +2,12 @@
 
 // Inherit the parent event
 
-if not ds_exists(map, ds_type_map)
-	map = ds_map_create()
-sc_load_trainer(name, map)	
+
+map = ds_map_create()
+
+//if not is_undefined(name) and is_string(name) and name != ""
+	sc_load_trainer(name, map)	
 
 event_inherited();
 	
-ds_map_destroy(map)
+sc_clear_trainer(map)

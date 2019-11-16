@@ -20,7 +20,7 @@ switch (_a_map[? "type"]) {
 		tgAngle = direction
 		moveSpeed = pokemon_map[? "ap"] * 0.66
 		timeout = 60 * 0.1 * _a_map[? "range"]
-		frameSpeed = moveSpeed * 0.1
+		frameSpeed = 0 //moveSpeed * 0.1
 		scBehaviour = sc_player_attack_lunge
 		break
 	default:

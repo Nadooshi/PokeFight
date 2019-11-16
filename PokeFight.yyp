@@ -471,6 +471,14 @@
             }
         },
         {
+            "Key": "37dae825-8636-4ee6-966f-d75e60cb01ab",
+            "Value": {
+                "id": "401281ee-5e74-486a-887a-448ae9634b85",
+                "resourcePath": "objects\\ob_frame_trainer_1\\ob_frame_trainer_1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "382997a7-bfb3-404e-96f2-c54079d435d1",
             "Value": {
                 "id": "cb2a598e-d79d-426a-a6c4-dfe94701eeaf",
@@ -716,6 +724,14 @@
                 "id": "755480b8-ea21-4b52-91b9-886e0284926e",
                 "resourcePath": "sprites\\sp_pokeworld_14\\sp_pokeworld_14.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "595f1473-21e1-4d5e-8da3-34479782e550",
+            "Value": {
+                "id": "e330b852-5290-423e-b985-2f9f6b930655",
+                "resourcePath": "objects\\ob_button_start_battle\\ob_button_start_battle.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1111,6 +1127,14 @@
             }
         },
         {
+            "Key": "7fdb610d-edc6-47c6-8f47-ad1cf7a256cf",
+            "Value": {
+                "id": "8a524f77-8f6d-4754-aa1d-7af45d00c6e3",
+                "resourcePath": "objects\\ob_frame_trainer_2\\ob_frame_trainer_2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "81e90ae1-66a4-497c-a212-c66e7c4e1351",
             "Value": {
                 "id": "d310ef6e-6801-4793-8b3b-0f64591c4cbd",
@@ -1359,6 +1383,14 @@
             }
         },
         {
+            "Key": "a520878b-490c-4e7f-900c-db1b28e4cd72",
+            "Value": {
+                "id": "7c480531-01ac-4a1f-8c32-ace44ae7b103",
+                "resourcePath": "scripts\\sc_create_trainer_slots\\sc_create_trainer_slots.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a62238bb-b045-4dbe-8e71-52f44aadf0bd",
             "Value": {
                 "id": "60e553ae-1099-4ba6-8ce2-275945fa8c91",
@@ -1420,6 +1452,14 @@
                 "id": "314184ac-330b-4478-868e-709477eaab52",
                 "resourcePath": "sprites\\sp_pokeworld_13\\sp_pokeworld_13.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "aafd5602-997e-4c77-b173-21dbd5fdd0ef",
+            "Value": {
+                "id": "5f782a45-0eab-45f9-8176-317edc0d190c",
+                "resourcePath": "objects\\ob_button_edit_trainer\\ob_button_edit_trainer.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1959,6 +1999,14 @@
             }
         },
         {
+            "Key": "ec5b1158-6367-485d-a7f5-9ada604f9dfa",
+            "Value": {
+                "id": "b07d2d67-4616-4cc2-b30c-3c9f28644724",
+                "resourcePath": "sprites\\sp_button_edit\\sp_button_edit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ed659ac9-9822-4c62-ae49-ab635ff363da",
             "Value": {
                 "id": "c4756185-b99b-442b-9866-72f28638c1ce",
@@ -2112,6 +2160,7 @@
         "8e3cd309-1514-4f3b-a3e1-aff7e396283f",
         "72251d4d-eca6-446b-9164-c6e5d8b287c8",
         "5c85c07a-de40-4089-9d95-54f1a69ece8b",
+        "a520878b-490c-4e7f-900c-db1b28e4cd72",
         "fdc40fad-75a6-4422-8a3e-ef523a0feec4",
         "034cca7b-10c5-4c79-ba84-31df1acd9bbc",
         "c9cd6222-9928-4a9f-a223-74782851e51b",
