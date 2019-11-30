@@ -9,9 +9,6 @@ if not init {
 	visible = true
 }
 
-x = pokemon_id.x
-y = pokemon_id.y
-
 if image_index >= (stop_frame-0.2)
 	instance_destroy()
 

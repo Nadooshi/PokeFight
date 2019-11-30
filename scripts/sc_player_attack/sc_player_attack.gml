@@ -6,4 +6,4 @@ if timeout<=0 {
 	if instance_exists(attack_ob_id)
 		instance_destroy(attack_ob_id)
 }
-	
+

@@ -30,3 +30,6 @@ with (ob_frame) {
 	y = _cy + oY
 }
 
+/// count time
+
+dTime = min(delta_time/1000000, 1/minFPS)

@@ -1,12 +1,15 @@
 /// @arg map
+/// @arg trainer
 
 var _map = argument0
+var _trainer = argument1
 var _result = noone
 var _sp = noone
 
 with instance_create_layer(0, 0, "Game", ob_player) {
 	// create pokemon
 	_result = id
+	trainer = _trainer
 	pokemon_map = _map
 	shadowFrame = pokemon_map[? "size"]
 	dAngle = 5 - pokemon_map[? "size"]

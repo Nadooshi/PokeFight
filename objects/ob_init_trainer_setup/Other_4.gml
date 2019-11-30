@@ -4,7 +4,7 @@
 
 var _caught_count = ds_list_size(current_trainer[? "caught_pokemon_list"])
 
-var _maxcount = ceil((room_width - 64 - 96) / 96)
+var _maxcount = 8 //ceil((view_wport[1] - 96 - 192) / 96)
 var _rowscount = floor(_caught_count / _maxcount) + 1
 var _sz = 128
 

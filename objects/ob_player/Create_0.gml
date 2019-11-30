@@ -41,3 +41,6 @@ scBehaviour = noone
 
 selected = false
 timeout = 0
+hurt_timeout = 0  // timeout after taking damage
+
+trainer = noone
