@@ -7,7 +7,8 @@
         "8e3cd309-1514-4f3b-a3e1-aff7e396283f",
         "72251d4d-eca6-446b-9164-c6e5d8b287c8",
         "5c85c07a-de40-4089-9d95-54f1a69ece8b",
-        "a520878b-490c-4e7f-900c-db1b28e4cd72"
+        "a520878b-490c-4e7f-900c-db1b28e4cd72",
+        "898e0598-8b22-4f8c-a7b8-0a94b4b59cfd"
     ],
     "filterType": "GMScript",
     "folderName": "trainer setup",

@@ -266,17 +266,7 @@ globalvar trainer_fnames;	trainer_fnames = []
 globalvar trainer_count;	trainer_count = 0
 
 
-if not directory_exists("trainer_saves")
-	directory_create("trainer_saves")
-
-var fn = file_find_first("trainer_saves/*.ini",0)
-while fn<>"" {
-	trainer_fnames[trainer_count] = fn;
-	trainer_count++
-	fn = file_find_next()
-}
-file_find_close()
-
+sc_load_trainer_fnames()
 
 globalvar pokemon_path;		pokemon_path = "pokedex.ini"
 globalvar pokemon_list;		pokemon_list = ds_map_create()

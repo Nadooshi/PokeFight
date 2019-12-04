@@ -18,15 +18,10 @@ repeat (_count) {
 }
 #endregion
 
-
-trainer_fnames[trainer_count] = string_letters(current_trainer[? "name"])+".ini"
-trainer_count++
-
 sc_save_trainer()
 
-with ob_frame_trainer
-	instance_destroy()
 
-sc_create_trainer_slots()
+sc_clear_trainer(player1_trainer); player1_trainer = noone
+sc_clear_trainer(player2_trainer); player2_trainer = noone
 
-//room_goto(room_next(room))
+room_restart()

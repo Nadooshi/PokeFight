@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "0c85a102-49f8-42a6-9638-ca0bb85a33fc",
+            "Value": {
+                "id": "9f79b37a-780b-4cc2-a43d-e288a2c5173a",
+                "resourcePath": "rooms\\rm_init\\rm_init.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0cd0b092-ddaf-47d6-adc7-e87664767a7a",
             "Value": {
                 "id": "232f3cc1-7bb5-45e0-bab5-2b677bbfcb15",
@@ -1175,6 +1183,14 @@
             }
         },
         {
+            "Key": "898e0598-8b22-4f8c-a7b8-0a94b4b59cfd",
+            "Value": {
+                "id": "d84e36c4-531c-48d7-97f8-bb71b9d0713c",
+                "resourcePath": "scripts\\sc_load_trainer_fnames\\sc_load_trainer_fnames.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8ba9b7e6-a27b-40f8-9798-c8a45c31702a",
             "Value": {
                 "id": "28eda983-11ea-4211-9f7f-a953013830f0",
@@ -2185,6 +2201,7 @@
         "72251d4d-eca6-446b-9164-c6e5d8b287c8",
         "5c85c07a-de40-4089-9d95-54f1a69ece8b",
         "a520878b-490c-4e7f-900c-db1b28e4cd72",
+        "898e0598-8b22-4f8c-a7b8-0a94b4b59cfd",
         "fdc40fad-75a6-4422-8a3e-ef523a0feec4",
         "034cca7b-10c5-4c79-ba84-31df1acd9bbc",
         "69729fc8-b376-4e73-92c1-6a98bfcf4545",
