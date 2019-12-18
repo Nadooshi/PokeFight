@@ -471,6 +471,14 @@
             }
         },
         {
+            "Key": "36358382-f00e-4e51-aeb3-3f38de43beec",
+            "Value": {
+                "id": "aae1d09d-27cd-4e32-a972-72d3f1a174e1",
+                "resourcePath": "sprites\\sp_state\\sp_state.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "37d6237c-4511-46d6-ace7-dcc42a4416d6",
             "Value": {
                 "id": "51685796-6384-4ef3-b5d9-983f7e57d830",
@@ -1415,14 +1423,6 @@
             }
         },
         {
-            "Key": "a7a3ed52-7b1c-46ba-b826-d7cc32b4f100",
-            "Value": {
-                "id": "d457eb33-5124-45a9-ac62-ecd2cea45207",
-                "resourcePath": "sprites\\sp_state\\sp_state.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a7c58018-26da-4d5a-a369-8936c79a6691",
             "Value": {
                 "id": "e386f336-ed9e-4a23-804b-b9cf297c59c2",
@@ -1508,6 +1508,14 @@
                 "id": "3bbd6a11-1cac-437d-91dc-4908db6bc2ef",
                 "resourcePath": "objects\\ob_damage_area\\ob_damage_area.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ada0bca9-b1f9-4848-8d38-3e2b57e7d057",
+            "Value": {
+                "id": "af9e9224-f1ae-436f-952e-023d972183a0",
+                "resourcePath": "sprites\\sp_exp_attack_9\\sp_exp_attack_9.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1651,6 +1659,14 @@
             "Value": {
                 "id": "897cb39d-6301-4554-9e88-7931767c2831",
                 "resourcePath": "sprites\\sp_attack_7\\sp_attack_7.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c4fec1d5-6e4e-4910-86f5-44d52c844d99",
+            "Value": {
+                "id": "ddded77b-2575-4b69-ad09-1da4b8bac593",
+                "resourcePath": "sprites\\sp_pr_attack_15\\sp_pr_attack_15.yy",
                 "resourceType": "GMSprite"
             }
         },
