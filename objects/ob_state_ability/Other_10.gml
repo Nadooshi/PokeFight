@@ -8,7 +8,9 @@ if parameter_name != "" {
 		var _abil = map[? "active"]
 		if not is_undefined(_abil) and ds_exists(_abil, ds_type_map) {
 			image_index = _abil[? parameter_name]
-			//hint = attack_type_text[map[? parameter_name]]
+			hint = _abil[? "name"]
+		} else {
+			image_index = 0
 		}
 	}
 }

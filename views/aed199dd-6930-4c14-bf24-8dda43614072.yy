@@ -13,7 +13,9 @@
         "279136ff-d112-415e-97a7-b408eb26d57d",
         "a2490766-3220-4445-ab57-8841b228168b",
         "2b682162-d1e1-4b2f-bbd7-13178c4eff1a",
-        "ada0bca9-b1f9-4848-8d38-3e2b57e7d057"
+        "ada0bca9-b1f9-4848-8d38-3e2b57e7d057",
+        "514849c3-0834-4127-a777-abdf79310432",
+        "c4e2a3c7-0ec1-4842-a324-5ae7b32ebc66"
     ],
     "filterType": "GMSprite",
     "folderName": "Explodes",
