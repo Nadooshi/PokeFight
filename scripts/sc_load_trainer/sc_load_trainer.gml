@@ -1,7 +1,8 @@
-///@arg fname file_name
+///@arg trainer_name
 ///@arg map
 
-var _fname = argument0
+var _fname = string_lettersdigits(argument0)+".ini"
+
 var _ds = argument1
 if ds_exists(_ds, ds_type_map) 
 if file_exists("trainer_saves/" + _fname) {

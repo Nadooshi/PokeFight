@@ -1,8 +1,8 @@
 
-var fname  = "trainer_saves/" + string_letters(current_trainer[? "name"])+".ini"
+var fname  = "trainer_saves/" + string_lettersdigits(current_trainer[? "name"])+".ini"
 
 ini_open(fname)
-	ini_write_string("trainer", "map" ,				ds_map_write (current_trainer))
+	ini_write_string("trainer", "map" ,	ds_map_write (current_trainer))
 	// active_pokemon_list contains pokemon maps (for simplicity)
 	// indexes from caught_pokemon_list are saved to file
 	// pokemon maps to indexes

@@ -3,6 +3,9 @@
 // Inherit the parent event
 event_inherited();
 
+if is_undefined(trainer_preset[? "name"]) or trainer_preset[? "name"] = ""
+	trainer_preset[? "name"] = "Newbie"
+
 ds_map_copy(current_trainer, trainer_preset)
 
 

@@ -1,6 +1,7 @@
 var result = ds_map_create()
 
-result[? "name"]	= ""
+result[? "name"]	= "Newbie"
+
 result[? "avatar"]	= 0
 
 result[? "world_x"] = 0

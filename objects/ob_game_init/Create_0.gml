@@ -257,7 +257,6 @@ globalvar popup_appeared; popup_appeared = false
 //////////////////////////////////
 randomize()
 globalvar trainer_preset; trainer_preset = sc_new_trainer()
-trainer_preset[? "name"]	= "New trainer"
 trainer_preset[? "avatar"]	= irandom(sprite_get_number(sp_trainer_avatar))   // image_index from sp_trainer_avatar
 
 globalvar current_trainer;	current_trainer = ds_map_create()
