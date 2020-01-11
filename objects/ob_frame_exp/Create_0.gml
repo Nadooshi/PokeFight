@@ -12,3 +12,4 @@ xFrame = x
 wFrame  = 100
 expFillPercent = 0.5
 expXScale = 1
+caption = ""

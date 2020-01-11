@@ -847,6 +847,14 @@
             }
         },
         {
+            "Key": "5d7a816c-1788-4b4a-af45-5d9a067ae71a",
+            "Value": {
+                "id": "ba437512-7361-449e-95a8-fae76c705e7d",
+                "resourcePath": "objects\\ob_glass_pokemon_level\\ob_glass_pokemon_level.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5e518b68-7d48-4df7-9bfa-36795207985d",
             "Value": {
                 "id": "74c14dc1-48ee-4a4c-8794-c1ea4d7f562c",
@@ -1004,6 +1012,14 @@
                 "id": "de9e3476-6ed1-4db9-a77b-4c49b48fd1b9",
                 "resourcePath": "views\\6e470903-c77d-4f12-86df-8bd7dbd58314.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "70edace5-2b88-4f03-a18d-296d63724f2e",
+            "Value": {
+                "id": "aa1540a8-55fc-4d31-9f7e-2775d07aa8d4",
+                "resourcePath": "sprites\\sp_beautyButton1\\sp_beautyButton1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1188,6 +1204,14 @@
                 "id": "9b73bb03-959f-440e-b84d-b1a02ad86668",
                 "resourcePath": "objects\\ob_numeric_label\\ob_numeric_label.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "86379724-b53f-4b21-b7b6-74c1e6ee4225",
+            "Value": {
+                "id": "71bc972d-3e3a-49ee-8b8d-0abefc7fd7be",
+                "resourcePath": "sprites\\sp_beatyFrame4\\sp_beatyFrame4.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2220,6 +2244,14 @@
                 "id": "b99fdca4-0fa6-4721-a136-b36e8678f610",
                 "resourcePath": "scripts\\sc_create_player\\sc_create_player.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fe0862f3-e6ba-4843-81f1-a028f7bc6c4a",
+            "Value": {
+                "id": "35054155-5665-4d61-9ac4-f4d52fbbd3c8",
+                "resourcePath": "objects\\ob_frame_pokemon_level\\ob_frame_pokemon_level.yy",
+                "resourceType": "GMObject"
             }
         },
         {

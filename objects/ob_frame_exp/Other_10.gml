@@ -11,4 +11,6 @@ if not is_undefined(parent) and instance_exists(parent) {
 	wFrame = _sW * frameXScale
 	
 	expXScale = wFrame / sprite_get_width(sprExpbar)
+	
+	caption = ds_map_find_value(map, "level")
 }
