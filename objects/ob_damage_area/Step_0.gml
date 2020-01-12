@@ -8,5 +8,12 @@ if trainer != _trainer {
 	_d = distance_to_point(other.x, other.y)
 	if _d < other.radius
 	if hurt_timeout <= 0
-		hurt_timeout = 1
+		hurt_timeout = other.hurt_time
 }
+
+if timeout>0 {
+	timeout--
+	if timeout<=0 
+		instance_destroy()
+}
+

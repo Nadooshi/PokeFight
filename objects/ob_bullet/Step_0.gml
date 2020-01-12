@@ -2,7 +2,8 @@
 
 // Inherit the parent event
 event_inherited();
-hurt_time = 1
 
-speed = 10
-timeout = 0
+timeout--
+if timeout<=0 {
+	instance_destroy()
+}

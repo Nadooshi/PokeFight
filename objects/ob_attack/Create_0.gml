@@ -12,7 +12,9 @@ dirframe[d.Left] = 8
 dirframe[d.Down] = 12
 
 visible = false
-
+image_xscale = 1.5
+image_yscale = 1.5
 init = false
 
 bullet = noone
+hurt_time = 0

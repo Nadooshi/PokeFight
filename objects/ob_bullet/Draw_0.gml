@@ -2,7 +2,6 @@
 
 // Inherit the parent event
 event_inherited();
-hurt_time = 1
 
-speed = 10
-timeout = 0
+if sprite_exists(sprite_index)
+	draw_self()

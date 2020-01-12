@@ -49,9 +49,10 @@ if keys[i+k.action1] {
 		var _a_map = action_list[| i]
 		if not is_undefined(_a_map) {
 			doActionNum = i
-			scBehaviour = sc_player_attack_set
+			//scBehaviour = sc_player_attack_set
 			tgX = mouse_x
 			tgY = mouse_y
+			sc_player_attack_set()
 			ok = true
 			break
 		}
