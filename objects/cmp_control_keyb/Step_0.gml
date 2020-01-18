@@ -45,11 +45,10 @@ var ok = false
 for (i=0; i<6; i++)
 if keys[i+k.action1] {
 	ok = true
-	if doActionNum = 0 {
+	if doActionNum = -1 {
 		var _a_map = action_list[| i]
 		if not is_undefined(_a_map) {
 			doActionNum = i
-			//scBehaviour = sc_player_attack_set
 			tgX = mouse_x
 			tgY = mouse_y
 			sc_player_attack_set()
@@ -59,4 +58,4 @@ if keys[i+k.action1] {
 	}
 }
 if not ok
-	doActionNum = 0
+	doActionNum = -1

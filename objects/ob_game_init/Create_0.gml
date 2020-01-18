@@ -271,9 +271,21 @@ globalvar pokemon_path;		pokemon_path = "pokedex.ini"
 globalvar pokemon_list;		pokemon_list = ds_map_create()
 globalvar pokemon_list_count
 
+var _arr = 0
+globalvar element_table;
+element_table = array_create(_ELEMENTAL.count-1)
+for (var i=0; i<array_length_1d(element_table); i++)
+	element_table[i] = array_create(3, _ELEMENTAL.none)
+
 ini_open(pokemon_path)
 	ds_map_read(pokemon_list, ini_read_string("pokemons", "pokemon_list", ""))
 	pokemon_list_count = ds_map_size(pokemon_list)
+	// load element table =========================================================
+	for (var i=0; i<array_length_1d(element_table); i++) {
+		_arr = array_from_string( ini_read_string("element_table", string(i), "0"))
+		element_table[i] = _arr
+	}
+	//=============================================================================
 ini_close()
 
 globalvar current_pokemon;	current_pokemon = ds_map_create()

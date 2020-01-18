@@ -5,10 +5,9 @@ var _a_map = action_list[| doActionNum]
 switch (_a_map[? "type"]) {
 	case _ATTACK_TYPE.lunge:
 //		timeout = 24
-//		canMove = false
+		canMove = false
 		sc_player_stop_set()
 		attack_ob_id = instance_create_layer(x, y, "Particles", ob_attack_lunge)
-		
 		direction = point_direction(x, y, tgX, tgY)
 		tgAngle = direction
 		moveSpeed = pokemon_map[? "ap"] * 0.66
@@ -18,12 +17,14 @@ switch (_a_map[? "type"]) {
 		break
 	case _ATTACK_TYPE.range:
 		attack_ob_id = instance_create_layer(x, y, "Particles", ob_attack_range)
-		
 		direction = point_direction(x, y, tgX, tgY)
 		tgAngle = direction
-		
+		timeout = 5
+		canMove = false
+		sc_player_stop_set()
 		frameSpeed = 0
 		// set direction image
+		scBehaviour = sc_player_attack_range
 		sc_player_move()
 		break
 	default:

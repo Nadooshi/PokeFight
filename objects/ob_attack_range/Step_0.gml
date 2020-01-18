@@ -11,9 +11,9 @@ if not init {
 }
 
 if not instance_exists(bullet) 
-if image_index >= start_frame + 2 {
+if image_index >= start_frame {
 	// create bullet
-	bullet = instance_create_layer(x, y, "Particles", ob_bullet)
+	bullet = instance_create_layer(x, y+9, "Particles", ob_bullet)
 	bullet.action = action
 	bullet.pokemon_id = pokemon_id
 	bullet.hurt_time = hurt_time
