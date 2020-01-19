@@ -2,7 +2,7 @@
     "id": "db412bc7-4daa-46ee-b1ea-7669d1a4df11",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sp_for_stamina",
+    "name": "sp_for_power",
     "For3D": false,
     "HTile": false,
     "VTile": false,

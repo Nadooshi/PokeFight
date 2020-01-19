@@ -17,4 +17,4 @@ image_yscale = 1.5
 init = false
 
 bullet = noone
-hurt_time = 0
+hurt_time = 1

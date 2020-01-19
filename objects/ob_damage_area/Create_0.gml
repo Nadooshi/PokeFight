@@ -2,6 +2,7 @@
 
 radius = 0
 pokemon_id = noone
+action = noone
 hurt_time = 0
 timeout = -1
 

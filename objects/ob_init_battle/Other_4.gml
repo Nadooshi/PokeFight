@@ -9,6 +9,12 @@ with sc_create_player(_list[| i], player1_trainer) {
 		x = _start_area.bbox_left + random(_start_area.bbox_right  - _start_area.bbox_left)
 		y = _start_area.bbox_top  + random(_start_area.bbox_bottom - _start_area.bbox_top )
 	}
+	// set pokemon id for ob_pokeface
+	with ob_ui_pokeface_1
+	if index = i {
+		pokemon_id = other.id
+		break	
+	}
 }
 
 var _start_area = instance_find(ob_start_area, 1)
@@ -19,6 +25,12 @@ with sc_create_player(_list[| i], player2_trainer) {
 	while not place_meeting(x, y, ob_start_area) {
 		x = _start_area.bbox_left + random(_start_area.bbox_right  - _start_area.bbox_left)
 		y = _start_area.bbox_top  + random(_start_area.bbox_bottom - _start_area.bbox_top )
+	}
+	// set pokemon id for ob_pokeface
+	with ob_ui_pokeface_2
+	if index = i {
+		pokemon_id = other.id
+		break	
 	}
 }
 

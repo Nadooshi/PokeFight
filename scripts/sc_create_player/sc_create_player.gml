@@ -13,6 +13,8 @@ with instance_create_layer(0, 0, "Game", ob_player) {
 	pokemon_map = _map
 	shadowFrame = pokemon_map[? "size"]
 	dAngle = 5 - pokemon_map[? "size"]
+	health_max = pokemon_map[? "health"]
+	health_cur = health_max
 	_sp = asset_get_index("sp_pokeworld_" + string(pokemon_map[? "face"]))
 	if sprite_exists(_sp)
 		sprite_index = _sp

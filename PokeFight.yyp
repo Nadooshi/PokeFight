@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "1cec8cb1-00c6-481b-ae31-e593420ff35e",
+            "Value": {
+                "id": "1e8e97bd-8408-4650-a3ca-aa079c88dce0",
+                "resourcePath": "objects\\ob_bar\\ob_bar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1e8696c5-8650-4a2c-aeb1-f66b62bcfa9c",
             "Value": {
                 "id": "86d6323e-5961-4d05-86cf-6092b124b871",
@@ -372,14 +380,6 @@
                 "id": "7feef752-51fb-4451-8e73-a009b77a5d79",
                 "resourcePath": "views\\267eae5e-0971-4524-86d9-886278d58ec4.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "26c1f1b0-5a79-40fd-9a81-bd3f2174d649",
-            "Value": {
-                "id": "42672612-0013-40a0-a396-4d6ad1c5057c",
-                "resourcePath": "objects\\ob_bar_empty\\ob_bar_empty.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -482,7 +482,7 @@
             "Key": "3520e051-8df8-42b9-974c-ca695001b093",
             "Value": {
                 "id": "6324c31d-ffa1-41fd-9904-57bbb2425dac",
-                "resourcePath": "objects\\ob_bar_stamina\\ob_bar_stamina.yy",
+                "resourcePath": "objects\\ob_bar_power\\ob_bar_power.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -652,14 +652,6 @@
                 "id": "285e24b1-ee91-4ffe-b6ca-b16a78645216",
                 "resourcePath": "scripts\\sc_add_slot_composed\\sc_add_slot_composed.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "43e0986d-25d7-4935-9793-693f4cdd4362",
-            "Value": {
-                "id": "3ba6ba22-1e2e-4f76-ab01-c1e8ab08f282",
-                "resourcePath": "objects\\ob_bar_hurt\\ob_bar_hurt.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1994,7 +1986,7 @@
             "Key": "db412bc7-4daa-46ee-b1ea-7669d1a4df11",
             "Value": {
                 "id": "049af63d-5ced-4f7c-a949-cc7400bb776a",
-                "resourcePath": "sprites\\sp_for_stamina\\sp_for_stamina.yy",
+                "resourcePath": "sprites\\sp_for_power\\sp_for_power.yy",
                 "resourceType": "GMSprite"
             }
         },

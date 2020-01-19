@@ -1,14 +1,23 @@
 {
-    "id": "43e0986d-25d7-4935-9793-693f4cdd4362",
+    "id": "3520e051-8df8-42b9-974c-ca695001b093",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "ob_bar_hurt",
+    "name": "ob_bar_power",
     "eventList": [
-        
+        {
+            "id": "85eb1914-0818-4f4a-8860-f51f2e0ad827",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "3520e051-8df8-42b9-974c-ca695001b093"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "1cec8cb1-00c6-481b-ae31-e593420ff35e",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "2e5aa882-d413-44a2-b4f6-526b9d9583d1",
+    "spriteId": "db412bc7-4daa-46ee-b1ea-7669d1a4df11",
     "visible": true
 }
