@@ -31,6 +31,19 @@ switch (_a_map[? "type"]) {
 		scBehaviour = sc_player_attack_range
 		sc_player_move()
 		break
+	case _ATTACK_TYPE.wave:
+		power_cur -= _a_map[? "ap"]
+		attack_ob_id = instance_create_layer(x, y, "Particles", ob_attack_wave)
+		direction = point_direction(x, y, tgX, tgY)
+		tgAngle = direction
+		timeout = 5
+		canMove = false
+		sc_player_stop_set()
+		frameSpeed = 0
+		// set direction image
+		scBehaviour = sc_player_attack_wave
+		sc_player_move()
+		break
 	default:
 //		timeout = 24
 //		canMove = false

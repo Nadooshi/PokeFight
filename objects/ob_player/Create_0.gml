@@ -46,12 +46,12 @@ dead = false
 
 power_max = 100
 power_cur = 100
-power_reg = 1
+power_reg = 0.5
 
 health_cur = 0
 health_max = 0
-health_reg = 1
+health_reg = 0.3
 hurt_cur = 0
-hurt_reg = 1
+hurt_reg = 0.3
 
 trainer = noone
