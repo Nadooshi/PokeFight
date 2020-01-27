@@ -15,6 +15,8 @@ visible = false
 image_xscale = 1.5
 image_yscale = 1.5
 init = false
+shot_done = false
 
 bullet = noone
 hurt_time = 1
+

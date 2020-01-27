@@ -10,8 +10,9 @@ if not init {
 	visible = true
 }
 
-if not instance_exists(bullet) 
+if not shot_done
 if image_index >= start_frame {
+	shot_done = true
 	// create bullet
 	bullet = instance_create_layer(x, y+9, "Particles", ob_bullet_wave)
 	bullet.action = action
