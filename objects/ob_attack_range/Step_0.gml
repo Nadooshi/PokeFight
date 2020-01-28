@@ -1,17 +1,13 @@
 /// @desc 
 
-if not init {
-	init = true
+if not init 
+	event_perform(ev_other, ev_user0)
 
-	// for sprite with 4 directions inside
-	start_frame = dirframe[pokemon_id.dir]
-	stop_frame = start_frame + 4
-	image_index = start_frame
-	visible = true
-}
+event_inherited()
 
-if not shot_done
-if image_index >= start_frame {
+event_perform_object(object_get_parent(object_get_parent(object_index)), ev_step, ev_step_normal)
+
+if not shot_done {
 	shot_done = true
 	// create bullet
 	bullet = instance_create_layer(x, y+9, "Particles", ob_bullet)
@@ -25,9 +21,8 @@ if image_index >= start_frame {
 	bullet.image_blend = sc_make_attack_colour(action)
 }
 
-if image_index >= (stop_frame-0.2) {
+if anim_ended
 	instance_destroy()
-}
 
 x = pokemon_id.x
 y = pokemon_id.y

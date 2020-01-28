@@ -7,9 +7,9 @@ component_list[component_count++] = cmp_control_keyb
 event_inherited()
 
 enum d {
-	Left,
 	Right,
 	Up,
+	Left,
 	Down
 }
 

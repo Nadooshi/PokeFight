@@ -2,19 +2,8 @@
 
 event_perform_object(object_get_parent(object_get_parent(object_index)), ev_step, ev_step_normal)
 
-if not init {
-	init = true
-	
-	for (var i=0; i<dot_count; i++) {
-		dot[i] = instance_create_layer(x, y, "Particles", ob_damage_area)
-		with dot[i] {
-			action = other.action
-			pokemon_id = other.pokemon_id
-			hurt_time = other.hurt_time
-		}		
-	}
-	
-}
+if not init 
+	event_perform(ev_other, ev_user0)
 
 size += d_size
 image_xscale = size * 1.5
@@ -37,7 +26,7 @@ if instance_exists(dot[i]) {
 }
 
 if _collided
-	event_perform(ev_other, ev_user0)
+	event_perform(ev_other, ev_user1)
 
 timeout--
 if timeout<=0 {

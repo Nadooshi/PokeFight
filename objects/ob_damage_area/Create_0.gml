@@ -1,5 +1,10 @@
 /// @desc 
 
+component_count = 0
+component_list[component_count++] = cmp_animated
+
+event_inherited()
+
 radius = 0
 pokemon_id = noone
 action = noone

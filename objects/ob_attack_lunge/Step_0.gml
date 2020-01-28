@@ -1,24 +1,9 @@
 /// @desc 
 
-if not init {
-	init = true
-	pokemon_id.canMove = false
-	
-	start_frame = dirframe[pokemon_id.dir]
-	stop_frame = start_frame + 4
-	image_index = start_frame
-	visible = true
-	
-	bullet = instance_create_layer(x, y, "Particles", ob_damage_area)
-	bullet.action = action
-	bullet.radius = (action[? "radius"] + 1) * 8
-	bullet.pokemon_id = pokemon_id
-	bullet.hurt_time = hurt_time
-}
+if not init 
+	event_perform(ev_other, ev_user0)
 
-// loop anim
-if image_index >= (stop_frame-0.2)
-	image_index = start_frame
+event_perform_object(object_get_parent(object_get_parent(object_index)), ev_step, ev_step_normal)
 
 // move damage_area along
 x = pokemon_id.x

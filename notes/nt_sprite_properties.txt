@@ -3,7 +3,7 @@ sp_sprite___e4r
 
 e - should play until animation ends
 l - loopable
-4 - frames in animation (used for sprites containing diff directions inside)
+4 - 4 directions in animation (used for sprites containing diff directions inside)
 r - rotatable
 
 
