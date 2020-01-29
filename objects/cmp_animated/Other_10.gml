@@ -32,6 +32,7 @@ if p_4dir {
 
 	start_frame = dirframe[dir]
 	stop_frame = start_frame + frame_count 
+	image_angle = 0
 }
 
 // stable

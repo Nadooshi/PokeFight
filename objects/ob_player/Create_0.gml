@@ -35,6 +35,9 @@ tgAngle = 0
 dAngle = 0
 tgX = 0
 tgY = 0 
+oX = 0
+oY = 0
+
 attack_ob_id = noone
 
 scBehaviour = noone
