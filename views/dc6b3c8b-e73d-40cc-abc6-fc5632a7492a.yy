@@ -41,7 +41,13 @@
         "212200e1-376b-49ab-a629-f5c395af41dd",
         "f0ab6e3a-6686-4d2c-8e81-3a6702ca7a0a",
         "feef1b91-e8da-440d-ac1f-f09422ac7b24",
-        "f2b5ea7c-32d8-47ae-bea8-0ee22d1779af"
+        "f2b5ea7c-32d8-47ae-bea8-0ee22d1779af",
+        "454a79ff-5938-4e08-82c1-b88a7115259b",
+        "bbc238c0-367d-4467-8c91-6b4bdb207625",
+        "12761638-287d-410c-98df-72b1ea12cd6a",
+        "2c913c16-34dc-4900-b705-1d3f203b1407",
+        "2077396e-c1cc-4fcd-9530-7976d4a1d2f7",
+        "32a2a823-72cb-4c22-9f68-c02347c98467"
     ],
     "filterType": "GMSprite",
     "folderName": "Attacks",
