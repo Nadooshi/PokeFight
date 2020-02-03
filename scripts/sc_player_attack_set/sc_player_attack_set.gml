@@ -23,12 +23,11 @@ switch (_a_map[? "type"]) {
 		attack_ob_id = instance_create_layer(x, y, "Particles", ob_attack_range)
 		direction = point_direction(x, y, tgX, tgY)
 		tgAngle = direction
-		timeout = 5
 		canMove = false
 		sc_player_stop_set()
 		frameSpeed = 0
 		// set direction image
-		scBehaviour = sc_player_attack_range
+		scBehaviour = sc_player_attack_wait_anim
 		sc_player_move()
 		break
 	case _ATTACK_TYPE.wave:
@@ -36,12 +35,11 @@ switch (_a_map[? "type"]) {
 		attack_ob_id = instance_create_layer(x, y, "Particles", ob_attack_wave)
 		direction = point_direction(x, y, tgX, tgY)
 		tgAngle = direction
-		timeout = 5
 		canMove = false
 		sc_player_stop_set()
 		frameSpeed = 0
 		// set direction image
-		scBehaviour = sc_player_attack_wave
+		scBehaviour = sc_player_attack_wait_anim
 		sc_player_move()
 		break
 	case _ATTACK_TYPE.front:
@@ -62,6 +60,18 @@ switch (_a_map[? "type"]) {
 		oY = y
 		x = x + cos(degtorad(-direction)) * -2
 		y = y + sin(degtorad(-direction)) * -2
+		break
+	case _ATTACK_TYPE.mortar:
+		power_cur -= _a_map[? "ap"]
+		attack_ob_id = instance_create_layer(x, y, "Particles", ob_attack_mortar)
+		direction = point_direction(x, y, tgX, tgY)
+		tgAngle = direction
+		canMove = false
+		sc_player_stop_set()
+		frameSpeed = 0
+		// set direction image
+		scBehaviour = sc_player_attack_wait_anim
+		sc_player_move()
 		break
 	default:
 //		timeout = 24

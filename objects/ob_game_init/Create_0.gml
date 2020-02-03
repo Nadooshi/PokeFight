@@ -1,4 +1,5 @@
 /// @desc Init globals
+randomize()
 #region Elemental
 
 enum _ELEMENTAL {
@@ -255,7 +256,7 @@ globalvar trainer_inv_size; trainer_inv_size = 16;
 globalvar popup_appeared; popup_appeared = false
 
 //////////////////////////////////
-randomize()
+
 globalvar trainer_preset; trainer_preset = sc_new_trainer()
 trainer_preset[? "avatar"]	= irandom(sprite_get_number(sp_trainer_avatar))   // image_index from sp_trainer_avatar
 

@@ -53,8 +53,8 @@ power_reg = 0.5
 
 health_cur = 0
 health_max = 0
-health_reg = 0.3
+health_reg = 0.5
 hurt_cur = 0
-hurt_reg = 0.3
+hurt_reg = 0.5
 
 trainer = noone

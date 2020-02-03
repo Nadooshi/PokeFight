@@ -9,9 +9,11 @@
         "64047b3f-8666-4084-931a-ce403f64cfa5",
         "22af975e-8109-4665-af8e-bc9bb2fce064",
         "c8f9d951-f005-4e90-a41f-19e1e0915e6c",
+        "4b2b1eef-0125-4fa2-b79a-6d82933cde07",
         "ad96c59b-ad1b-4491-9a31-70b312cb92ab",
         "2353eae8-7b6e-4ac2-9600-5628a82c2a48",
-        "e3db269b-79a7-4d40-83d3-7c4911dc674d"
+        "e3db269b-79a7-4d40-83d3-7c4911dc674d",
+        "7faa6521-10f7-41c0-89bd-37f3a0c863cd"
     ],
     "filterType": "GMObject",
     "folderName": "attacks",

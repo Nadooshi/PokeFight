@@ -23,6 +23,3 @@ if not shot_done {
 
 if anim_ended
 	instance_destroy()
-
-x = pokemon_id.x
-y = pokemon_id.y

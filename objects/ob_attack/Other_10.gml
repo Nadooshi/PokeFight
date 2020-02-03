@@ -22,7 +22,7 @@ switch action[? "type"]{
 	}
 	default: _d = 1
 }
-show_debug_message("hutr_time: " + string(_d))
+
 hurt_time = _d
 event_inherited()
 

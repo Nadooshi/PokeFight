@@ -615,14 +615,6 @@
             }
         },
         {
-            "Key": "34aa742a-03d9-416a-976d-21f390c74837",
-            "Value": {
-                "id": "ea3204f7-c6e0-4f31-8511-a3d673b24e51",
-                "resourcePath": "scripts\\sc_player_attack_wave\\sc_player_attack_wave.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "3520e051-8df8-42b9-974c-ca695001b093",
             "Value": {
                 "id": "6324c31d-ffa1-41fd-9904-57bbb2425dac",
@@ -818,7 +810,7 @@
             "Key": "454a79ff-5938-4e08-82c1-b88a7115259b",
             "Value": {
                 "id": "db51c9c6-21bc-4993-a5f6-2e894bdd4869",
-                "resourcePath": "sprites\\sp_attack_23___4\\sp_attack_23___4.yy",
+                "resourcePath": "sprites\\sp_attack_23___4L\\sp_attack_23___4L.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -899,6 +891,14 @@
             "Value": {
                 "id": "580c3763-74c8-44f5-a0e6-61d29fe88eca",
                 "resourcePath": "objects\\ob_ui_pokeface_1\\ob_ui_pokeface_1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4b2b1eef-0125-4fa2-b79a-6d82933cde07",
+            "Value": {
+                "id": "335fa2e4-b123-4a39-b4fa-f3547c7608cb",
+                "resourcePath": "objects\\ob_attack_mortar\\ob_attack_mortar.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1476,6 +1476,14 @@
                 "id": "fabd26b5-c516-475b-bca7-d1f3997cf32f",
                 "resourcePath": "views\\7f33e191-5cee-46fb-af60-220887ee9428.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7faa6521-10f7-41c0-89bd-37f3a0c863cd",
+            "Value": {
+                "id": "b81804d0-c849-4c2a-a649-511918fc6939",
+                "resourcePath": "objects\\ob_bullet_mortar\\ob_bullet_mortar.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2762,7 +2770,7 @@
             "Key": "f04ebb66-617a-4625-a1e3-a1f461efc1e1",
             "Value": {
                 "id": "bd4813ed-a4df-491e-9de1-e37b0cfd21fb",
-                "resourcePath": "scripts\\sc_player_attack_range\\sc_player_attack_range.yy",
+                "resourcePath": "scripts\\sc_player_attack_wait_anim\\sc_player_attack_wait_anim.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2975,7 +2983,6 @@
         "04b7c0db-fa1f-4c12-a37f-e591aab1ab21",
         "4152033c-86a4-476f-ad5f-e29a17ee3dab",
         "f04ebb66-617a-4625-a1e3-a1f461efc1e1",
-        "34aa742a-03d9-416a-976d-21f390c74837",
         "90786cc3-21b8-418a-80f0-265b89c5a591"
     ],
     "tutorial": ""
