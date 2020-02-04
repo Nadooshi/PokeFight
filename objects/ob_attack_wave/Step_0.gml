@@ -3,7 +3,7 @@
 if not init 
 	event_perform(ev_other, ev_user0)
 	
-event_perform_object(object_get_parent(object_get_parent(object_index)), ev_step, ev_step_normal)
+event_perform_object(ob_composed, ev_step, ev_step_normal)
 
 if not shot_done {
 	shot_done = true

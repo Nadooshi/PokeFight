@@ -11,7 +11,7 @@ with instance_create_layer(0, 0, "Game", ob_player) {
 	_result = id
 	trainer = _trainer
 	pokemon_map = _map
-	shadowFrame = pokemon_map[? "size"]
+	size = pokemon_map[? "size"]
 	dAngle = 5 - pokemon_map[? "size"]
 	health_max = pokemon_map[? "health"]
 	health_cur = health_max

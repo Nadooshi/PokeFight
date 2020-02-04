@@ -236,20 +236,115 @@ attack_target_text[_ATTACK_TG.underground] = "underground"
 #endregion
 
 //////////////////////////////////
+
+#region States
+
+enum _ABILITY_STATE {
+	incineration,  // горение
+	burn,          // ожог
+	bleed,
+	leech,
+	poison,
+	paralyze,
+	powerup,       // +1 к атаке
+	weak,
+	speedup,       // +1 к ОД
+	slowdown,
+	trap,
+	random,
+	lulling,       // усыпление
+	stun,          // ошеломление
+	terror,        // ужас
+	flee,          // escape.mid
+	wastetime,
+	disgust,
+	target,
+	loser,         // неуклюжесть
+	knockdown,     // отдача. толчок с падением
+	blast,
+	revenge,
+	kamikaze,
+	mindcontrol,   // гипноз
+	confusion,     // смущение
+	telekinesis,
+	teleport,
+	meleeup,
+	rangeup,
+	heal,
+	medicine,
+	cure,
+	clear,         // снятие эффектов
+	confidence,    // уверенность
+	reflect,
+	block,
+	mirror,
+	mutual,	
+	wreck,
+	barrier,
+	count
+}
+globalvar ability_text;
+i=0
+ability_text[i++] = "incineration"  // горение
+ability_text[i++] = "burn"          // ожог
+ability_text[i++] = "bleed"
+ability_text[i++] = "leech"
+ability_text[i++] = "poison"
+ability_text[i++] = "paralyze"
+ability_text[i++] = "powerup"       // +1 к атаке
+ability_text[i++] = "weak"
+ability_text[i++] = "speedup"       // +1 к ОД
+ability_text[i++] = "slowdown"
+ability_text[i++] = "trap"
+ability_text[i++] = "random"
+ability_text[i++] = "lulling"       // усыпление
+ability_text[i++] = "stun"          // ошеломление
+ability_text[i++] = "terror"        // ужас
+ability_text[i++] = "flee"          // escape.mid
+ability_text[i++] = "wastetime"
+ability_text[i++] = "disgust"
+ability_text[i++] = "target"
+ability_text[i++] = "loser"         // неуклюжесть
+ability_text[i++] = "knockdown"     // отдача. толчок с падением
+ability_text[i++] = "blast"
+ability_text[i++] = "revenge"
+ability_text[i++] = "kamikaze"
+ability_text[i++] = "mindcontrol"   // гипноз
+ability_text[i++] = "confusion"     // смущение
+ability_text[i++] = "telekinesis"
+ability_text[i++] = "teleport"
+ability_text[i++] = "meleeup"
+ability_text[i++] = "rangeup"
+ability_text[i++] = "heal"
+ability_text[i++] = "medicine"
+ability_text[i++] = "cure"
+ability_text[i++] = "clear"         // снятие эффектов
+ability_text[i++] = "confidence"    // уверенность
+ability_text[i++] = "reflect"
+ability_text[i++] = "block"
+ability_text[i++] = "mirror"
+ability_text[i++] = "mutual"	
+ability_text[i++] = "wreck"
+ability_text[i++] = "barrier"
+
+#endregion
+
+//////////////////////////////////
 enum _SIZE {
 	tiny,
 	normal,
 	big,
-	giant
+	giant,
+	immobile
 }
 globalvar size_text var;
 size_text[_SIZE.tiny	] = "tiny"
 size_text[_SIZE.normal	] = "normal"
 size_text[_SIZE.big		] = "big"
 size_text[_SIZE.giant	] = "giant"
+size_text[_SIZE.immobile] = "immobile"
 
 //////////////////////////////////
-
 
 globalvar trainer_inv_size; trainer_inv_size = 16;
 

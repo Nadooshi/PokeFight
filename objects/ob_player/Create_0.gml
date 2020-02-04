@@ -2,6 +2,7 @@
 component_count = 0
 component_list[component_count++] = cmp_moving
 component_list[component_count++] = cmp_control_keyb
+component_list[component_count++] = cmp_collidable
 
 
 event_inherited()
@@ -29,7 +30,7 @@ dir = d.Right
 
 frame = 0
 frameSpeed = 0
-shadowFrame = 0
+
 
 tgAngle = 0
 dAngle = 0
@@ -42,6 +43,7 @@ attack_ob_id = noone
 
 scBehaviour = noone
 
+init = false
 selected = false
 timeout = 0
 hurt_timeout = 0  // timeout after taking damage (sec)
