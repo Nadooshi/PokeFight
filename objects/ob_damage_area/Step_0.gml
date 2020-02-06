@@ -4,6 +4,7 @@ var _trainer = pokemon_id.trainer
 var _d = 0
 
 ds_list_clear(last_damaged)
+
 with ob_player 
 if trainer != _trainer {
 	_d = distance_to_point(other.x, other.y)

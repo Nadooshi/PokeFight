@@ -9,7 +9,7 @@ var _info = ""
 
 var _action = argument0,
 	_p_target = argument1
-	
+
 var _dmg
 _dmg[0, _e.element ] = _action[? "dmg_element"]
 _dmg[1, _e.element ] = _action[? "dmg_element"]
@@ -53,6 +53,14 @@ for (var _pe = 0; _pe < 2; _pe++)
 for (var _ae = 0; _ae < 2; _ae++) 
 	result += _dmg[_pe, _ae]
 result *= 0.5
+
+// apply state x2,x3,x4
+var _abil = _action[? "active"]
+if not is_undefined(_abil)
+if ds_exists(_abil, ds_type_map) {
+	show_debug_message(_abil[? "name"])
+}
+
 show_debug_message(_info + "\n" + string(result))
 
 return result

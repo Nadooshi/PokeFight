@@ -26,8 +26,8 @@ switch (_a_map[? "type"]) {
 		canMove = false
 		sc_player_stop_set()
 		frameSpeed = 0
-		// set direction image
 		scBehaviour = sc_player_attack_wait_anim
+		// set direction image
 		sc_player_move()
 		break
 	case _ATTACK_TYPE.wave:
@@ -38,10 +38,23 @@ switch (_a_map[? "type"]) {
 		canMove = false
 		sc_player_stop_set()
 		frameSpeed = 0
-		// set direction image
 		scBehaviour = sc_player_attack_wait_anim
+		// set direction image
 		sc_player_move()
 		break
+	case _ATTACK_TYPE.melee:
+		power_cur -= _a_map[? "ap"]
+		direction = point_direction(x, y, tgX, tgY)
+		attack_ob_id = instance_create_layer(x, y, "Particles", ob_attack_melee)
+		attack_ob_id.direction = direction
+		tgAngle = direction
+		canMove = false
+		sc_player_stop_set()
+		frameSpeed = 0
+		scBehaviour = sc_player_attack_wait_anim
+		// set direction image
+		sc_player_move()
+		break		
 	case _ATTACK_TYPE.front:
 		power_cur -= _a_map[? "ap"]
 		direction = point_direction(x, y, tgX, tgY)
@@ -52,8 +65,8 @@ switch (_a_map[? "type"]) {
 		canMove = false
 		sc_player_stop_set()
 		frameSpeed = 0
-		// set direction image
 		scBehaviour = sc_player_attack_front
+		// set direction image
 		sc_player_move()
 		// little lunge
 		oX = x
@@ -69,8 +82,35 @@ switch (_a_map[? "type"]) {
 		canMove = false
 		sc_player_stop_set()
 		frameSpeed = 0
-		// set direction image
 		scBehaviour = sc_player_attack_wait_anim
+		// set direction image
+		sc_player_move()
+		break
+	case _ATTACK_TYPE.aura:
+		power_cur -= _a_map[? "ap"]
+		direction = 270
+		attack_ob_id = instance_create_layer(x, y, "Particles", ob_attack_aura)
+		attack_ob_id.direction = 0
+		tgAngle = direction
+//		timeout = 10
+		canMove = false
+		sc_player_stop_set()
+		frameSpeed = 0
+		scBehaviour = sc_player_attack_wait_anim
+		// set direction image
+		sc_player_move()
+		break
+	case _ATTACK_TYPE.pool:
+		power_cur -= _a_map[? "ap"]
+		direction = point_direction(x, y, tgX, tgY)
+		attack_ob_id = instance_create_layer(x, y, "Particles", ob_attack_pool)
+		attack_ob_id.direction = 0
+		tgAngle = direction
+		canMove = false
+		sc_player_stop_set()
+		frameSpeed = 0
+		scBehaviour = sc_player_attack_wait_anim
+		// set direction image
 		sc_player_move()
 		break
 	default:

@@ -43,11 +43,10 @@ attack_ob_id = noone
 
 scBehaviour = noone
 
-init = false
 selected = false
 timeout = 0
 hurt_timeout = 0  // timeout after taking damage (sec)
-dead = false
+//dead = false
 
 power_max = 100
 power_cur = 100

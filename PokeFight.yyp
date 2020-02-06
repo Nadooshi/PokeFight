@@ -791,6 +791,14 @@
             }
         },
         {
+            "Key": "42a6a004-2eb1-444f-8bd4-35093436a395",
+            "Value": {
+                "id": "1d64a1f5-def4-4d70-87a1-93d0be26c2cc",
+                "resourcePath": "objects\\ob_attack_aura\\ob_attack_aura.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "43007b37-96cd-4ed2-bde4-f6e0d34963e2",
             "Value": {
                 "id": "db0253da-da45-4ba5-b077-e16e08f9b553",
@@ -1111,6 +1119,14 @@
             }
         },
         {
+            "Key": "5e6773d5-e61e-486d-8ae9-1e03f823cc59",
+            "Value": {
+                "id": "4409bab5-3333-49ed-8ff0-c4919d97eeb1",
+                "resourcePath": "objects\\ob_attack_pool\\ob_attack_pool.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "60786f5b-7e99-4c72-8a5c-715b62136ccc",
             "Value": {
                 "id": "d831dabf-6881-4662-b1cc-af9b41fafb5d",
@@ -1180,6 +1196,14 @@
                 "id": "a23d2d27-b4f5-4a02-a476-5ba6ded0751f",
                 "resourcePath": "sprites\\sp_pr_attack_4\\sp_pr_attack_4.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "64da6b96-c4d3-40d3-af5f-074a524eb912",
+            "Value": {
+                "id": "16fe3731-f939-4b05-be61-c10ab0b36cb5",
+                "resourcePath": "objects\\ob_damage_area_pool\\ob_damage_area_pool.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2327,6 +2351,14 @@
             }
         },
         {
+            "Key": "cb3d0e27-d784-4f75-869d-1309805098f8",
+            "Value": {
+                "id": "6c759ae7-98d8-471c-a922-3d1837310e8a",
+                "resourcePath": "objects\\ob_bullet_pool\\ob_bullet_pool.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc5de42c-b71d-4c0f-a1d6-4675f94820cf",
             "Value": {
                 "id": "3d57f359-6b58-48ad-b2dc-c27bd5bffc0c",
@@ -2876,6 +2908,14 @@
                 "id": "a46418af-1149-44ba-9257-de1b16c0fe6f",
                 "resourcePath": "sprites\\sp_pokeworld_37\\sp_pokeworld_37.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "faa13b71-6988-4423-a891-03e1645c9351",
+            "Value": {
+                "id": "345d9f82-bb6d-47d4-bff0-0242a1a74e83",
+                "resourcePath": "objects\\ob_attack_melee\\ob_attack_melee.yy",
+                "resourceType": "GMObject"
             }
         },
         {

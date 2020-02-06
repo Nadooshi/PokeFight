@@ -4,6 +4,7 @@ init = true
 pokemon_id.canMove = false
 dir = pokemon_id.dir
 
+// init hurt_time
 if action[? "damage"] > 0
 switch action[? "type"]{
 	case _ATTACK_TYPE.melee:
