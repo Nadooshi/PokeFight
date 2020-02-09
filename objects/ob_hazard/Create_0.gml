@@ -1,8 +1,6 @@
 /// @desc
 
 component_count = 0
-component_list[component_count++] = cmp_collidable
+component_list[component_count++] = cmp_hazard
 
 event_inherited();
-
-size = _SIZE.immobile

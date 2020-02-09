@@ -1519,6 +1519,14 @@
             }
         },
         {
+            "Key": "81717c0e-eb76-4aef-af26-19627acf18dc",
+            "Value": {
+                "id": "f0a195cd-c98c-4e4c-9fdf-6bec35c689af",
+                "resourcePath": "objects\\cmp_hazard\\cmp_hazard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "81e90ae1-66a4-497c-a212-c66e7c4e1351",
             "Value": {
                 "id": "d310ef6e-6801-4793-8b3b-0f64591c4cbd",

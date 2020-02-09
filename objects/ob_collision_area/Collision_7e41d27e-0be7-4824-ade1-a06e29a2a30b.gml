@@ -1,17 +1,13 @@
 /// @desc
 
-var _dir = point_direction(other.x, other.y, x, y)
-collided = other.id
-other.collided = id
+var _dir = point_direction(x, y, other.x, other.y)
 
-//if other.parent.size != _SIZE.immobile {
-	if parent.size <= other.parent.size {
-		x += cos(degtorad(_dir)) //* 10
-		y += sin(degtorad(_dir)) //* 10
-//		x -= lengthdir_x(10, _dir)
-//		y -= lengthdir_y(10, _dir)
-		parent.x = x
-		parent.y = y
-	}
-	//show_message(string(_dir))
-//}
+if parent.size >= other.parent.size {
+	var _amount = other.parent.moveSpeed//coll_force
+	if variable_instance_exists(parent, "maxSpeed")
+		_amount = parent.maxSpeed
+	other.x += lengthdir_x(_amount, _dir)
+	other.y += lengthdir_y(_amount, _dir)
+	with other.parent
+		event_perform(ev_other, ev_user1)
+}
