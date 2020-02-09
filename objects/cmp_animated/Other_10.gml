@@ -4,6 +4,8 @@ var _asset = noone
 var _asset_name = ""
 var _props = ""
 
+init = true
+
 if sprite_exists(sprite_index) {
 	_sp_name = sprite_get_name(sprite_index)
 	_asset = sprite_index - 1

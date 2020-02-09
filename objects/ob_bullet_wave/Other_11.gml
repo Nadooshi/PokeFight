@@ -1,5 +1,7 @@
 /// @desc Has collided
 
+event_inherited()
+
 var _dot_alive = false,
 	_chain_count = 0,
 	_chain_x = 0,

@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "110374af-c2a1-42b1-8671-0f09a372243d",
+            "Value": {
+                "id": "92f9bfd9-b575-47cd-b65a-07ebd20b8ebb",
+                "resourcePath": "views\\110374af-c2a1-42b1-8671-0f09a372243d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "11ea2f9e-2417-4cce-99ba-1757ca92ba08",
             "Value": {
                 "id": "3e28d9ca-3035-43c9-a512-d10331ab5176",
@@ -1522,7 +1530,7 @@
             "Key": "81717c0e-eb76-4aef-af26-19627acf18dc",
             "Value": {
                 "id": "f0a195cd-c98c-4e4c-9fdf-6bec35c689af",
-                "resourcePath": "objects\\cmp_hazard\\cmp_hazard.yy",
+                "resourcePath": "objects\\cmp_collidable_hazard\\cmp_collidable_hazard.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2060,6 +2068,14 @@
                 "id": "a23d58fd-0972-4cd1-980c-394e56a76fc7",
                 "resourcePath": "sprites\\sp_pokeworld_34\\sp_pokeworld_34.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b1621ebc-57e4-4125-8732-5697366a4b3a",
+            "Value": {
+                "id": "47ebe945-5d22-46ae-b945-f6d3ff2025a8",
+                "resourcePath": "objects\\cmp_collidable_bullet\\cmp_collidable_bullet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2755,6 +2771,14 @@
             "Value": {
                 "id": "3dafeb23-b5bf-4420-b714-39f44070c83a",
                 "resourcePath": "objects\\ob_init_battle\\ob_init_battle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "eaadb309-9d03-46f6-85ea-8c9d18cdbd68",
+            "Value": {
+                "id": "e9d1a6ea-9d67-431a-b9d2-d7709dc050dc",
+                "resourcePath": "objects\\ob_bullet_range\\ob_bullet_range.yy",
                 "resourceType": "GMObject"
             }
         },

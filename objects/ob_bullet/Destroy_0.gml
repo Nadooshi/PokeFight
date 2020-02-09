@@ -1,5 +1,7 @@
 /// @desc 
 
+event_inherited()
+
 with instance_create_layer(x, y, "Particles", ob_damage_area) {
 	action = other.action
 	radius = (action[? "radius"] + 1) * 8
