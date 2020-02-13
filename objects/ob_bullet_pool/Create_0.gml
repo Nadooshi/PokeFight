@@ -1,21 +1,9 @@
-/// @desc 
 
-// Inherit the parent event
 
-component_count = 0
-//component_list[component_count++] = cmp_moving
-component_list[component_count++] = cmp_animated
+event_inherited()
 
-event_inherited();
+//component_list[component_count++] = cmp_collidable_bullet
+//event_perform_object(cmp_collidable_bullet, ev_create, 0)
 
-action = noone
-pokemon_id = 0
-hurt_time = 0
-timeout = 0
-
-init = false
-
+damage_period = 40
 moveSpeed = 0
-image_xscale = 1.5
-image_yscale = 1.5
-

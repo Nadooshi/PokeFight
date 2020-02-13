@@ -1207,14 +1207,6 @@
             }
         },
         {
-            "Key": "64da6b96-c4d3-40d3-af5f-074a524eb912",
-            "Value": {
-                "id": "16fe3731-f939-4b05-be61-c10ab0b36cb5",
-                "resourcePath": "objects\\ob_damage_area_pool\\ob_damage_area_pool.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "65c557e2-0639-4953-ba4a-078e075bb575",
             "Value": {
                 "id": "72a2bc7f-bcf7-41aa-991e-7df2d27cb79f",
