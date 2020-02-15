@@ -14,6 +14,8 @@ dirframe[d.Down ] = 0
 p_looped = false
 p_4dir   = false
 p_stable = false  // not turning
-
+p_ray	 = false
 init = false
- 
+
+sx = 0
+sy = 0

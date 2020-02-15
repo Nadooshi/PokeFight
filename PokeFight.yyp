@@ -863,6 +863,14 @@
             }
         },
         {
+            "Key": "473a7b2d-e579-4eb2-a66f-4421c7da5d83",
+            "Value": {
+                "id": "3ee568c8-485b-4bba-8c7d-84d0acfc07b4",
+                "resourcePath": "objects\\ob_particle\\ob_particle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "48e508a2-a77d-48af-9bc2-b4ba190da606",
             "Value": {
                 "id": "c6d5376c-a91c-4e70-97e5-1a73642e12bf",
@@ -1763,6 +1771,14 @@
             "Value": {
                 "id": "4bd91589-938b-4596-a864-ce0188c9b9d3",
                 "resourcePath": "sprites\\sp_pokeworld_30\\sp_pokeworld_30.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9940ca05-4db7-4258-8745-125197922be8",
+            "Value": {
+                "id": "48ba065f-081f-4af1-a809-09fff53439fe",
+                "resourcePath": "sprites\\sp_pr_attack_27___R\\sp_pr_attack_27___R.yy",
                 "resourceType": "GMSprite"
             }
         },

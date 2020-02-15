@@ -9,6 +9,20 @@ if p_looped {
 		image_index = start_frame
 
 } else {
-	if image_index >= (stop_frame-0.2) 
+	if image_index >= (stop_frame-0.2)
 		anim_ended = true
 }
+
+if p_ray 
+if point_distance(sx,sy, x, y) >= sprite_get_width(sprite_index) * image_xscale  * 0.5 - 1 {
+	sx = x
+	sy = y
+	with instance_copy(false) {
+		instance_change(ob_particle, false)
+		sprite_index = other.sprite_index
+		event_perform(ev_create, 0)
+		image_speed = 1
+		d_alpha = -0.015
+	}
+}
+

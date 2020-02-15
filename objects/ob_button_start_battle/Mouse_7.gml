@@ -3,11 +3,12 @@
 // Inherit the parent event
 event_inherited();
 
-if not ds_exists(player1_trainer, ds_type_map)
+if not ds_exists(player1_trainer, ds_type_map) or
+   not ds_exists(player2_trainer, ds_type_map) {
+	show_message("Choose trainer, please!")
 	exit
-
-if not ds_exists(player2_trainer, ds_type_map) 
-	player2_trainer = sc_new_trainer()
+}
+//	player2_trainer = sc_new_trainer()
 
 // reload trainers
 sc_clear_trainer(player1_trainer); player1_trainer = sc_new_trainer()

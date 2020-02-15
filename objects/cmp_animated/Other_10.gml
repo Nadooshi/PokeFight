@@ -18,6 +18,7 @@ if sprite_exists(sprite_index) {
 		p_looped = string_pos("L", _props) > 0
 		p_4dir   = string_pos("4", _props) > 0
 		p_stable = string_pos("S", _props) > 0
+		p_ray	 = string_pos("R", _props) > 0
 	}
 }
 
@@ -40,5 +41,12 @@ if p_4dir {
 // stable
 if p_stable
 	image_angle = 0
+
+// ray (repeatable)
+if p_ray {
+	sx = x
+	sy = y
+	image_alpha = 0
+}
 
 image_index = start_frame
