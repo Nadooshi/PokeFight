@@ -15,7 +15,8 @@ enum k {
 	_count,
 }
 
-keys = [k._count]
+keys[k._count] = false
+keys_before[k._count] = false
 
 keyCodes[k.Left , 0] = ord("A");	keyCodes[k.Left , 1] = 0
 keyCodes[k.Right, 0] = ord("D");	keyCodes[k.Right, 1] = 0

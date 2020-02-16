@@ -1007,6 +1007,14 @@
             }
         },
         {
+            "Key": "56c0caf8-f50c-475d-80f0-c005791fbe50",
+            "Value": {
+                "id": "f1e69ad9-893a-456a-8938-468004a8a7ec",
+                "resourcePath": "scripts\\sc_composed_remove_all_components\\sc_composed_remove_all_components.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "57984b4d-d0c5-4750-87ba-bf025dce9ff1",
             "Value": {
                 "id": "a64ce617-e353-4bc5-a353-32000023b6d9",
@@ -1243,6 +1251,14 @@
             "Value": {
                 "id": "6b8e7a9a-9636-4bf8-b5c1-b3a65054716a",
                 "resourcePath": "sprites\\sp_pr_attack_7\\sp_pr_attack_7.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6873cbd7-90f1-4a9f-bc5e-41ebca1089de",
+            "Value": {
+                "id": "7289436f-048d-4f4b-bb42-e4286a7c9856",
+                "resourcePath": "sprites\\sp_holeworld_splash\\sp_holeworld_splash.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1527,6 +1543,14 @@
             }
         },
         {
+            "Key": "8006204c-7b62-463d-bd66-4148ee938f7c",
+            "Value": {
+                "id": "8a18bb47-3ca7-4be2-bb1f-bb0ffab4bef6",
+                "resourcePath": "scripts\\sc_composed_remove_component\\sc_composed_remove_component.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "81717c0e-eb76-4aef-af26-19627acf18dc",
             "Value": {
                 "id": "f0a195cd-c98c-4e4c-9fdf-6bec35c689af",
@@ -1715,6 +1739,14 @@
             "Value": {
                 "id": "7e2248f3-0146-4852-9213-0f286877cd2e",
                 "resourcePath": "scripts\\sc_add_slot_caught_pokemon\\sc_add_slot_caught_pokemon.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "95b44820-a82a-4736-975c-80aa98edcb07",
+            "Value": {
+                "id": "178d0bba-47a3-472c-854e-9e07414e20d3",
+                "resourcePath": "scripts\\sc_composed_add_component\\sc_composed_add_component.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3062,6 +3094,9 @@
         "317b708a-0f50-4816-b980-f5efb7aefdf8",
         "689e8af4-5fca-41ec-8d17-9658345285ef",
         "eb3a8c6f-4c0e-4416-83f2-5a826d5d9a60",
+        "95b44820-a82a-4736-975c-80aa98edcb07",
+        "8006204c-7b62-463d-bd66-4148ee938f7c",
+        "56c0caf8-f50c-475d-80f0-c005791fbe50",
         "81e90ae1-66a4-497c-a212-c66e7c4e1351",
         "430ca95d-a3a2-427f-bd99-389ed5f1ec9d",
         "93ff6dea-7a26-4696-8107-8c8925fe1a26",

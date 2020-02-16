@@ -6,6 +6,8 @@ if not selected
 if not canMove
 	exit
 
+array_copy(keys_before, 0, keys, 0, array_length_1d(keys))
+
 for (var i=0; i<k._count; i++) 
 switch (keyCodes[i, 1]) {
 	case 0:
@@ -59,10 +61,7 @@ if keys[i+k.action1] {
 if not ok
 	doActionNum = -1
 
-if keys[k.Bury] {
-	instance_change(ob_player_buried, false)
-	// preserve sprite
-	var _sp = asset_get_index("sp_pokeworld_" + string(pokemon_map[? "face"]))
-	if sprite_exists(_sp)
-		sprite_index = _sp
-}
+if keys[k.Bury] and not keys_before[k.Bury]
+	event_perform(ev_other, ev_user2)
+
+

@@ -1,7 +1,6 @@
 /// @desc 
 
-component_count = 0
-component_list[component_count++] = cmp_animated
+sc_composed_add_component(cmp_animated)
 
 event_inherited()
 

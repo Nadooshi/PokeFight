@@ -8,3 +8,6 @@ if alpha <= 0
 	instance_destroy()
 else 
 	image_alpha = sqrt(alpha)
+
+if anim_ended
+	instance_destroy()

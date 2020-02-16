@@ -1,9 +1,8 @@
 /// @desc
-component_count = 0
-component_list[component_count++] = cmp_moving
-component_list[component_count++] = cmp_control_keyb
-component_list[component_count++] = cmp_collidable_player
 
+sc_composed_add_component(cmp_moving)
+sc_composed_add_component(cmp_control_keyb)
+sc_composed_add_component(cmp_collidable_player)
 
 event_inherited()
 
