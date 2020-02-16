@@ -11,6 +11,7 @@ enum k {
 	action4,
 	action5,
 	action6,
+	Bury,
 	_count,
 }
 
@@ -26,6 +27,7 @@ keyCodes[k.action3, 0] = ord("Q");	keyCodes[k.action3, 1] = 0
 keyCodes[k.action4, 0] = ord("E");	keyCodes[k.action4, 1] = 0
 keyCodes[k.action5, 0] = ord("R");	keyCodes[k.action5, 1] = 0
 keyCodes[k.action6, 0] = ord("F");	keyCodes[k.action6, 1] = 0
+keyCodes[k.Bury , 0] = vk_control;	keyCodes[k.Bury , 1] = 0
 
 
 dirangle[d.Left ] = 180

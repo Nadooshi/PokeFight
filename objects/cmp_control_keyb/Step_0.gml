@@ -16,7 +16,6 @@ switch (keyCodes[i, 1]) {
 		break
 }
 
-
 var newangle = 0
 var dcount = 0
 if keys[k.Left ] { newangle += dirangle[d.Left ]; dcount++ }
@@ -59,3 +58,11 @@ if keys[i+k.action1] {
 }
 if not ok
 	doActionNum = -1
+
+if keys[k.Bury] {
+	instance_change(ob_player_buried, false)
+	// preserve sprite
+	var _sp = asset_get_index("sp_pokeworld_" + string(pokemon_map[? "face"]))
+	if sprite_exists(_sp)
+		sprite_index = _sp
+}

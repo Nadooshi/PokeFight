@@ -2,7 +2,7 @@
     "id": "febc03d2-c89d-46ab-b87e-4460af027c30",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "cmp_collidable",
+    "name": "cmp_collidable_player",
     "eventList": [
         {
             "id": "cb374177-9235-4fa7-987f-475b8129bd20",

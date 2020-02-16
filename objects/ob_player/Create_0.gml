@@ -2,7 +2,7 @@
 component_count = 0
 component_list[component_count++] = cmp_moving
 component_list[component_count++] = cmp_control_keyb
-component_list[component_count++] = cmp_collidable
+component_list[component_count++] = cmp_collidable_player
 
 
 event_inherited()

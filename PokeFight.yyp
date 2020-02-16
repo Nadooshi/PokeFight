@@ -2127,6 +2127,14 @@
             }
         },
         {
+            "Key": "b2d8110a-4668-4eb4-a399-d1c2e91fa4c2",
+            "Value": {
+                "id": "72d85929-0aa4-46ff-9616-219cb2200f58",
+                "resourcePath": "sprites\\sp_holeworld\\sp_holeworld.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b3b2406f-d9ac-4eb3-86cb-dbb16d41f0c4",
             "Value": {
                 "id": "ecccf78f-7968-42be-91cf-6161f43855aa",
@@ -2308,6 +2316,14 @@
                 "id": "1cc8042f-ebdd-4515-bdb0-28348215a428",
                 "resourcePath": "sprites\\sp_pokeworld_25\\sp_pokeworld_25.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c8c44091-9a83-4eb8-a4c5-6bd4bd432352",
+            "Value": {
+                "id": "a8716378-cfd2-4be7-878c-9cc4bbbaddf0",
+                "resourcePath": "objects\\ob_player_buried\\ob_player_buried.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3026,7 +3042,7 @@
             "Key": "febc03d2-c89d-46ab-b87e-4460af027c30",
             "Value": {
                 "id": "13d9ebcd-b1e4-494c-a5c9-19ce08865569",
-                "resourcePath": "objects\\cmp_collidable\\cmp_collidable.yy",
+                "resourcePath": "objects\\cmp_collidable_player\\cmp_collidable_player.yy",
                 "resourceType": "GMObject"
             }
         },
