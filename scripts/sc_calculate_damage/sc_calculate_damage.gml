@@ -48,19 +48,64 @@ if is_array(_p_target_elem[_pe]) {
 	}
 }
 
+var potential_damage = 0
 var result = 0
 for (var _pe = 0; _pe < 2; _pe++) 
 for (var _ae = 0; _ae < 2; _ae++) 
-	result += _dmg[_pe, _ae]
-result *= 0.5
+	potential_damage += _dmg[_pe, _ae]
+potential_damage *= 0.5
+result = potential_damage // previously
 
 // apply state x2,x3,x4
+var _mlt = 1
+var _mlt_rate = 0
+var _r_ = 0
 var _abil = _action[? "active"]
+var	_d_rate = 0
 if not is_undefined(_abil)
 if ds_exists(_abil, ds_type_map) {
-	show_debug_message(_abil[? "name"])
+	_mlt = _abil[? "multiply"]
+	_mlt_rate = 25 * (_abil[? "multiply_rate"] +1)
+	
+	switch _mlt {
+		case 1: break;
+		case 2: {
+			_r_ = random_range(1,100)
+			if _r_ <= _mlt_rate
+				potential_damage *= 2
+			break;
+		}
+		case 3:{
+			_d_rate = (100 - _mlt_rate) / 2
+			_r_ = random_range(1,100)
+			if _r_ <= (_mlt_rate + _d_rate) {
+				potential_damage *= 2
+				_r_ = random_range(1,100)
+				if _r_ <= _mlt_rate
+					potential_damage += result
+			}
+			break;
+		}
+		case 4: {
+			_d_rate = (100 - _mlt_rate) / 3
+			_r_ = random_range(1,100)
+			if _r_ <= (_mlt_rate + _d_rate * 2) {
+				potential_damage *= 2
+				_r_ = random_range(1,100)
+				if _r_ <= (_mlt_rate + _d_rate) {
+					potential_damage += result
+					_r_ = random_range(1,100)
+					if _r_ <= _mlt_rate
+						potential_damage += result
+				}
+			}
+			break;
+		}
+	}
 }
+//-----------------------------------------------------
 
+result = potential_damage
 show_debug_message(_info + "\n" + string(result))
 
 return result

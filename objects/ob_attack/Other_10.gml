@@ -10,7 +10,7 @@ switch action[? "type"]{
 	case _ATTACK_TYPE.melee:
 	case _ATTACK_TYPE.front: {
 		_d = (action[? "damage"] * 0.01)
-		if _d < 0.3 _d = 0.3
+		if _d < 0.5 _d = 0.5
 		break
 	}
 	case _ATTACK_TYPE.range:
@@ -18,7 +18,7 @@ switch action[? "type"]{
 	case _ATTACK_TYPE.mortar:
 	case _ATTACK_TYPE.lunge:{
 		_d = (action[? "damage"] * 0.01)
-		if _d < 0.1 _d = 0.1	
+		if _d < 0.5 _d = 0.5	
 		break
 	}
 	default: _d = 1

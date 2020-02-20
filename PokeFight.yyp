@@ -1023,6 +1023,14 @@
             }
         },
         {
+            "Key": "57ab2e82-f3cb-46bb-8ad2-51f093c94543",
+            "Value": {
+                "id": "2fbf86bc-5681-4a9d-bc98-d0f3c758aa11",
+                "resourcePath": "sprites\\sp_poke_dead\\sp_poke_dead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "58377902-2721-4c9e-87e4-1e217c783b70",
             "Value": {
                 "id": "755480b8-ea21-4b52-91b9-886e0284926e",
