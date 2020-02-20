@@ -1,5 +1,7 @@
 /// @desc 
 
+event_inherited()
+
 sc_clear_pokemon(pokemon_map)
 ds_map_destroy(pokemon_map)
 
@@ -15,3 +17,12 @@ for(var i=0; i< ds_list_size(action_list); i++) {
 }
 
 ds_list_destroy(action_list)
+
+with instance_create_depth(x, y, depth, ob_explosion) {
+	sprite_index = other.sprite_index
+	image_index  = other.image_index
+	image_xscale = other.image_xscale
+	image_yscale = other.image_yscale
+	init_image_index = image_index
+	init_sprite_index = sprite_index
+}
