@@ -1,7 +1,8 @@
 /// @desc Bury
 
 instance_change(ob_player, false)
-event_perform_object(ob_player_buried, ev_destroy, 0)
+
+event_perform_object(ob_player_flying, ev_destroy, 0)
 
 sc_composed_add_component(cmp_collidable_player, true)
 

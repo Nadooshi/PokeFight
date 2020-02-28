@@ -1799,6 +1799,14 @@
             }
         },
         {
+            "Key": "9830b5f7-aa77-4a77-8ee6-1a828ff3a708",
+            "Value": {
+                "id": "280dd7f8-814b-48e6-90e5-9ded620d5111",
+                "resourcePath": "objects\\ob_player_flying\\ob_player_flying.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "987310e3-1b43-4063-9712-41fdf254a1e8",
             "Value": {
                 "id": "5dc0898a-e7ec-4c49-a54d-529c78a41df8",

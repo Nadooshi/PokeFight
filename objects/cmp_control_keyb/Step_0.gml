@@ -55,12 +55,12 @@ if keys[i+k.action1] {
 	}
 	break;
 }
-//if not ok
-//	doActionNum = -1
 
 // bury
-if canMove
-if keys[k.Bury] and not keys_before[k.Bury]
-	event_perform(ev_other, ev_user2)
-
+if canMove {
+	if keys[k.Bury] and not keys_before[k.Bury]
+		event_perform(ev_other, ev_user2)
+	if keys[k.Fly ] and not keys_before[k.Fly ]
+		event_perform(ev_other, ev_user4)
+}
 
