@@ -12,6 +12,7 @@ if hurt_timeout > 0 {
 }
 
 if canMove
+if attack_warmup <= 0
 if power_cur < power_max
 	power_cur += power_reg
 
@@ -21,3 +22,13 @@ if hurt_cur > 0 {
 		health_cur += health_reg
 }
 
+if attack_warmup > 0 {
+	attack_warmup -= dTime
+	// charge is over
+	if attack_warmup <= 0 {
+		tgX = mouse_x
+		tgY = mouse_y
+		sc_player_attack_set()
+		doActionNum = -1
+	}
+}

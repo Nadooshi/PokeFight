@@ -17,7 +17,7 @@ pokemon_map = ds_map_create()
 action_list = ds_list_create()
 
 doMove = false
-doActionNum = 0
+doActionNum = -1
 canMove = true
 
 dirframe[d.Right] = 0
@@ -56,5 +56,7 @@ health_max = 0
 health_reg = 0.5
 hurt_cur = 0
 hurt_reg = 0.5
+
+attack_warmup = 0   // sec
 
 trainer = noone

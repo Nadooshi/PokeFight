@@ -1,13 +1,13 @@
 
 
+if doActionNum < 0 exit
+
 var _a_map = action_list[| doActionNum]
 
-
-if _a_map[? "ap"] > power_cur exit
+if not ds_exists(_a_map, ds_type_map) exit
 
 switch (_a_map[? "type"]) {
 	case _ATTACK_TYPE.lunge:
-		power_cur -= _a_map[? "ap"]
 		canMove = false
 		sc_player_stop_set()
 		attack_ob_id = instance_create_layer(x, y, "Particles", ob_attack_lunge)
@@ -19,7 +19,6 @@ switch (_a_map[? "type"]) {
 		scBehaviour = sc_player_attack_lunge
 		break
 	case _ATTACK_TYPE.range:
-		power_cur -= _a_map[? "ap"]
 		attack_ob_id = instance_create_layer(x, y, "Particles", ob_attack_range)
 		direction = point_direction(x, y, tgX, tgY)
 		tgAngle = direction
@@ -31,7 +30,6 @@ switch (_a_map[? "type"]) {
 		sc_player_move()
 		break
 	case _ATTACK_TYPE.wave:
-		power_cur -= _a_map[? "ap"]
 		attack_ob_id = instance_create_layer(x, y, "Particles", ob_attack_wave)
 		direction = point_direction(x, y, tgX, tgY)
 		tgAngle = direction
@@ -43,7 +41,6 @@ switch (_a_map[? "type"]) {
 		sc_player_move()
 		break
 	case _ATTACK_TYPE.melee:
-		power_cur -= _a_map[? "ap"]
 		direction = point_direction(x, y, tgX, tgY)
 		attack_ob_id = instance_create_layer(x, y, "Particles", ob_attack_melee)
 		attack_ob_id.direction = direction
@@ -56,7 +53,6 @@ switch (_a_map[? "type"]) {
 		sc_player_move()
 		break		
 	case _ATTACK_TYPE.front:
-		power_cur -= _a_map[? "ap"]
 		direction = point_direction(x, y, tgX, tgY)
 		attack_ob_id = instance_create_layer(x, y, "Particles", ob_attack_front)
 		attack_ob_id.direction = direction
@@ -75,7 +71,6 @@ switch (_a_map[? "type"]) {
 		y = y + sin(degtorad(-direction)) * -2
 		break
 	case _ATTACK_TYPE.mortar:
-		power_cur -= _a_map[? "ap"]
 		attack_ob_id = instance_create_layer(x, y, "Particles", ob_attack_mortar)
 		direction = point_direction(x, y, tgX, tgY)
 		tgAngle = direction
@@ -87,7 +82,6 @@ switch (_a_map[? "type"]) {
 		sc_player_move()
 		break
 	case _ATTACK_TYPE.aura:
-		power_cur -= _a_map[? "ap"]
 		direction = 270
 		attack_ob_id = instance_create_layer(x, y, "Particles", ob_attack_aura)
 		attack_ob_id.direction = 0
@@ -101,7 +95,6 @@ switch (_a_map[? "type"]) {
 		sc_player_move()
 		break
 	case _ATTACK_TYPE.pool:
-		power_cur -= _a_map[? "ap"]
 		direction = point_direction(x, y, tgX, tgY)
 		attack_ob_id = instance_create_layer(x, y, "Particles", ob_attack_pool)
 		attack_ob_id.direction = 0
@@ -127,4 +120,5 @@ with attack_ob_id {
 	sprite_index = asset_get_index(_a_map[? "anim"])
 	image_blend = sc_make_attack_colour(_a_map)
 }
+
 

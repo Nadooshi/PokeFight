@@ -45,22 +45,21 @@ doMove = (dcount > 0)
 var ok = false
 for (i=0; i<6; i++)
 if keys[i+k.action1] {
-	ok = true
 	if doActionNum = -1 {
 		var _a_map = action_list[| i]
 		if not is_undefined(_a_map) {
-			doActionNum = i
-			tgX = mouse_x
-			tgY = mouse_y
-			sc_player_attack_set()
 			ok = true
-			break
+			doActionNum = i
+			event_perform(ev_other, ev_user3)
 		}
 	}
+	break;
 }
-if not ok
-	doActionNum = -1
+//if not ok
+//	doActionNum = -1
 
+// bury
+if canMove
 if keys[k.Bury] and not keys_before[k.Bury]
 	event_perform(ev_other, ev_user2)
 
