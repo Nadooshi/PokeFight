@@ -117,6 +117,7 @@ switch (_a_map[? "type"]) {
 with attack_ob_id {
 	action = _a_map
 	pokemon_id = other.id
+	_z = other._z
 	sprite_index = asset_get_index(_a_map[? "anim"])
 	image_blend = sc_make_attack_colour(_a_map)
 }

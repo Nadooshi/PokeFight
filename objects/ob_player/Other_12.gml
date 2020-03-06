@@ -1,5 +1,6 @@
 /// @desc Bury
 
+if pokemon_map[? "digable"] != 0
 if power_cur >= power_max {
 	power_cur = 0
 	instance_change(ob_player_buried, false)

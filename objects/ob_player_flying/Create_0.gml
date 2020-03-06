@@ -8,5 +8,6 @@ if sprite_exists(_sp)
 _z = 16
 o_maxSpeed = maxSpeed
 maxSpeed *= 1.33
+frameSpeed = 0.1
 
-sc_player_stop_set()
+scBehaviour = sc_player_stop_set

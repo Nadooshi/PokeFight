@@ -1,5 +1,6 @@
 /// @desc Fly
 
+if pokemon_map[? "flyable"] != 0
 if power_cur >= power_max {
 	power_cur = 0
 	instance_change(ob_player_flying, false)

@@ -3,8 +3,6 @@
 // Inherit the parent event
 event_inherited();
 
-init = true
-	
 for (var i=0; i<dot_count; i++) {
 	dot[i] = instance_create_layer(x, y, "Particles", ob_damage_area)
 	with dot[i] {

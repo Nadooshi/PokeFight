@@ -1,7 +1,4 @@
 /// @desc 
 
-//draw_set_color(c_red)
-//draw_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, true)
-//draw_set_color(c_white)
+draw_sprite_ext(sprite_index, image_index, x, y-_z, image_xscale, image_yscale, image_angle, image_blend, image_alpha)
 
-draw_self()

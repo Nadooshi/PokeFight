@@ -345,6 +345,13 @@ size_text[_SIZE.giant	] = "giant"
 size_text[_SIZE.immobile] = "immobile"
 
 //////////////////////////////////
+enum _POSITION {
+	underground,
+	ground,
+	fly
+}
+
+//////////////////////////////////
 
 globalvar trainer_inv_size; trainer_inv_size = 16;
 

@@ -17,3 +17,5 @@ bullet = noone
 hurt_time = 1
 
 dir = d.Right
+_z = 0
+

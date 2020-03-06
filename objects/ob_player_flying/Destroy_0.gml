@@ -7,6 +7,7 @@ if sprite_exists(_sp)
 
 frameSpeed = 0
 maxSpeed = o_maxSpeed
+_z = 0
 
 image_speed = 0
 

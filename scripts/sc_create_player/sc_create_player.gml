@@ -42,6 +42,17 @@ with instance_create_layer(0, 0, "Game", ob_player) {
 		ds_list_add(action_list, a_map)
 	}
 	ini_close()
+	
+	// set start position 
+	switch pokemon_map[? "position_stage"] {
+	case _POSITION.fly:
+		event_perform(ev_other, ev_user4)
+		break
+	case _POSITION.underground:
+		event_perform(ev_other, ev_user2)
+		break
+	}
+	
 }
 
 return _result

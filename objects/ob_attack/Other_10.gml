@@ -1,6 +1,5 @@
 /// @desc Init
 var _d = 0
-init = true
 pokemon_id.canMove = false
 dir = pokemon_id.dir
 

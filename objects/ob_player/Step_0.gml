@@ -1,6 +1,9 @@
 /// @desc 
-event_inherited()
 
+if not init
+	event_perform(ev_other, ev_user0)
+
+event_inherited()
 
 if script_exists(scBehaviour)
 	script_execute(scBehaviour)

@@ -37,6 +37,7 @@ tgX = 0
 tgY = 0 
 oX = 0
 oY = 0
+_z = 0
 
 attack_ob_id = noone
 

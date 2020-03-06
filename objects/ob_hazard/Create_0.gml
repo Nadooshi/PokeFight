@@ -16,8 +16,8 @@ var tile_h = tilemap_get_tile_height(tiles_id)
 var tiles_w_count = round((bbox_right -bbox_left) / tile_w) + 1
 var tiles_h_count = round((bbox_bottom-bbox_top ) / tile_h) + 1
 
-var _sx = bbox_left  div tile_w * tile_w
-var _sy = bbox_top div tile_h * tile_h
+var _sx = bbox_left div tile_w * tile_w
+var _sy = bbox_top  div tile_h * tile_h
 
 var _data = 0;
 for (var i=0; i<tiles_w_count; i++)
@@ -33,6 +33,4 @@ for (var j=0; j<tiles_h_count; j++) {
 		tiles_count++
 	}
 }
-
-show_debug_message(string(tiles_count))
 
