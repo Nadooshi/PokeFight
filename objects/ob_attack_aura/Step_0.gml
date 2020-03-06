@@ -5,7 +5,8 @@ if not init
 
 event_inherited()
 
-event_perform_object(ob_composed, ev_step, ev_step_normal)
+if instance_exists(bullet)
+	bullet.radius += d_radius
 
 if anim_ended
 	instance_destroy()
