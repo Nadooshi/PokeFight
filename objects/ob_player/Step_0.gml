@@ -29,6 +29,8 @@ if attack_warmup > 0 {
 	attack_warmup -= dTime
 	// charge is over
 	if attack_warmup <= 0 {
+		if object_index = ob_player_buried
+			event_perform(ev_other, ev_user2)
 		tgX = mouse_x
 		tgY = mouse_y
 		sc_player_attack_set()

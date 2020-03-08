@@ -2,4 +2,4 @@
 
 speed = moveSpeed
 
-depth = (room_height - bbox_bottom) * 0.5
+depth = (room_height - y) * 0.5

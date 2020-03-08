@@ -10,6 +10,7 @@ maxSpeed = o_maxSpeed
 _z = 0
 
 image_speed = 0
+position_stage = _ATTACK_TG.ground
 
 sc_player_stop_set()
 

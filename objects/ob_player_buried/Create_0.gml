@@ -9,3 +9,4 @@ sc_player_stop_set()
 
 o_maxSpeed = maxSpeed
 maxSpeed = 0.66
+position_stage = _ATTACK_TG.underground

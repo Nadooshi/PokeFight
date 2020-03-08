@@ -8,7 +8,8 @@ ds_list_clear(last_damaged)
 with ob_player 
 if trainer != _trainer {
 	_d = distance_to_point(other.x, other.y)
-	if _d < other.radius {
+	if _d < other.radius 
+	if (other.action[? "tgTo"] & position_stage) != 0 {
 		ds_list_add(other.last_damaged, id)
 		if hurt_timeout <= 0 {
 			hurt_timeout = other.hurt_time
@@ -17,7 +18,7 @@ if trainer != _trainer {
 			health_cur = max(0, health_cur - _dmg)
 			hurt_cur += _dmg
 			if health_cur = 0 
-				instance_destroy()
+				event_perform_object(ob_player, ev_destroy, 0)
 		}
 	}
 }

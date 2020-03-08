@@ -26,3 +26,5 @@ with instance_create_depth(x, y, depth, ob_explosion) {
 	init_image_index = image_index
 	init_sprite_index = sprite_index
 }
+
+instance_destroy(id, false)

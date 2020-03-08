@@ -61,3 +61,4 @@ hurt_reg = 0.5
 attack_warmup = 0   // sec
 
 trainer = noone
+position_stage = _ATTACK_TG.ground
