@@ -62,3 +62,6 @@ attack_warmup = 0   // sec
 
 trainer = noone
 position_stage = _ATTACK_TG.ground
+
+delayed_bullet = ds_list_create()
+

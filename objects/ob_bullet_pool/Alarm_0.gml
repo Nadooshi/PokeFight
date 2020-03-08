@@ -7,19 +7,14 @@ with ob_player
 if trainer != other.pokemon_id.trainer {
 	_d = distance_to_object(other)// (other.x, other.y, x, y)
 	if _d <= other.radius 
+	if (other.action[? "tgTo"] & position_stage) != 0 
 	with instance_create_layer(x, y, "Particles", ob_damage_area) {
 		action = _bullet.action
 		radius = 4
 		pokemon_id = _bullet.pokemon_id
 		hurt_time = _bullet.hurt_time
-		var _spr = asset_get_index(action[? "ex_anim"])
-		if sprite_exists(_spr) {
-			image_blend =  _bullet.image_blend	
-			sprite_index = _spr
-		} else {
-			timeout = 2
-			sprite_index = noone
-		}
+		image_blend =  _bullet.image_blend	
+		timeout = 1
 	}
 }
 

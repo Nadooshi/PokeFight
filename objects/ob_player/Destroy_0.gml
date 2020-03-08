@@ -17,6 +17,7 @@ for(var i=0; i< ds_list_size(action_list); i++) {
 }
 
 ds_list_destroy(action_list)
+ds_list_destroy(delayed_bullet)
 
 with instance_create_depth(x, y, depth, ob_explosion) {
 	sprite_index = other.sprite_index

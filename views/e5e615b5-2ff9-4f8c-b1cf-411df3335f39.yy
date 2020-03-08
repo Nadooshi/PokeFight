@@ -18,7 +18,8 @@
         "eaadb309-9d03-46f6-85ea-8c9d18cdbd68",
         "cb3d0e27-d784-4f75-869d-1309805098f8",
         "e3db269b-79a7-4d40-83d3-7c4911dc674d",
-        "7faa6521-10f7-41c0-89bd-37f3a0c863cd"
+        "7faa6521-10f7-41c0-89bd-37f3a0c863cd",
+        "6c889bce-341d-4956-81f9-2a484ca973ee"
     ],
     "filterType": "GMObject",
     "folderName": "attacks",
