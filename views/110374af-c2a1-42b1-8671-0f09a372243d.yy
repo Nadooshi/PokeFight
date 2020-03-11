@@ -11,7 +11,8 @@
         "72643bc6-8c45-4514-8c6f-cc4a41cffd87",
         "febc03d2-c89d-46ab-b87e-4460af027c30",
         "b1621ebc-57e4-4125-8732-5697366a4b3a",
-        "81717c0e-eb76-4aef-af26-19627acf18dc"
+        "81717c0e-eb76-4aef-af26-19627acf18dc",
+        "835f8dd4-6a56-4b73-aa5a-ad2216e13799"
     ],
     "filterType": "GMObject",
     "folderName": "components",

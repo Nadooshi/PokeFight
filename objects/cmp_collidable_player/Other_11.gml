@@ -1,4 +1,4 @@
-/// @desc After coliision
+/// @desc After collision
 
 var _dir = point_direction(coll_area.x, coll_area.y, collided_with.coll_area.x, collided_with.coll_area.y)
 

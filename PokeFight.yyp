@@ -1591,6 +1591,14 @@
             }
         },
         {
+            "Key": "835f8dd4-6a56-4b73-aa5a-ad2216e13799",
+            "Value": {
+                "id": "cd18844b-c3ea-4973-91c4-2f97444e712a",
+                "resourcePath": "objects\\cmp_collidable_player_air_buried\\cmp_collidable_player_air_buried.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "83a27748-70a5-42ba-b051-4f078428a9d6",
             "Value": {
                 "id": "1cfad7c6-8d49-46ce-b919-b9ad2f11f4c2",
