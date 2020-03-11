@@ -2431,6 +2431,14 @@
             }
         },
         {
+            "Key": "c9a0f36b-042d-4f63-a05b-c78a10f47469",
+            "Value": {
+                "id": "71ec0a7f-48c6-44e4-86b8-6948dafdef31",
+                "resourcePath": "sprites\\sp_holeworld_splash1\\sp_holeworld_splash1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c9cd6222-9928-4a9f-a223-74782851e51b",
             "Value": {
                 "id": "6aa01e97-726d-4ddf-a3d5-3c7d3cbafe56",
