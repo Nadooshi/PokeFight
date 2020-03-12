@@ -31,8 +31,8 @@ if attack_warmup > 0 {
 	if attack_warmup <= 0 {
 		if object_index = ob_player_buried
 			event_perform(ev_other, ev_user2)
-		tgX = mouse_x
-		tgY = mouse_y
+		tgX = ob_cursor.x
+		tgY = ob_cursor.y
 		sc_player_attack_set()
 		doActionNum = -1
 	}

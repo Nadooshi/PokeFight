@@ -15,7 +15,8 @@
         "12be4642-e1ef-48fd-a3b6-2f4077135339",
         "c8c44091-9a83-4eb8-a4c5-6bd4bd432352",
         "9830b5f7-aa77-4a77-8ee6-1a828ff3a708",
-        "e5e615b5-2ff9-4f8c-b1cf-411df3335f39"
+        "e5e615b5-2ff9-4f8c-b1cf-411df3335f39",
+        "8aeb0172-7294-46cb-a31c-8014337524a8"
     ],
     "filterType": "GMObject",
     "folderName": "Battle",
