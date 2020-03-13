@@ -1,7 +1,7 @@
 /// @desc
 
 sc_composed_add_component(cmp_moving)
-sc_composed_add_component(cmp_control_keyb)
+//sc_composed_add_component(cmp_control_keyb)
 sc_composed_add_component(cmp_collidable_player)
 
 event_inherited()
