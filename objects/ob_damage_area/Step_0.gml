@@ -1,5 +1,7 @@
 /// @desc 
 
+if not instance_exists(pokemon_id) exit;
+
 var _trainer = pokemon_id.trainer
 var _d = 0
 

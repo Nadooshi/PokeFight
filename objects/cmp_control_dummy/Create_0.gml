@@ -10,4 +10,4 @@ dirangle[d.Right] = 0
 dirangle[d.Up   ] = 90
 dirangle[d.Down ] = 270
 
-attack_timeout = 4
+attack_timeout = 0.4

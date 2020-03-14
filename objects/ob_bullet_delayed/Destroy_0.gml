@@ -1,6 +1,5 @@
 /// @desc 
 
-
 with instance_create_layer(x, y, "Particles", ob_damage_area) {
 	action = ds_map_create()
 	ds_map_copy(action, other.action)

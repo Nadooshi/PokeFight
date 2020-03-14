@@ -21,18 +21,31 @@ prev_doMove = doMove
 //	else
 //		scBehaviour = sc_player_stop_set
 //}
+var _enemy = 0
+var _tmp = 0 
+for (var i = 0; i < instance_number(ob_player); i++) {
+	_tmp = instance_find(ob_player, i)
+	if _tmp != id
+		if _tmp.trainer != trainer 
+		_enemy = _tmp
+}
 
-if instance_exists(selected_id)  {
-	direction = point_direction(x, y, selected_id.x, selected_id.y)
-	sc_player_move()
-	tgX = selected_id.x
-	tgY = selected_id.y
+
+if instance_exists(_enemy)  {
+	direction = point_direction(x, y, _enemy.x, _enemy.y)
+	if distance_to_object(_enemy) > 10
+		sc_player_move_set()
+	else 
+		sc_player_stop_set()
+	tgX = _enemy.x
+	tgY = _enemy.y
 	
 }
 //scBehaviour = sc_player_stop_set()
 
 if attack_timeout > 0 {
 	attack_timeout -= dTime
+	if instance_exists(_enemy)
 	if attack_timeout <= 0 {
 		doActionNum = random(ds_list_size(action_list))
 		// do attack
@@ -40,7 +53,7 @@ if attack_timeout > 0 {
 		if not is_undefined(_a_map)
 			event_perform(ev_other, ev_user3)
 		
-		attack_timeout = random_range(2, 15)
+		attack_timeout = random_range(0.5, 2)
 	}
 
 }

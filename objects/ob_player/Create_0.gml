@@ -50,7 +50,7 @@ hurt_timeout = 0  // timeout after taking damage (sec)
 
 power_max = 100
 power_cur = 100
-power_reg = 2 //0.5
+power_reg = 0.3
 
 health_cur = 0
 health_max = 0
