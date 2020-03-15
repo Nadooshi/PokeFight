@@ -115,7 +115,7 @@ switch (_a_map[? "type"]) {
 }
 
 with attack_ob_id {
-	action = _a_map
+	ds_map_copy(action, _a_map)
 	pokemon_id = other.id
 	_z = other._z
 	sprite_index = asset_get_index(_a_map[? "anim"])

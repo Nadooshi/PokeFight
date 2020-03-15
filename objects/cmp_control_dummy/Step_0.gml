@@ -21,7 +21,7 @@ prev_doMove = doMove
 //	else
 //		scBehaviour = sc_player_stop_set
 //}
-var _enemy = 0
+var _enemy = noone
 var _tmp = 0 
 for (var i = 0; i < instance_number(ob_player); i++) {
 	_tmp = instance_find(ob_player, i)
@@ -47,13 +47,12 @@ if attack_timeout > 0 {
 	attack_timeout -= dTime
 	if instance_exists(_enemy)
 	if attack_timeout <= 0 {
-		doActionNum = random(ds_list_size(action_list))
-		// do attack
-		var _a_map = action_list[| doActionNum]
-		if not is_undefined(_a_map)
+		if doActionNum = -1 {
+			doActionNum = irandom(ds_list_size(action_list)-1)
+			// do attack
 			event_perform(ev_other, ev_user3)
-		
-		attack_timeout = random_range(0.5, 2)
+		}		
+		attack_timeout = random_range(0.3, 1)
 	}
 
 }

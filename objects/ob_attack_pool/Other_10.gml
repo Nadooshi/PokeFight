@@ -4,7 +4,7 @@
 event_inherited();
 
 with instance_create_layer(x, y, "Particles", ob_bullet_pool) {
-	action = other.action
+	ds_map_copy(action, other.action)
 	radius = (action[? "radius"] + 1) * 8
 	pokemon_id = other.pokemon_id
 	hurt_time = other.hurt_time

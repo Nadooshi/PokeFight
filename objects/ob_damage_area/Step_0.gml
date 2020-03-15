@@ -43,7 +43,7 @@ if trainer != _trainer {
 				with _bullet {
 					pokemon_id_damaged = other.id
 					pokemon_id_attack = _damage_area.pokemon_id
-					action = _action
+					ds_map_copy(action, _action)
 					timeout = action[? "delay"]
 					hurt_time = _damage_area.hurt_time
 					image_blend  = _damage_area.image_blend
