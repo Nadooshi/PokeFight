@@ -3,7 +3,7 @@
 event_inherited()
 
 with instance_create_layer(x, y, "Particles", ob_damage_area) {
-	action = other.action
+	ds_map_copy(action, other.action)
 	radius = (action[? "radius"] + 1) * 8
 	pokemon_id = other.pokemon_id
 	hurt_time = other.hurt_time
@@ -17,3 +17,5 @@ with instance_create_layer(x, y, "Particles", ob_damage_area) {
 		sprite_index = noone
 	}
 }
+
+ds_map_destroy(action)

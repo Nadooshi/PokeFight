@@ -6,7 +6,7 @@ event_inherited()
 
 radius = 0
 pokemon_id = noone
-action = noone
+action = ds_map_create()
 hurt_time = 0
 timeout = -1
 

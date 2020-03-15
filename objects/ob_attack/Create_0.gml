@@ -4,7 +4,7 @@ sc_composed_add_component(cmp_animated)
 
 event_inherited()
 
-action = noone
+action = ds_map_create()
 pokemon_id = noone
 
 visible = false

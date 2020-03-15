@@ -5,7 +5,7 @@ sc_composed_add_component(cmp_animated)
 
 event_inherited();
 
-action = noone
+action = ds_map_create() // copy of pokemon action 
 pokemon_id = 0
 hurt_time = 0
 timeout = 0

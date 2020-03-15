@@ -9,7 +9,7 @@ if not shot_done {
 	shot_done = true
 	// create bullet
 	bullet = instance_create_layer(x, y+9, "Particles", ob_bullet_wave)
-	bullet.action = action
+	ds_map_copy(bullet.action, action)
 	bullet.pokemon_id = pokemon_id
 	bullet.hurt_time = hurt_time
 	bullet.timeout = 60 * 0.1 * action[? "range"] * 2

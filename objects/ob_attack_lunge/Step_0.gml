@@ -5,6 +5,10 @@ if not init
 
 event_perform_object(ob_composed, ev_step, ev_step_normal)
 
+if not instance_exists(pokemon_id) {
+	instance_destroy()
+	exit;
+}
 // move damage_area along
 x = pokemon_id.x
 y = pokemon_id.y
