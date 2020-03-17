@@ -21,31 +21,31 @@ prev_doMove = doMove
 //	else
 //		scBehaviour = sc_player_stop_set
 //}
-var _enemy = noone
+
 var _tmp = 0 
 for (var i = 0; i < instance_number(ob_player); i++) {
 	_tmp = instance_find(ob_player, i)
 	if _tmp != id
 		if _tmp.trainer != trainer 
-		_enemy = _tmp
+		target = _tmp
 }
 
 
-if instance_exists(_enemy)  {
-	direction = point_direction(x, y, _enemy.x, _enemy.y)
-	if distance_to_object(_enemy) > 10
+if instance_exists(target)  {
+	direction = point_direction(x, y, target.x, target.y)
+	if distance_to_object(target) > 6
 		sc_player_move_set()
 	else 
 		sc_player_stop_set()
-	tgX = _enemy.x
-	tgY = _enemy.y
+	tgX = target.x
+	tgY = target.y
 	
 }
 //scBehaviour = sc_player_stop_set()
 
 if attack_timeout > 0 {
 	attack_timeout -= dTime
-	if instance_exists(_enemy)
+	if instance_exists(target)
 	if attack_timeout <= 0 {
 		if doActionNum = -1 {
 			doActionNum = irandom(ds_list_size(action_list)-1)

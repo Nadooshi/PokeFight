@@ -1,4 +1,8 @@
 /// @desc Init
+
+if not instance_exists(pokemon_id)
+	exit
+
 var _d = 0
 pokemon_id.canMove = false
 dir = pokemon_id.dir

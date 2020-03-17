@@ -9,6 +9,7 @@ pokemon_id = noone
 action = ds_map_create()
 hurt_time = 0
 timeout = -1
+trainer = noone
 
 last_damaged = ds_list_create()
 

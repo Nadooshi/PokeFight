@@ -1,7 +1,6 @@
 /// @desc  Init
 
 // Inherit the parent event
-pokemon_id.canMove = false
 
 event_inherited();
 
