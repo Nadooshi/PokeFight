@@ -17,7 +17,7 @@ while not is_undefined(_name) {
 		if not is_undefined(map[? "active"]) {
 			var _map_abil = ds_map_create()
 			ds_map_read(_map_abil, ini_read_string("abilities", map[? "active"], ""))
-			if not is_undefined(_map_abil) and ds_exists(_map_abil, ds_type_map)
+			if sc_does_exist(_map_abil)
 				map[? "active"] = _map_abil
 		}
 		// set ui properties
@@ -37,7 +37,7 @@ for (var i=0; i<ds_list_size(current_pokemon[? "active_actions"]); i++) {
 		if not is_undefined(map[? "active"]) {
 			var _map_abil = ds_map_create()
 			ds_map_read(_map_abil, ini_read_string("abilities", map[? "active"], ""))
-			if not is_undefined(_map_abil) and ds_exists(_map_abil, ds_type_map)
+			if sc_does_exist(_map_abil)
 				map[? "active"] = _map_abil
 		}
 		index = i

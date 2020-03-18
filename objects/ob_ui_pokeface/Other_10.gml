@@ -3,7 +3,7 @@
 // Inherit the parent event
 event_inherited();
 
-if not is_undefined(list[| index]) and ds_exists(list[| index], ds_type_map) {
+if sc_does_exist(list[| index]) {
 	image_alpha = 1
 	image_index = ds_map_find_value(list[| index], "face")
 	//hint = string(image_index) + "; " + ds_map_find_value(list[| index], "title")

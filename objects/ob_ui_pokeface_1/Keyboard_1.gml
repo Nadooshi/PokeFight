@@ -4,7 +4,7 @@ var _i = keyboard_key-49
 if not (_i>=0 and _i<=5) exit
 
 var _map_id = noone
-if not is_undefined(list[| _i]) and ds_exists(list[| _i], ds_type_map) {
+if sc_does_exist(list[| _i]) {
 	selected = (_i = index)
 	_map_id = list[| index]
 	if selected 

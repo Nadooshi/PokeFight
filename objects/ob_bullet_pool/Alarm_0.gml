@@ -13,7 +13,6 @@ if trainer != other.trainer {
 		ds_map_copy(action, _bullet.action)
 		radius = 4
 		pokemon_id = _bullet.pokemon_id
-		trainer = other.trainer
 		hurt_time = _bullet.hurt_time
 		image_blend =  _bullet.image_blend	
 		timeout = 1

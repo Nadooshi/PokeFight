@@ -2,7 +2,7 @@
 
 //if not instance_exists(pokemon_id) exit;
 
-var b_trainer = trainer
+var _trainer = pokemon_id.trainer
 var _d = 0
 
 ds_list_clear(last_damaged)
@@ -12,7 +12,7 @@ var _damage_area = id
 var _ok = true
 
 with ob_player 
-if trainer != b_trainer {
+if trainer != _trainer {
 	_d = distance_to_point(other.x, other.y)
 	if _d < other.radius 
 	if (_action[? "tgTo"] & position_stage) != 0 {

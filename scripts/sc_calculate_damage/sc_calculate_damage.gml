@@ -7,8 +7,8 @@ enum _e {
 
 var _info = ""
 
-var _action = argument0,
-	_p_target = argument1
+var _action = argument0
+var	_p_target = argument1
 
 var _dmg
 _dmg[0, _e.element ] = _action[? "dmg_element"]
@@ -62,8 +62,9 @@ var _mlt_rate = 0
 var _r_ = 0
 var _abil = _action[? "active"]
 var	_d_rate = 0
-if not is_undefined(_abil)
-if ds_exists(_abil, ds_type_map) {
+
+
+if sc_does_exist(_abil) {
 	_mlt = _abil[? "multiply"]
 	_mlt_rate = 25 * (_abil[? "multiply_rate"] +1)
 	

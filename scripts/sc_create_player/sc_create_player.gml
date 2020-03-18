@@ -36,7 +36,7 @@ with instance_create_layer(0, 0, "Game", ob_player) {
 		if not is_undefined(a_map[? "active"]) {
 			var _map_abil = ds_map_create()
 			ds_map_read(_map_abil, ini_read_string("abilities", a_map[? "active"], ""))
-			if not is_undefined(_map_abil) and ds_exists(_map_abil, ds_type_map)
+			if sc_does_exist(_map_abil)
 				a_map[? "active"] = _map_abil
 		}
 		ds_list_add(action_list, a_map)

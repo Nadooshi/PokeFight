@@ -2,11 +2,7 @@
 
 var _a_map = action_list[| doActionNum]
 
-if is_undefined(_a_map) {
-	doActionNum = -1
-	exit
-}
-if not ds_exists(_a_map, ds_type_map) {
+if not sc_does_exist(_a_map) {
 	doActionNum = -1
 	exit
 }

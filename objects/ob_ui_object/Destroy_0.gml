@@ -1,4 +1,4 @@
 /// @desc
 
-if not is_undefined(map) and ds_exists(map, ds_type_map)
+if sc_does_exist(map)
 	ds_map_destroy(map)

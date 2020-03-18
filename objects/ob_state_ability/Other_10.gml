@@ -4,9 +4,9 @@
 event_inherited();
 
 if parameter_name != "" {
-	if not is_undefined(map) and ds_exists(map, ds_type_map) {
+	if sc_does_exist(map) {
 		var _abil = map[? "active"]
-		if not is_undefined(_abil) and ds_exists(_abil, ds_type_map) {
+		if sc_does_exist(_abil) {
 			image_index = _abil[? parameter_name]
 			hint = _abil[? "name"]
 		} else {
