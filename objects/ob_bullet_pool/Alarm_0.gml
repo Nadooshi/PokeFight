@@ -3,9 +3,8 @@
 var _d = 0
 var _bullet = id
 
-with ob_player 
+with ob_player {
 //if instance_exists(other.pokemon_id)
-if trainer != other.trainer {
 	_d = distance_to_object(other)// (other.x, other.y, x, y)
 	if _d <= other.radius
 	if (_bullet.action[? "tgTo"] & position_stage) != 0 

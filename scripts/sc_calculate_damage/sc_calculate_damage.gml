@@ -5,7 +5,7 @@ enum _e {
 	material = 1
 }
 
-var _info = ""
+//var _info = ""
 
 var _action = argument0
 var	_p_target = argument1
@@ -28,7 +28,7 @@ var _p_base_elem = 0
 _p_base_elem[_e.element ] = _p_target[? "elemental_type"]
 _p_base_elem[_e.material] = _p_target[? "material_type" ]
 
-_info = _action[? "name"] + "\n"
+//_info = _action[? "name"] + "\n"
 
 for (var _pe = 0; _pe < 2; _pe++) 
 if is_array(_p_target_elem[_pe]) {
@@ -36,14 +36,14 @@ if is_array(_p_target_elem[_pe]) {
 	for (var _ae = 0; _ae < 2; _ae++) {
 		var _dmg_coeff = 1
 		_dmg_coeff *= (_table_entry[0] == _elem_action[_ae]) ? 0.5 : 1
-			_info += elemental_text[_elem_action[_ae]] + " -> " + elemental_text[_p_base_elem[_pe]] + ". "
-			_info += "Coeff = " + string(_dmg_coeff) + "\n"
+			//_info += elemental_text[_elem_action[_ae]] + " -> " + elemental_text[_p_base_elem[_pe]] + ". "
+			//_info += "Coeff = " + string(_dmg_coeff) + "\n"
 		_dmg_coeff *= (_table_entry[1] == _elem_action[_ae]) ? 2 : 1
-			_info += elemental_text[_elem_action[_ae]] + " -> " + elemental_text[_p_base_elem[_pe]] + ". "
-			_info += "Coeff = " + string(_dmg_coeff) + "\n"
+			//_info += elemental_text[_elem_action[_ae]] + " -> " + elemental_text[_p_base_elem[_pe]] + ". "
+			//_info += "Coeff = " + string(_dmg_coeff) + "\n"
 		_dmg_coeff *= (_table_entry[2] == _elem_action[_ae]) ? 2 : 1
-			_info += elemental_text[_elem_action[_ae]] + " -> " + elemental_text[_p_base_elem[_pe]] + ". "
-			_info += "Coeff = " + string(_dmg_coeff) + "\n"
+			//_info += elemental_text[_elem_action[_ae]] + " -> " + elemental_text[_p_base_elem[_pe]] + ". "
+			//_info += "Coeff = " + string(_dmg_coeff) + "\n"
 		_dmg[_pe, _ae] = _dmg[_pe, _ae] * _dmg_coeff
 	}
 }
@@ -107,6 +107,6 @@ if sc_does_exist(_abil) {
 //-----------------------------------------------------
 
 result = potential_damage
-show_debug_message(_info + "\n" + string(result))
+//show_debug_message(_info + "\n" + string(result))
 
 return result
