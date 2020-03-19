@@ -19,6 +19,8 @@ switch action[? "type"]{
 	case _ATTACK_TYPE.wave:
 	case _ATTACK_TYPE.mortar:
 	case _ATTACK_TYPE.melee:
+	case _ATTACK_TYPE.cloud:
+	case _ATTACK_TYPE.barrier:
 	case _ATTACK_TYPE.front: {
 		_d = (action[? "damage"] * 0.01)
 		if _d < 0.5 _d = 0.5	

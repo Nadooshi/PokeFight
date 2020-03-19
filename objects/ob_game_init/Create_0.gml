@@ -352,7 +352,22 @@ enum _POSITION {
 }
 
 //////////////////////////////////
+enum _BULLET_PH {
+	custom,
+	soft,
+	b_by_b,
+	piercer,
+	bowl
+}
+globalvar bullet_physic_text
+var i = 0
+bullet_physic_text[i++] = "(Custom) Save position"
+bullet_physic_text[i++] = "Blow away by wind"
+bullet_physic_text[i++] = "Collision with bullet"
+bullet_physic_text[i++] = "Piercer players"
+bullet_physic_text[i++] = "Push players"
 
+//////////////////////////////////
 globalvar trainer_inv_size; trainer_inv_size = 16;
 
 globalvar popup_appeared; popup_appeared = false

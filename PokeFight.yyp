@@ -951,6 +951,14 @@
             }
         },
         {
+            "Key": "4ab10282-178b-4d13-9785-5149c619609a",
+            "Value": {
+                "id": "d1a9c000-693b-4869-ae28-803aed6fb42d",
+                "resourcePath": "objects\\ob_weather_control\\ob_weather_control.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4acddd97-de84-404a-9f19-1a503fb9ac84",
             "Value": {
                 "id": "580c3763-74c8-44f5-a0e6-61d29fe88eca",
@@ -1227,6 +1235,14 @@
             "Value": {
                 "id": "4409bab5-3333-49ed-8ff0-c4919d97eeb1",
                 "resourcePath": "objects\\ob_attack_pool\\ob_attack_pool.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5e8d1d12-9a07-4dad-8ecc-58e46abd2503",
+            "Value": {
+                "id": "20ec605e-b5c1-4c61-9fba-7b200128a1f5",
+                "resourcePath": "objects\\ob_bullet_cloud\\ob_bullet_cloud.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2179,6 +2195,14 @@
             "Value": {
                 "id": "4b9d708a-2492-4e3a-80dd-da48acae1580",
                 "resourcePath": "objects\\ob_button_check_pokemon\\ob_button_check_pokemon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ac36cee7-8d08-417c-b7c6-f805ba19a5b5",
+            "Value": {
+                "id": "74e81465-65fb-4175-b36d-be788c614792",
+                "resourcePath": "objects\\ob_attack_cloud\\ob_attack_cloud.yy",
                 "resourceType": "GMObject"
             }
         },

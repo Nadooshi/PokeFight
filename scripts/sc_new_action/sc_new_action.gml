@@ -4,6 +4,7 @@ var result = ds_map_create()
 
 result[? "name"			] = ""
 result[? "type"			] = _ATTACK_TYPE.melee
+result[? "bullet_phys"	] = _BULLET_PH.custom
 result[? "affect"		] = _ATTACK_AFFECT.enemy  // combination of _ATTACK_AFFECT
 result[? "range"		] =	0
 result[? "level"		] =	0
