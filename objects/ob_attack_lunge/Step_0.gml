@@ -12,8 +12,8 @@ if not instance_exists(pokemon_id) {
 // move damage_area along
 x = pokemon_id.x
 y = pokemon_id.y
-bullet.x = x + pokemon_id.hspeed * 3
-bullet.y = y + pokemon_id.vspeed * 3
+bullet.x = x + pokemon_id.hspeed * 6
+bullet.y = y + pokemon_id.vspeed * 6
 
 
 // sc_player_attack(_lunge)

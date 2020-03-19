@@ -11,6 +11,8 @@ hurt_time = 0
 timeout = -1
 
 last_damaged = ds_list_create()
+list_missed = ds_list_create()
+accuracy_done_for = noone
 
 image_xscale = 1.5
 image_yscale = 1.5

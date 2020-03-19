@@ -2,6 +2,7 @@
 
 with instance_create_layer(x, y, "Particles", ob_damage_area) {
 	ds_map_copy(action, other.action)
+	accuracy_done_for = other.pokemon_id_damaged
 	action[? "delay"] = 0
 	radius = 8
 	pokemon_id = other.pokemon_id_attack

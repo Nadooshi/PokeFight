@@ -9,11 +9,10 @@ event_perform_object(ob_composed, ev_step, ev_step_normal)
 
 if not shot_done {
 	var _t = 60 * 0.1 * action[? "range"]
-	_d = _t
-	if instance_exists(pokemon_id)
-		var _d = distance_to_point(pokemon_id.target.x, pokemon_id.target.y) / 3
-	 if _t > _d
-		_t = _d
+	var _d = 999
+	if instance_exists(pokemon_id.target)
+		_d = distance_to_point(pokemon_id.target.x, pokemon_id.target.y) / 3 + 8
+	 _t = min(_t, _d)
 		
 	shot_done = true
 	// create bullet
