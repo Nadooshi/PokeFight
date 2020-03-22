@@ -6,22 +6,6 @@ if not canMove
 array_copy(keys_before, 0, keys, 0, array_length_1d(keys))
 prev_doMove = doMove
 
-//var newangle = 0
-
-//// detect changes in control direction
-//if not prev_doMove {
-//	if doMove {
-//		direction = newangle
-//		tgAngle = direction
-//		scBehaviour = sc_player_move_set
-//	}
-//} else {
-//	if doMove
-//		tgAngle = newangle
-//	else
-//		scBehaviour = sc_player_stop_set
-//}
-
 var _tmp = 0 
 for (var i = 0; i < instance_number(ob_player); i++) {
 	_tmp = instance_find(ob_player, i)
@@ -29,7 +13,6 @@ for (var i = 0; i < instance_number(ob_player); i++) {
 		if _tmp.trainer != trainer 
 		target = _tmp
 }
-
 
 if instance_exists(target)  {
 	direction = point_direction(x, y, target.x, target.y)

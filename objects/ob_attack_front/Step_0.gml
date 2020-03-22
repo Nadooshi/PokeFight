@@ -7,6 +7,6 @@ event_inherited()
 
 event_perform_object(ob_composed, ev_step, ev_step_normal)
 
-if anim_ended or not instance_exists(pokemon_id)
+if anim_ended
 	instance_destroy()
 

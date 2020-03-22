@@ -8,7 +8,7 @@ if not sc_does_exist(_a_map) {
 }
 
 if (_a_map[? "tgFrom"] & position_stage) != 0 { 
-	if _a_map[? "ap"] < power_cur {
+	if _a_map[? "ap"] <= power_cur {
 		power_cur -= _a_map[? "ap"]
 		attack_warmup = _a_map[? "warmup"] + 0.001
 	} else 

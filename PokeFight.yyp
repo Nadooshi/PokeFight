@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "1707c176-87d5-4077-ae3f-89b1c40e0361",
+            "Value": {
+                "id": "9219035b-c963-48e3-9428-4607c6ffdc9b",
+                "resourcePath": "objects\\ob_barrier\\ob_barrier.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "17910f99-bce8-406c-8a6f-55459d4bd1d1",
             "Value": {
                 "id": "ffc77649-d294-4864-a312-63983146fc56",
@@ -1519,6 +1527,14 @@
             }
         },
         {
+            "Key": "762a1322-6fdd-49f7-be93-e775dfa33253",
+            "Value": {
+                "id": "77cf8b25-411d-4889-8f0e-d8f11c298214",
+                "resourcePath": "objects\\ob_attack_barrier\\ob_attack_barrier.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "76e2fab8-9233-4c9a-a8f4-03d248348b7b",
             "Value": {
                 "id": "f9aea4d3-ab89-408e-81c9-bef7fc2face0",
@@ -2308,14 +2324,6 @@
                 "id": "b08aaac8-1daa-4590-85b2-9e23b5d6da07",
                 "resourcePath": "objects\\ob_trade\\ob_trade.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "b2be4fce-9799-46f1-9fbb-4c0677201c00",
-            "Value": {
-                "id": "596363e0-2ac3-4bd3-9455-31083b9c8a2a",
-                "resourcePath": "scripts\\sc_player_shoot_set\\sc_player_shoot_set.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -3312,7 +3320,6 @@
         "111f8f08-ad8d-4af8-bc9c-52df8898a2b5",
         "c9cd6222-9928-4a9f-a223-74782851e51b",
         "4fae31fc-2f95-438b-a22f-eae950eafa8c",
-        "b2be4fce-9799-46f1-9fbb-4c0677201c00",
         "2051f44a-a5c8-4fd0-9dda-2b889b16fea8",
         "1ad2438c-c2c7-47dd-8c98-febe136ad70f",
         "04b7c0db-fa1f-4c12-a37f-e591aab1ab21",

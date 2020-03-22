@@ -13,7 +13,8 @@ var _ok = true
 if sc_does_exist(accuracy_done_for)
 	ds_list_add(last_damaged, accuracy_done_for)
 
-with ob_player {
+with ob_player
+if id != other.accuracy_done_for {
 	_d = distance_to_point(other.x, other.y)
 	if _d < other.radius {
 		if hurt_timeout <= 0
