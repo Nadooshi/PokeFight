@@ -16,7 +16,14 @@
         "2b682162-d1e1-4b2f-bbd7-13178c4eff1a",
         "ada0bca9-b1f9-4848-8d38-3e2b57e7d057",
         "514849c3-0834-4127-a777-abdf79310432",
-        "c4e2a3c7-0ec1-4842-a324-5ae7b32ebc66"
+        "c4e2a3c7-0ec1-4842-a324-5ae7b32ebc66",
+        "f779fec8-6902-4285-adc4-75b9adf61092",
+        "63a6d01a-ef1c-456d-a37d-1930eee4c91b",
+        "e283568f-36e0-422a-8a30-12f6100c32be",
+        "eeef32e3-9490-4f25-a6b6-08241886d302",
+        "cf521b83-5007-4494-89dd-2e0d70ea90f1",
+        "102afe8f-9549-4db0-8da6-db069258ea04",
+        "ab891e3b-c259-46d4-aa7d-6a6f6cf50cd6"
     ],
     "filterType": "GMSprite",
     "folderName": "Explodes",

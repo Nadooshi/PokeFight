@@ -6,7 +6,8 @@
     "children": [
         "10e9b668-81c8-4566-a349-c0c81f009a93",
         "4604cb95-e78f-4f30-90da-6839bcc5e242",
-        "fe76efee-1ab2-48db-94ea-e228dbfde2f4"
+        "fe76efee-1ab2-48db-94ea-e228dbfde2f4",
+        "663da458-0eff-4dc8-8141-9218620db786"
     ],
     "filterType": "GMSprite",
     "folderName": "Weather",

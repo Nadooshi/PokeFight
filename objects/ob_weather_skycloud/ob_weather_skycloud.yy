@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "ob_weather_skycloud",
     "eventList": [
-        
+        {
+            "id": "dfbb4ae4-2e00-45fb-9c85-c5ff2852875d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "3bacaac9-365b-447d-8f6d-23d48f7de656"
+        },
+        {
+            "id": "8a30e730-2fc8-4e05-bf27-1e0de21ab68f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "3bacaac9-365b-447d-8f6d-23d48f7de656"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
