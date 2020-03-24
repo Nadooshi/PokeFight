@@ -6,6 +6,5 @@ if not instance_exists(pokemon_id)
 
 if anim_ended {
 	pokemon_id.canMove = true
-	if instance_exists(self)
-		instance_destroy()
+	instance_destroy()
 }

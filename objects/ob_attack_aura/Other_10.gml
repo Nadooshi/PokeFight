@@ -12,3 +12,8 @@ bullet.hurt_time = hurt_time
 max_radius =  60 * 0.1 * 3 * action[? "range"]
 d_radius = max_radius / frame_count / (60 / sprite_get_speed(sprite_index))
 
+var _snd = choose(snd_attack_aura_0, snd_attack_aura_1, snd_attack_aura_2)
+sc_play_sound(_snd, false)
+sc_play_sound_element("element")
+sc_play_sound_element("material")
+

@@ -19,8 +19,8 @@ if position_stage = _ATTACK_TG.air {
 }
 
 with ob_weather_skycloud {
-	x += cos(other.wind_dir) * other.wind_power
-	y += sin(other.wind_dir) * other.wind_power
+	x += cos(other.wind_dir) * other.wind_power * 0.7
+	y += sin(other.wind_dir) * other.wind_power * 0.7
 }
 
 

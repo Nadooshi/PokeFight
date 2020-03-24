@@ -6,16 +6,7 @@
 }←7fa50043-cea6-4cd0-9521-a8ba8c6ea9f0|{
     "audioGroups": {
         "Additions": [
-            {
-                "Key": 1,
-                "Value": {
-                    "id": "faefb7d7-cd40-44e8-99da-916548946ef6",
-                    "modelName": "GMAudioGroup",
-                    "mvc": "1.0",
-                    "groupName": "Sound_attack",
-                    "targets": 461609314232160482
-                }
-            }
+            
         ],
         "Checksum": "濑Ⱥ朦씁ᬄ縈",
         "Deletions": [

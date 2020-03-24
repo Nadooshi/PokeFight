@@ -419,3 +419,21 @@ globalvar player2_trainer;
 player1_trainer = noone; //sc_new_trainer()
 player2_trainer = noone; //sc_new_trainer()
 
+globalvar maxchannel;
+maxchannel = 5
+
+audio_channel_num(maxchannel)
+audio_set_master_gain(0,1)
+
+
+//var _snd = noone
+//var _name = ""
+//for (var i=0; i<_ELEMENTAL.count; i++) {
+//	_name = "snd_element_"+string(elemental_text[i])
+//	_snd = asset_get_index(_name)
+//	if audio_exists(_snd) {
+//		sc_play_sound(_snd)
+//		show_message(_name)
+//	} else
+//		show_message(_name + " does not exist!")
+//}

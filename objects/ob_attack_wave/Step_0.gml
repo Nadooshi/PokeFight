@@ -22,6 +22,11 @@ if not shot_done {
 		bullet.d_size = 0
 	else
 		bullet.d_size = ((action[? "radius"] * 2) / bullet.timeout)
+
+	var _snd = choose(snd_attack_wave_0, snd_attack_wave_1, snd_attack_wave_2)
+	sc_play_sound(_snd, false)
+	sc_play_sound_element("element")
+	sc_play_sound_element("material")
 }
 
 if anim_ended

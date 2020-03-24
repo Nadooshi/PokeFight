@@ -11,4 +11,10 @@ with instance_create_layer(x, y, "Particles", ob_bullet_pool) {
 	timeout = action[? "range"] * 60
 	sprite_index = asset_get_index(action[? "p_anim"])
 	image_blend = sc_make_attack_colour(action)
+	
+	var _snd = choose(snd_attack_pool_0, snd_attack_pool_1, snd_attack_pool_2)
+	sc_play_sound(_snd, false)
+	sc_play_sound_element("element")
+	sc_play_sound_element("material")
+
 }

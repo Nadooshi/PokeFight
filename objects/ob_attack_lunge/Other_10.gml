@@ -9,3 +9,8 @@ ds_map_copy(bullet.action, action)
 bullet.radius = (action[? "radius"] + 1) * 8
 bullet.pokemon_id = pokemon_id
 bullet.hurt_time = hurt_time
+
+var _snd = choose(snd_attack_lunge_0, snd_attack_lunge_1, snd_attack_lunge_2)
+sc_play_sound(_snd, false)
+sc_play_sound_element("element")
+sc_play_sound_element("material")

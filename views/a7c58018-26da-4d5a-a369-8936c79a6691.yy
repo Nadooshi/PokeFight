@@ -13,7 +13,9 @@
         "95b44820-a82a-4736-975c-80aa98edcb07",
         "8006204c-7b62-463d-bd66-4148ee938f7c",
         "56c0caf8-f50c-475d-80f0-c005791fbe50",
-        "38db2483-2313-4310-8059-3790ed21fbf7"
+        "38db2483-2313-4310-8059-3790ed21fbf7",
+        "76a31bce-1689-49c4-93ce-f71216c24499",
+        "ebd383bc-55bc-463d-9f33-8c6dd0e49f79"
     ],
     "filterType": "GMScript",
     "folderName": "internal",
