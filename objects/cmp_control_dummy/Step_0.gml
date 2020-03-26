@@ -12,13 +12,15 @@ var _tmp_d = -1
 
 for (var i = 0; i < instance_number(ob_player); i++) {
 	_tmp = instance_find(ob_player, i)
-	_tmp_d = distance_to_object(_tmp)
-	if _tmp_d <_d
-	if _tmp != id
-		if _tmp.trainer != trainer {
-			target = _tmp
-			_d = _tmp_d
-		}
+	if _tmp.trainer != -1 {
+		_tmp_d = distance_to_object(_tmp)
+		if _tmp_d <_d
+		if _tmp != id
+			if _tmp.trainer != trainer {
+				target = _tmp
+				_d = _tmp_d
+			}
+	}
 }
 
 if instance_exists(target)  {

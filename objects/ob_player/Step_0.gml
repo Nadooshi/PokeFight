@@ -29,7 +29,7 @@ if hurt_cur > 0 {
 
 if power_cur == power_max				// slow recover health from full power
 	if health_cur < health_max
-		health_cur += (health_reg/2)
+		health_cur += (health_reg/10)
 	
 
 if attack_warmup > 0 {

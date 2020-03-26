@@ -8,9 +8,10 @@ if p_looped {
 	if image_index >= (stop_frame-0.2)
 		image_index = start_frame
 
-} else {
-	if image_index >= (stop_frame-0.2)
+} else 
+	if image_index >= (stop_frame-0.2) {
 		anim_ended = true
+		image_speed = 0
 }
 
 if p_ray 
