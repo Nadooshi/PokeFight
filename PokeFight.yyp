@@ -1042,7 +1042,7 @@
             "Key": "46807d51-0180-40c9-855f-cb1e23f6e429",
             "Value": {
                 "id": "ec571acc-ae76-4176-b7e5-641f3705577e",
-                "resourcePath": "sprites\\sp_pr_attack_6___S\\sp_pr_attack_6___S.yy",
+                "resourcePath": "sprites\\sp_pr_attack_6___SL\\sp_pr_attack_6___SL.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1764,6 +1764,14 @@
                 "id": "6c4913c4-0f2b-4851-942a-69a77fd43e7e",
                 "resourcePath": "sprites\\sp_pr_attack_20\\sp_pr_attack_20.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "71e8a458-9b9e-43e4-aa6f-f8f647b77f7f",
+            "Value": {
+                "id": "477a3e03-5d34-462b-8f0f-6978471a738f",
+                "resourcePath": "objects\\ob_pivot\\ob_pivot.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3554,7 +3562,7 @@
             "Key": "e6e228cd-8b56-47f2-bd32-250c2786892a",
             "Value": {
                 "id": "d2e4b11a-8e89-4c55-8d56-58ecb11ea1ae",
-                "resourcePath": "sprites\\sp_pr_attack_21___S\\sp_pr_attack_21___S.yy",
+                "resourcePath": "sprites\\sp_pr_attack_21___L\\sp_pr_attack_21___L.yy",
                 "resourceType": "GMSprite"
             }
         },

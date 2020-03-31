@@ -1,4 +1,4 @@
-/// @desc Has collided
+/// @desc After collision
 
 event_inherited()
 

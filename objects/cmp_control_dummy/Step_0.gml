@@ -25,7 +25,7 @@ for (var i = 0; i < instance_number(ob_player); i++) {
 
 if instance_exists(target)  {
 	direction = point_direction(x, y, target.x, target.y)
-	if distance_to_object(target) > 5
+	if distance_to_object(target) > 60
 		sc_player_move_set()
 	else 
 		sc_player_stop_set()

@@ -10,4 +10,12 @@ if object_is_ancestor(collided_with.object_index, ob_player) or (collided_with.o
 		}
 	}
 } else
+if object_is_ancestor(collided_with.object_index, ob_bullet) {
+	if pokemon_id.trainer != collided_with.pokemon_id.trainer
+	if action[? "bullet_phys"] != _BULLET_PH.piercer {
+		instance_destroy()
+		instance_destroy(collided_with)
+	}
+} else
 	instance_destroy()
+

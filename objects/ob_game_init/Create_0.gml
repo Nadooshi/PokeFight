@@ -216,22 +216,35 @@ enum _ATTACK_AFFECT {
 	enemy  = 2,
 	itself = 4
 }
-globalvar attack_affect_text
-var i=0
-attack_affect_text[i++] = "friend"
-attack_affect_text[i++] = "enemy"
-attack_affect_text[i++] = "itself"
+globalvar attack_affect_text var;
+attack_affect_text[_ATTACK_AFFECT.friend] = "friend"
+attack_affect_text[_ATTACK_AFFECT.enemy ] = "enemy"
+attack_affect_text[_ATTACK_AFFECT.itself] = "itself"
 
 enum _ATTACK_TG {
 	air			= 1,
 	ground		= 2,
 	underground = 4
 }
-globalvar attack_target_text
-var i=0
+globalvar attack_target_text var;
 attack_target_text[_ATTACK_TG.air	 	]  = "air"
 attack_target_text[_ATTACK_TG.ground	]  = "ground"
 attack_target_text[_ATTACK_TG.underground] = "underground"
+
+enum _BULLET_PH {
+	custom,
+	soft,
+	not_used,
+	piercer,
+	bowl
+}
+globalvar bullet_physic_text
+var i = 0
+bullet_physic_text[i++] = "(Custom) Save position"
+bullet_physic_text[i++] = "Blow away by wind"
+bullet_physic_text[i++] = "Not used"
+bullet_physic_text[i++] = "No collision"
+bullet_physic_text[i++] = "Push players"
 
 #endregion
 
@@ -350,22 +363,6 @@ enum _POSITION {
 	ground,
 	fly
 }
-
-//////////////////////////////////
-enum _BULLET_PH {
-	custom,
-	soft,
-	b_by_b,
-	piercer,
-	bowl
-}
-globalvar bullet_physic_text
-var i = 0
-bullet_physic_text[i++] = "(Custom) Save position"
-bullet_physic_text[i++] = "Blow away by wind"
-bullet_physic_text[i++] = "Collision with bullet"
-bullet_physic_text[i++] = "Piercer players"
-bullet_physic_text[i++] = "Push players"
 
 //////////////////////////////////
 globalvar trainer_inv_size; trainer_inv_size = 16;

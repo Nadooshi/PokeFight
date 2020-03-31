@@ -1,10 +1,10 @@
 /// @desc 
 
-with instance_create_layer(x, y, "Particles", ob_damage_area) {
+with instance_create_layer(pokemon_id_damaged.x, pokemon_id_damaged.y+12, "Particles", ob_damage_area) {
 	ds_map_copy(action, other.action)
 	accuracy_done_for = other.pokemon_id_damaged
 	action[? "delay"] = 0
-	radius = 8
+	radius = 1
 	pokemon_id = other.pokemon_id_attack
 	hurt_time = other.hurt_time
 	var _spr = asset_get_index(action[? "ex_anim"])
