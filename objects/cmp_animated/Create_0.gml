@@ -3,6 +3,7 @@
 start_frame = 0
 stop_frame  = 0
 frame_count = 0
+sprite_speed = 0
 
 anim_ended = false
 

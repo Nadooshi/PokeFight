@@ -15,7 +15,8 @@
         "c9a0f36b-042d-4f63-a05b-c78a10f47469",
         "21f57233-84f2-4a99-ba24-46401c3210dc",
         "aed199dd-6930-4c14-bf24-8dda43614072",
-        "dc6b3c8b-e73d-40cc-abc6-fc5632a7492a"
+        "dc6b3c8b-e73d-40cc-abc6-fc5632a7492a",
+        "ca373790-9d28-4439-baa0-46b563d50f13"
     ],
     "filterType": "GMSprite",
     "folderName": "Battle",

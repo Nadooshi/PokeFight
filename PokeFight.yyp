@@ -1159,6 +1159,14 @@
             }
         },
         {
+            "Key": "478d9861-af87-4667-84d6-e3bf8e9c6207",
+            "Value": {
+                "id": "83d24533-bac9-4747-8313-2153c6866980",
+                "resourcePath": "scripts\\sc_find_nearest_target\\sc_find_nearest_target.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "483aa5dc-fe35-4c32-a2dd-d1ff1c2bba72",
             "Value": {
                 "id": "8e354068-fc57-4272-9ef8-b39daad91555",
@@ -3391,6 +3399,14 @@
             }
         },
         {
+            "Key": "ca373790-9d28-4439-baa0-46b563d50f13",
+            "Value": {
+                "id": "8883e319-1cb3-4c11-a565-d0dbd9138b6e",
+                "resourcePath": "sprites\\sp_chain\\sp_chain.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cb3d0e27-d784-4f75-869d-1309805098f8",
             "Value": {
                 "id": "6c759ae7-98d8-471c-a922-3d1837310e8a",
@@ -3588,6 +3604,14 @@
                 "id": "86a8b219-1ddb-4736-b802-f37841939271",
                 "resourcePath": "sounds\\snd_attack_mortar_0\\snd_attack_mortar_0.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "d839600f-80a8-4fd6-8ac1-3b6c2392abf6",
+            "Value": {
+                "id": "bdf19e35-00fe-4476-a5b8-383abdaaa00a",
+                "resourcePath": "scripts\\sc_chain_damage\\sc_chain_damage.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -4264,6 +4288,8 @@
         "a6230cba-baf5-46a5-96ed-9bbbd980e446",
         "5bca9910-906b-423d-a975-b5761440f0f3",
         "111f8f08-ad8d-4af8-bc9c-52df8898a2b5",
+        "478d9861-af87-4667-84d6-e3bf8e9c6207",
+        "d839600f-80a8-4fd6-8ac1-3b6c2392abf6",
         "c9cd6222-9928-4a9f-a223-74782851e51b",
         "4fae31fc-2f95-438b-a22f-eae950eafa8c",
         "2051f44a-a5c8-4fd0-9dda-2b889b16fea8",

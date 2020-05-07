@@ -6,7 +6,7 @@ var _bullet = id
 with ob_player {
 	_d = distance_to_object(other)
 	if _d <= other.radius {
-		if sc_check_affect(_bullet.pokemon_id, id, _bullet.action) 
+		if sc_check_affect(_bullet.pokemon_id, id, _bullet.action[? "affect"])
 		if sc_check_accuracy(_bullet, id, _bullet.action)
 		if (_bullet.action[? "tgTo"] & position_stage) != 0 
 		with instance_create_layer(x, y, "Particles", ob_damage_area) {

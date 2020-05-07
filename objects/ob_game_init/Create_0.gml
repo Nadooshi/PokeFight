@@ -234,7 +234,7 @@ attack_target_text[_ATTACK_TG.underground] = "underground"
 enum _BULLET_PH {
 	custom,
 	soft,
-	not_used,
+	chain,
 	piercer,
 	bowl
 }
@@ -242,7 +242,7 @@ globalvar bullet_physic_text
 var i = 0
 bullet_physic_text[i++] = "(Custom) Save position"
 bullet_physic_text[i++] = "Blow away by wind"
-bullet_physic_text[i++] = "Not used"
+bullet_physic_text[i++] = "Chain reaction"
 bullet_physic_text[i++] = "No collision"
 bullet_physic_text[i++] = "Push players"
 
@@ -422,6 +422,7 @@ maxchannel = 5
 audio_channel_num(maxchannel)
 audio_set_master_gain(0,1)
 
+//math_set_epsilon(0.001)
 
 //var _snd = noone
 //var _name = ""

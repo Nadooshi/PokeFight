@@ -5,11 +5,11 @@ if not init
 
 if p_looped {
 	// loop anim
-	if image_index >= (stop_frame-0.2)
+	if image_index >= (stop_frame-sprite_speed)
 		image_index = start_frame
 
 } else 
-	if image_index >= (stop_frame-0.2) {
+	if image_index >= (stop_frame-sprite_speed) {
 		anim_ended = true
 		image_speed = 0
 }
