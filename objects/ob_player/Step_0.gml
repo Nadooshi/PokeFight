@@ -10,6 +10,7 @@ if script_exists(scBehaviour)
 //else
 //	sc_player_stop_set()
 
+
 if hurt_timeout > 0 { 
 	hurt_timeout -= dTime
 }

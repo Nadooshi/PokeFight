@@ -196,7 +196,9 @@ enum _ATTACK_TYPE {
 	pool,
 	cloud,
 	wave,
-	barrier
+	barrier,
+	ray,
+	swoop
 }
 globalvar attack_type_text
 var i=0
@@ -210,6 +212,8 @@ attack_type_text[i++] = "pool"
 attack_type_text[i++] = "cloud"
 attack_type_text[i++] = "wave"
 attack_type_text[i++] = "barrier"
+attack_type_text[i++] = "ray"
+attack_type_text[i++] = "swoop"
 
 enum _ATTACK_AFFECT {
 	friend = 1,

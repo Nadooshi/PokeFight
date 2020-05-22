@@ -128,6 +128,25 @@ switch (_a_map[? "type"]) {
 		// set direction image
 		sc_player_move()
 		break
+	case _ATTACK_TYPE.swoop:
+		canMove = false
+		sc_player_stop_set()
+		attack_ob_id = instance_create_layer(x, y, "Particles", ob_attack_swoop)
+		direction = point_direction(x, y, tgX, tgY)
+		tgAngle = direction
+		moveSpeed = pokemon_map[? "ap"] * 0.66
+
+		var _t = 60 * 0.1 * _a_map[? "range"]
+		var _d = 999
+		if instance_exists(target)
+			_d = distance_to_point(target.x, target.y) / 3 + 8
+		 _t = min(_t, _d)
+		attack_ob_id.timeout = _t //60 * 0.1 * action[? "range"]
+		attack_ob_id.upgea = _t
+
+		frameSpeed = 0
+		scBehaviour = sc_player_attack_wait_anim
+		break
 	default:
 //		timeout = 24
 //		canMove = false
