@@ -5,16 +5,6 @@
     "name": "ob_attack_swoop",
     "eventList": [
         {
-            "id": "07d81da7-34a2-4590-824a-6d9f2664d540",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "97043299-7e4f-4135-853f-2f03df3541ae"
-        },
-        {
             "id": "6eae911b-55b5-4f2a-9192-06eefb733bc4",
             "modelName": "GMEvent",
             "mvc": "1.0",

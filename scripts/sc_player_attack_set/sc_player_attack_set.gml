@@ -136,16 +136,10 @@ switch (_a_map[? "type"]) {
 		tgAngle = direction
 		moveSpeed = pokemon_map[? "ap"] * 0.66
 
-		var _t = 60 * 0.1 * _a_map[? "range"]
-		var _d = 999
-		if instance_exists(target)
-			_d = distance_to_point(target.x, target.y) / 3 + 8
-		 _t = min(_t, _d)
-		attack_ob_id.timeout = _t //60 * 0.1 * action[? "range"]
-		attack_ob_id.upgea = _t
-
-		frameSpeed = 0
+		event_perform(ev_other, ev_user5) // swoop
 		scBehaviour = sc_player_attack_wait_anim
+		// set direction image
+		sc_player_move()
 		break
 	default:
 //		timeout = 24

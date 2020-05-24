@@ -8,5 +8,3 @@ event_inherited();
 
 phi = pi * (1 - timeout/init_timeout)
 _z = 12 + sin(phi) * z_max
-_x = x 
-_y = y - _z

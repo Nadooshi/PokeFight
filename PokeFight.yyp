@@ -2095,6 +2095,14 @@
             }
         },
         {
+            "Key": "7bca8f97-9946-48df-acfc-c1cb22923b19",
+            "Value": {
+                "id": "dd980c16-8c42-4616-9635-4498ffbbe93e",
+                "resourcePath": "objects\\ob_player_swoop\\ob_player_swoop.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7c13c542-bdf7-4bc8-8f23-9133a3f5e107",
             "Value": {
                 "id": "cd8de8f0-ab99-466c-9145-8ece7a1d4d13",
