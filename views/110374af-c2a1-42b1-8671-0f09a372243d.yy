@@ -13,7 +13,8 @@
         "febc03d2-c89d-46ab-b87e-4460af027c30",
         "b1621ebc-57e4-4125-8732-5697366a4b3a",
         "81717c0e-eb76-4aef-af26-19627acf18dc",
-        "835f8dd4-6a56-4b73-aa5a-ad2216e13799"
+        "835f8dd4-6a56-4b73-aa5a-ad2216e13799",
+        "fe8ce6fe-1640-4718-bfee-f57700473c85"
     ],
     "filterType": "GMObject",
     "folderName": "components",

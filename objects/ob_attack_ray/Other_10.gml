@@ -1,20 +1,17 @@
 /// @desc 
 
-if not init 
-	event_perform(ev_other, ev_user0)
+// Inherit the parent event
+event_inherited();
 
-event_inherited()
+if not instance_exists(pokemon_id)
+	exit
 
-event_perform_object(ob_composed, ev_step, ev_step_normal)
-
-if not shot_done {
-	shot_done = true
 	// create bullet
-	bullet = instance_create_layer(x, y+9, "Particles", ob_bullet_range)
+	bullet = instance_create_layer(x, y+9, "Particles", ob_bullet_ray)
 	ds_map_copy(bullet.action, action)
 	bullet.pokemon_id = pokemon_id
 	bullet.hurt_time = hurt_time
-	bullet.timeout = 60 * 0.1 * action[? "range"] //* 18 / moveSpeed
+	bullet.timeout = 30
 	bullet.direction = pokemon_id.direction
 	bullet.image_angle = bullet.direction
 	bullet.sprite_index = asset_get_index(action[? "p_anim"])
@@ -23,7 +20,3 @@ if not shot_done {
 	sc_play_sound(_snd, false)
 	sc_play_sound_element("element")
 	sc_play_sound_element("material")
-}
-
-if anim_ended
-	instance_destroy()

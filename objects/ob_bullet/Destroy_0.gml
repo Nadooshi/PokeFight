@@ -19,5 +19,3 @@ with instance_create_layer(x, y, "Particles", ob_damage_area) {
 	}
 }
 
-ds_map_destroy(action)
-ds_list_destroy(list_missed)

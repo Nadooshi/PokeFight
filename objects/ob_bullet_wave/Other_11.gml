@@ -43,7 +43,7 @@ for (var i=0; i<_wave_count; i++)
 if size/5 * _wave_dots[i] > 0.5 {
 	// create bullet
 	bullet = instance_create_layer(_wave_x[i], _wave_y[i], "Particles", ob_bullet_wave)
-	bullet.action = action
+	ds_map_copy(bullet.action, action)
 	bullet.pokemon_id = pokemon_id
 	bullet.hurt_time = hurt_time
 	bullet.timeout = timeout

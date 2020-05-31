@@ -2807,6 +2807,14 @@
             }
         },
         {
+            "Key": "a6d50320-733b-41f1-b45d-3893888f1d0c",
+            "Value": {
+                "id": "08c9a3fa-c73a-447d-81f4-72e18e196b23",
+                "resourcePath": "objects\\ob_attack_ray\\ob_attack_ray.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a7c58018-26da-4d5a-a369-8936c79a6691",
             "Value": {
                 "id": "e386f336-ed9e-4a23-804b-b9cf297c59c2",
@@ -3211,6 +3219,14 @@
             "Value": {
                 "id": "f929585e-f06f-4197-81fb-e95ab1ff7855",
                 "resourcePath": "objects\\ob_hazard\\ob_hazard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "be8f9cd0-7091-4254-b716-9b414b20ab6d",
+            "Value": {
+                "id": "03e2ea2e-e2db-4d34-b01e-f16b0b3fcec2",
+                "resourcePath": "objects\\ob_bullet_ray\\ob_bullet_ray.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -3743,6 +3759,14 @@
             }
         },
         {
+            "Key": "df7259c5-65d1-4e3e-83dc-7a6eef4c7033",
+            "Value": {
+                "id": "c5c5c284-708e-450b-aea2-487bd9029021",
+                "resourcePath": "objects\\ob_collision_line\\ob_collision_line.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "df9ba87f-715f-4ba5-a65c-198f824277aa",
             "Value": {
                 "id": "1ffadf64-e644-4a13-a3b9-82e15aa2adef",
@@ -4244,6 +4268,14 @@
                 "id": "a90aa827-212d-4f2a-91ae-94cd29c77c67",
                 "resourcePath": "sprites\\sp_weather_skycloud\\sp_weather_skycloud.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fe8ce6fe-1640-4718-bfee-f57700473c85",
+            "Value": {
+                "id": "ceb14aeb-e93b-477f-9cd9-52838940ec78",
+                "resourcePath": "objects\\cmp_collidable_ray\\cmp_collidable_ray.yy",
+                "resourceType": "GMObject"
             }
         },
         {

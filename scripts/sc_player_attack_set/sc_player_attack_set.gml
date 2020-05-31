@@ -141,6 +141,17 @@ switch (_a_map[? "type"]) {
 		// set direction image
 		sc_player_move()
 		break
+	case _ATTACK_TYPE.ray:
+		attack_ob_id = instance_create_layer(x, y, "Particles", ob_attack_ray)
+		direction = point_direction(x, y, tgX, tgY)
+		tgAngle = direction
+		canMove = false
+		sc_player_stop_set()
+		frameSpeed = 0
+		scBehaviour = sc_player_attack_wait_anim
+		// set direction image
+		sc_player_move()
+		break
 	default:
 //		timeout = 24
 //		canMove = false

@@ -43,9 +43,13 @@ if p_stable
 
 // ray (repeatable)
 if p_ray {
-	sx = x
-	sy = y
-	image_alpha = 0
+	p_looped = true
+	start_value = 0
+	end_value = 3
+	mid_value = start_value
+	fraction = 0.1
+	phase = 0
+	init_timeout = timeout
 }
 
 image_index = start_frame

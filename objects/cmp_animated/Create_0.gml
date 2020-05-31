@@ -18,5 +18,10 @@ p_stable = false  // not turning
 p_ray	 = false
 init = false
 
-sx = 0
-sy = 0
+start_value = 0
+end_value = 0
+mid_value = 0
+phase = 0
+fraction = 0  // 0..1 when switch to another phase ((timeout-init_timeout) / init_timeout)
+prev_frac = 0
+init_timeout = 0

@@ -21,7 +21,10 @@ switch action[? "type"]{
 	case _ATTACK_TYPE.melee:
 	case _ATTACK_TYPE.cloud:
 	case _ATTACK_TYPE.barrier:
-	case _ATTACK_TYPE.front: {
+	case _ATTACK_TYPE.front:
+	case _ATTACK_TYPE.swoop:
+	case _ATTACK_TYPE.ray:
+	{
 		_d = (action[? "damage"] * 0.01)
 		if _d < 0.5 _d = 0.5	
 		break
