@@ -268,7 +268,7 @@ enum _ABILITY_STATE {
 	speedup,       // +1 к ОД
 	slowdown,
 	trap,
-	random,
+	random_x,	   // случайное значение урона
 	lulling,       // усыпление
 	stun,          // ошеломление
 	terror,        // ужас

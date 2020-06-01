@@ -6,10 +6,10 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 31,
-    "bbox_left": 0,
-    "bbox_right": 31,
-    "bbox_top": 0,
+    "bbox_bottom": 26,
+    "bbox_left": 5,
+    "bbox_right": 26,
+    "bbox_top": 11,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
@@ -504,7 +504,7 @@
             "isLocked": false,
             "name": "default",
             "opacity": 100,
-            "visible": true
+            "visible": false
         }
     ],
     "origin": 4,

@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "09cb3795-e363-4948-9c70-8393bbd7e402",
+            "Value": {
+                "id": "5c614d08-af56-46fe-a7d0-820f728e7ef6",
+                "resourcePath": "sprites\\sp_pr_attack_34\\sp_pr_attack_34.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0a815127-d285-4367-91d1-98fa553987c7",
             "Value": {
                 "id": "f096c290-e21a-4fa4-8c1e-35ecad6589b5",
@@ -635,6 +643,14 @@
             "Value": {
                 "id": "3eda2d2f-78b9-4d38-94a8-1d4dd3fe59c6",
                 "resourcePath": "sprites\\sp_pokeworld_71\\sp_pokeworld_71.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "23ec0e97-1a24-438e-a30b-98e50c2a1e49",
+            "Value": {
+                "id": "80e1c9f4-ba2e-4e61-a607-3bc6a539402d",
+                "resourcePath": "sprites\\sp_pr_attack_35\\sp_pr_attack_35.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1092,6 +1108,14 @@
                 "id": "db0253da-da45-4ba5-b077-e16e08f9b553",
                 "resourcePath": "objects\\ob_frame_pokemon\\ob_frame_pokemon.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "43079136-3d4a-4371-9b16-e358763904b3",
+            "Value": {
+                "id": "7640e431-8505-48b5-b01e-09bbbd4f370a",
+                "resourcePath": "sprites\\sp_pr_attack_34___R\\sp_pr_attack_34___R.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1887,6 +1911,14 @@
             }
         },
         {
+            "Key": "710b2ad5-c98d-4920-a4ca-28bb3b4d1bc6",
+            "Value": {
+                "id": "c16b15db-3fc8-47e8-a031-372fefcd8a4d",
+                "resourcePath": "sprites\\sp_pr_attack_36___R\\sp_pr_attack_36___R.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "71960621-a3e5-464f-b8be-f2d0798e7946",
             "Value": {
                 "id": "6c4913c4-0f2b-4851-942a-69a77fd43e7e",
@@ -2131,6 +2163,14 @@
             "Value": {
                 "id": "7c78881b-9a5a-400d-8872-0a3c68724df5",
                 "resourcePath": "sprites\\sp_attack_8\\sp_attack_8.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7ecde683-4f37-4d44-a207-43e58733f355",
+            "Value": {
+                "id": "9142f1de-f4b2-46ae-9e0d-5835e72f5be1",
+                "resourcePath": "sprites\\sp_pr_attack_36\\sp_pr_attack_36.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2411,6 +2451,14 @@
             "Value": {
                 "id": "045c10f0-2e47-4a05-982b-08cdb74b8229",
                 "resourcePath": "sprites\\sp_pr_attack_32___R\\sp_pr_attack_32___R.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8d8880aa-3553-4970-90d0-df4a7c6beadc",
+            "Value": {
+                "id": "c2a27770-b74d-456d-ab57-fe5ce6d6ae88",
+                "resourcePath": "sprites\\sp_shield_icon\\sp_shield_icon.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3631,6 +3679,14 @@
             }
         },
         {
+            "Key": "d67c1753-36ad-45f3-a47d-4279ef3834cc",
+            "Value": {
+                "id": "55381055-5b8c-4c2a-b45d-c094511cf3d3",
+                "resourcePath": "sprites\\sp_pr_attack_35___R\\sp_pr_attack_35___R.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d6b65f86-6821-4780-9504-891687f2dd10",
             "Value": {
                 "id": "b0b81177-f73d-4b5b-abbc-c78b9deda4b9",
@@ -3772,6 +3828,14 @@
                 "id": "1ffadf64-e644-4a13-a3b9-82e15aa2adef",
                 "resourcePath": "sprites\\sp_pr_attack_33\\sp_pr_attack_33.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e0223468-5a82-457a-a9ef-51409a8896d7",
+            "Value": {
+                "id": "99b32ed9-a98b-4001-9974-4081a8918ef2",
+                "resourcePath": "objects\\ob_shield_state\\ob_shield_state.yy",
+                "resourceType": "GMObject"
             }
         },
         {

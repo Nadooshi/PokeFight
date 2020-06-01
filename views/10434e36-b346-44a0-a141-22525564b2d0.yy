@@ -11,7 +11,8 @@
         "0725f87c-2522-4efc-92ed-2ef4991ac7e5",
         "6c5a706f-8107-46e5-a8bd-c69e4978fa3e",
         "76e2fab8-9233-4c9a-a8f4-03d248348b7b",
-        "b23a59f3-7b45-490e-976e-4f7eb86f440a"
+        "b23a59f3-7b45-490e-976e-4f7eb86f440a",
+        "e0223468-5a82-457a-a9ef-51409a8896d7"
     ],
     "filterType": "GMObject",
     "folderName": "ui_pictures",
