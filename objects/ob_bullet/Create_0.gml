@@ -14,6 +14,6 @@ moveSpeed = 3
 image_xscale = 1.5
 image_yscale = 1.5
 
-size = _SIZE.tiny
+size = _SIZE.tiny  // for size of collision area
 list_missed = ds_list_create()
 accuracy_done_for = noone

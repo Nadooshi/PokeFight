@@ -2,7 +2,7 @@
     "id": "da1550f7-2880-4fc3-9a14-7fc479644f0a",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sp_pr_attack_23___S",
+    "name": "sp_pr_attack_23___L",
     "For3D": false,
     "HTile": false,
     "VTile": false,

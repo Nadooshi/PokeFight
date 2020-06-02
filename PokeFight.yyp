@@ -98,7 +98,7 @@
             "Key": "0460c7e4-fc07-4e0c-a4f0-131fac2d491b",
             "Value": {
                 "id": "281fca0c-09fb-48ff-a946-a10789c6a68e",
-                "resourcePath": "sprites\\sp_pr_attack_12___S\\sp_pr_attack_12___S.yy",
+                "resourcePath": "sprites\\sp_pr_attack_12___SL\\sp_pr_attack_12___SL.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1410,7 +1410,7 @@
             "Key": "513a614b-a20d-4548-bddf-9beaf98a68ac",
             "Value": {
                 "id": "927397b7-fb0f-4993-bd25-3d89d4dacc3e",
-                "resourcePath": "sprites\\sp_pr_attack_10___S\\sp_pr_attack_10___S.yy",
+                "resourcePath": "sprites\\sp_pr_attack_10___SL\\sp_pr_attack_10___SL.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1890,7 +1890,7 @@
             "Key": "6ddd3d51-c2b2-4e51-a344-523f28869f04",
             "Value": {
                 "id": "3d62ce8f-4b44-4a93-b4ee-4dc1f43456ff",
-                "resourcePath": "sprites\\sp_pr_attack_19___S\\sp_pr_attack_19___S.yy",
+                "resourcePath": "sprites\\sp_pr_attack_19___L\\sp_pr_attack_19___L.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2027,6 +2027,14 @@
             "Value": {
                 "id": "77cf8b25-411d-4889-8f0e-d8f11c298214",
                 "resourcePath": "objects\\ob_attack_barrier\\ob_attack_barrier.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "762a2168-0023-49ba-962a-275041dab042",
+            "Value": {
+                "id": "3077318a-2fff-4bcc-8834-5b2edb71555e",
+                "resourcePath": "objects\\ob_bullet_aura\\ob_bullet_aura.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -3074,7 +3082,7 @@
             "Key": "b1ec689f-0758-4624-a562-d1267a226e51",
             "Value": {
                 "id": "f0eae561-3ae0-4e44-9e51-bb9d1f222be8",
-                "resourcePath": "sprites\\sp_pr_attack_20___S\\sp_pr_attack_20___S.yy",
+                "resourcePath": "sprites\\sp_pr_attack_20___L\\sp_pr_attack_20___L.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3738,7 +3746,7 @@
             "Key": "da1550f7-2880-4fc3-9a14-7fc479644f0a",
             "Value": {
                 "id": "dd991616-5cbb-40d7-92ed-54d55b6b5313",
-                "resourcePath": "sprites\\sp_pr_attack_23___S\\sp_pr_attack_23___S.yy",
+                "resourcePath": "sprites\\sp_pr_attack_23___L\\sp_pr_attack_23___L.yy",
                 "resourceType": "GMSprite"
             }
         },

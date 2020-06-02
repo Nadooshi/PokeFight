@@ -4,7 +4,7 @@
     "mvc": "1.12",
     "name": "sp_pr_attack_27",
     "For3D": false,
-    "HTile": false,
+    "HTile": true,
     "VTile": false,
     "bbox_bottom": 12,
     "bbox_left": 0,

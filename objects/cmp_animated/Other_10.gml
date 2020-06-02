@@ -45,7 +45,7 @@ if p_stable
 if p_ray {
 	p_looped = true
 	start_value = 0
-	end_value = 3
+	end_value = 1.5
 	mid_value = start_value
 	fraction = 0.1
 	phase = 0
