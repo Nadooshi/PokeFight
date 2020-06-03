@@ -1,0 +1,1 @@
+map = current_trainer

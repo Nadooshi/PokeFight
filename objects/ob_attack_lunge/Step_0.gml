@@ -13,7 +13,7 @@ if not instance_exists(pokemon_id) {
 x = pokemon_id.x
 y = pokemon_id.y
 bullet.x = x + 16 * cos(degtorad(pokemon_id.direction))
-bullet.y = y + 16 * sin(degtorad(pokemon_id.direction)) //pokemon_id.vspeed * 2.5
+bullet.y = (y + 5) + 16 * sin(degtorad(pokemon_id.direction)) //pokemon_id.vspeed * 2.5
 
 
 // sc_player_attack(_lunge)

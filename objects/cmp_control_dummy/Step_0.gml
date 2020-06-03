@@ -11,7 +11,7 @@ var _target_d = 0
 if sc_does_exist(target) {
 	_target_d = distance_to_point(target.x, target.y)
 	direction = point_direction(x, y, target.x, target.y)
-	if _target_d > 64
+	if _target_d > 16
 		sc_player_move_set()
 	else 
 		sc_player_stop_set()
