@@ -32,7 +32,7 @@ with last_damaged[| i] {
 		// deal damage
 		if hurt_timeout <= 0 {
 			hurt_timeout = other.hurt_time
-			sc_deal_damage(_action)
+			sc_deal_damage(_action, other.pokemon_id)
 		}
 	} else {   // do delayed damage
 		_ok = true

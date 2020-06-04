@@ -1,5 +1,6 @@
 /// @arg action_map
 /// @arg target_pokemon_map
+
 enum _e {
 	element  = 0,
 	material = 1
@@ -99,7 +100,7 @@ if sc_does_exist(_abil) {
 //-----------------------------------------------------
 // apply state 'random damage'
 if sc_does_exist(_abil) {
-	if _abil[? "state"] = 12{//_ABILITY_STATE.random_x {
+	if _abil[? "state"] = _ABILITY_STATE.random_x {
 		_r_ = _abil[? "state_value"]
 		switch _r_ {
 			case 0:{

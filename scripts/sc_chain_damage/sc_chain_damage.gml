@@ -2,9 +2,7 @@
 
 var _chain_dmg_target_id = noone
 
-if ds_list_size(last_damaged) > 0
-if action[? "bullet_phys"] = _BULLET_PH.chain {
-	
+if ds_list_size(last_damaged) > 0 {
 	var _range = action[? "range"] * 6 * 3
 	_chain_dmg_target_id = sc_find_nearest_target(pokemon_id, action[? "affect"], _range, action[? "tgTo"], last_damaged)
 	

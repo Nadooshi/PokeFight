@@ -220,7 +220,7 @@ enum _ATTACK_AFFECT {
 	enemy  = 2,
 	itself = 4
 }
-globalvar attack_affect_text var;
+globalvar attack_affect_text;
 attack_affect_text[_ATTACK_AFFECT.friend] = "friend"
 attack_affect_text[_ATTACK_AFFECT.enemy ] = "enemy"
 attack_affect_text[_ATTACK_AFFECT.itself] = "itself"
@@ -230,7 +230,7 @@ enum _ATTACK_TG {
 	ground		= 2,
 	underground = 4
 }
-globalvar attack_target_text var;
+globalvar attack_target_text;
 attack_target_text[_ATTACK_TG.air	 	]  = "air"
 attack_target_text[_ATTACK_TG.ground	]  = "ground"
 attack_target_text[_ATTACK_TG.underground] = "underground"
@@ -257,6 +257,7 @@ bullet_physic_text[i++] = "Push players"
 #region States
 
 enum _ABILITY_STATE {
+	none,
 	incineration,  // горение
 	burn,          // ожог
 	bleed,
@@ -300,6 +301,7 @@ enum _ABILITY_STATE {
 	barrier,
 	count
 }
+
 globalvar ability_text;
 i=0
 ability_text[i++] = "incineration"  // горение
@@ -343,6 +345,12 @@ ability_text[i++] = "mirror"
 ability_text[i++] = "mutual"	
 ability_text[i++] = "wreck"
 ability_text[i++] = "barrier"
+
+globalvar state_object;
+for (var i=0; i<_ABILITY_STATE.count-1; i++)
+   state_object[i] = noone;
+
+state_object[_ABILITY_STATE.incineration] = ob_state_incineration;  
 
 #endregion
 

@@ -64,5 +64,6 @@ trainer = noone
 position_stage = _ATTACK_TG.ground
 
 delayed_bullet = ds_list_create()
+states = ds_list_create()
 
 target = ob_cursor
