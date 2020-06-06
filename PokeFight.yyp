@@ -791,6 +791,14 @@
             }
         },
         {
+            "Key": "2e220abd-d6fc-40ce-80ee-f915ede36f3e",
+            "Value": {
+                "id": "b9fca557-8771-48fb-a9cc-e28fd909aa62",
+                "resourcePath": "sprites\\sp_exp_attack_20\\sp_exp_attack_20.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2e5aa882-d413-44a2-b4f6-526b9d9583d1",
             "Value": {
                 "id": "57f3f2d0-9e3f-4f1f-9b69-93d46fd9e8b3",
@@ -843,6 +851,14 @@
             "Value": {
                 "id": "89d9c182-6c6f-4659-8e11-73db6deb5ea4",
                 "resourcePath": "sprites\\sp_crit\\sp_crit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "327a9b77-9ea7-4d83-b984-8518ff1abcf9",
+            "Value": {
+                "id": "7daa92ab-41bc-440d-9fdf-92344e906946",
+                "resourcePath": "sprites\\sp_exp_attack_23\\sp_exp_attack_23.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1051,6 +1067,14 @@
             "Value": {
                 "id": "6b661b9f-8264-409f-8697-ca8151762df5",
                 "resourcePath": "sprites\\sp_pokeworld_74\\sp_pokeworld_74.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3adb955b-2840-4020-999e-7da9595f06b7",
+            "Value": {
+                "id": "3318fd3d-3d80-4c23-bd43-74323df6042a",
+                "resourcePath": "sprites\\sp_pr_attack_40___L\\sp_pr_attack_40___L.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2015,6 +2039,14 @@
             }
         },
         {
+            "Key": "7238b9d0-0b6c-4565-bbf0-338aa8952ba9",
+            "Value": {
+                "id": "cb494991-ae00-4a43-8ee4-2c13c481d722",
+                "resourcePath": "sprites\\sp_exp_attack_21\\sp_exp_attack_21.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "72643bc6-8c45-4514-8c6f-cc4a41cffd87",
             "Value": {
                 "id": "dae67e03-93a6-4e00-8f5f-a9f162b4778e",
@@ -2535,6 +2567,14 @@
             }
         },
         {
+            "Key": "8bd23277-0e1e-422f-bdc9-531acd007f72",
+            "Value": {
+                "id": "b5759be5-ea34-4a5c-8add-6acaaa56c1ae",
+                "resourcePath": "sprites\\sp_pr_attack_39\\sp_pr_attack_39.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8c2771c3-7e8f-4afc-beaf-253e74875873",
             "Value": {
                 "id": "045c10f0-2e47-4a05-982b-08cdb74b8229",
@@ -2703,6 +2743,14 @@
             }
         },
         {
+            "Key": "9757ac92-d7a7-48c1-a260-cfe87b370abb",
+            "Value": {
+                "id": "f73f0418-b8e1-4add-b6e5-e6aaac8f883b",
+                "resourcePath": "sprites\\sp_pr_attack_40\\sp_pr_attack_40.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "97d6d68b-8b72-4a51-9a8a-86351b457e85",
             "Value": {
                 "id": "909caea2-cb49-4eba-9bf0-e967bb3a8eac",
@@ -2739,6 +2787,14 @@
             "Value": {
                 "id": "4bd91589-938b-4596-a864-ce0188c9b9d3",
                 "resourcePath": "sprites\\sp_pokeworld_30\\sp_pokeworld_30.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "992d5b32-1edd-4887-ab93-ee628cc6bc09",
+            "Value": {
+                "id": "d6b5ba89-19ae-4284-877e-c84f9928e645",
+                "resourcePath": "sprites\\sp_exp_attack_22\\sp_exp_attack_22.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3228,6 +3284,14 @@
                 "id": "944b999c-595c-445b-aca8-f0190f25c40b",
                 "resourcePath": "sounds\\snd_element_flesh\\snd_element_flesh.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "b3fece20-dacd-4db3-8441-028dfac1f970",
+            "Value": {
+                "id": "0be1ce63-c2fc-48f6-bc50-3454dca9f698",
+                "resourcePath": "sprites\\sp_pr_attack_39___L\\sp_pr_attack_39___L.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
