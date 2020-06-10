@@ -6,8 +6,6 @@ enum _e {
 	material = 1
 }
 
-//var _info = ""
-
 var _action = argument0
 var	_p_target = argument1
 
@@ -25,9 +23,9 @@ var _p_target_elem = 0
 _p_target_elem[_e.element ] = (_p_target[? "elemental_type"] != _ELEMENTAL.none) ? element_table[_p_target[? "elemental_type"]] : -1 
 _p_target_elem[_e.material] = (_p_target[? "material_type" ] != _ELEMENTAL.none) ? element_table[_p_target[? "material_type" ]] : -1 
 
-var _p_base_elem = 0
-_p_base_elem[_e.element ] = _p_target[? "elemental_type"]
-_p_base_elem[_e.material] = _p_target[? "material_type" ]
+//var _p_base_elem = 0
+//_p_base_elem[_e.element ] = _p_target[? "elemental_type"]
+//_p_base_elem[_e.material] = _p_target[? "material_type" ]
 
 for (var _pe = 0; _pe < 2; _pe++) 
 if is_array(_p_target_elem[_pe]) {

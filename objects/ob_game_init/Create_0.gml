@@ -351,6 +351,10 @@ for (var i=0; i<_ABILITY_STATE.count-1; i++)
    state_object[i] = noone;
 
 state_object[_ABILITY_STATE.incineration] = ob_state_incineration;  
+state_object[_ABILITY_STATE.poison] = ob_state_infestation;
+state_object[_ABILITY_STATE.bleed] = ob_state_bleeding;
+state_object[_ABILITY_STATE.leech] = ob_state_leech;
+state_object[_ABILITY_STATE.paralyze] = ob_state_paralyze;
 
 #endregion
 

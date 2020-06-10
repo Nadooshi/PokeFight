@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "0f4999c4-3719-47da-a56d-ed1b07e0fe20",
+            "Value": {
+                "id": "0015ab7e-2a0b-414b-a9e4-a3db9e0a80ac",
+                "resourcePath": "scripts\\sc_check_resistance_dmg\\sc_check_resistance_dmg.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0fd37c97-ff25-443a-95ec-4da2bbec0def",
             "Value": {
                 "id": "f808f139-68a3-4eed-bce0-1d8f0e368a26",
@@ -1415,6 +1423,14 @@
             }
         },
         {
+            "Key": "4e2834f3-3701-4c74-a8c0-f1667d3553a7",
+            "Value": {
+                "id": "8d164b06-292f-4b71-8ee5-d68ef92bcb67",
+                "resourcePath": "objects\\ob_state_infestation\\ob_state_infestation.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4e9a6add-0471-49b7-a3ff-447b007d8166",
             "Value": {
                 "id": "5523a975-3386-4a9d-ba24-acfe8a92d058",
@@ -1572,6 +1588,14 @@
                 "id": "5e975406-02db-4a22-a393-29b35a90cb6a",
                 "resourcePath": "sprites\\sp_pr_attack_25\\sp_pr_attack_25.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5678d111-049a-4c08-be94-df356291bb1e",
+            "Value": {
+                "id": "c66969c2-9cf4-46d6-950e-8c61f4f800a2",
+                "resourcePath": "objects\\ob_state_bleeding\\ob_state_bleeding.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2391,6 +2415,14 @@
             }
         },
         {
+            "Key": "821abb8d-1184-4025-bffb-063b7601ecc6",
+            "Value": {
+                "id": "efe1faaa-1012-4ed9-a815-3699d38314c6",
+                "resourcePath": "objects\\ob_state_paralyze\\ob_state_paralyze.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "821d8642-2a46-4324-9ee4-fc4ec0a261cf",
             "Value": {
                 "id": "fade52a6-bb54-491f-b7bf-b55d8fae9954",
@@ -2716,6 +2748,14 @@
                 "id": "ad5290b2-7aa4-4b63-90b2-a0f4647ef9f5",
                 "resourcePath": "sprites\\sp_beautyBigButton\\sp_beautyBigButton.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "95f7cfa3-acde-41ee-8545-9462239a6928",
+            "Value": {
+                "id": "270dec38-647a-4934-bdab-d874e6143e23",
+                "resourcePath": "objects\\ob_state_leech\\ob_state_leech.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -4664,6 +4704,7 @@
         "3a9aa72f-1a7a-4c1a-b72f-d91151a16eb9",
         "a6230cba-baf5-46a5-96ed-9bbbd980e446",
         "bf1abc6c-528f-4912-97c2-acf5101d3dbb",
+        "0f4999c4-3719-47da-a56d-ed1b07e0fe20",
         "5bca9910-906b-423d-a975-b5761440f0f3",
         "111f8f08-ad8d-4af8-bc9c-52df8898a2b5",
         "478d9861-af87-4667-84d6-e3bf8e9c6207",

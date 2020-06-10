@@ -23,6 +23,8 @@ ds_map_add(result, "multiply",		0)
 ds_map_add(result, "multiply_rate",	0)
 
 ds_map_add(result, "state_value",	0)
+ds_map_add(result, "state_time",	0)
+ds_map_add(result, "state_cooldown",	0)
 
 
 return result

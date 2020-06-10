@@ -2,7 +2,7 @@
 
 event_inherited()
 
-image_index = _ABILITY_STATE.incineration;
+image_index = _ABILITY_STATE.bleed;
 period = 30;
 hit_count = 1;
 damage = 0
