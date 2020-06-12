@@ -1,10 +1,15 @@
-///@arg pokemin_id
+///@arg damage_value
+///@arg pokemon_id
 ///@arg element_damage
 ///@arg material_damage
-var _p_id = argument0
+
+// calculates numeric damage
+
+var _dmg = argument0
+var _p_id = argument1
 var _elem_action = 0
-_elem_action[0] = argument1
-_elem_action[1] = argument2
+_elem_action[0] = argument2
+_elem_action[1] = argument3
 var _p_target = _p_id.pokemon_map
 
 var _p_target_elem = 0
@@ -26,4 +31,5 @@ if is_array(_p_target_elem[_pe]) {
 }
 _coeff = _coeff / _div
 
-return _coeff
+return _dmg * _coeff
+

@@ -17,7 +17,4 @@ for(var i=0; i< ds_list_size(action_list); i++) {
 ds_list_destroy(action_list)
 ds_list_destroy(delayed_bullet)
 
-for (var i=0; i<ds_list_size(states); i++)
-if instance_exists(states[| i])
-	instance_destroy(states[| i])
 ds_list_destroy(states)

@@ -258,7 +258,7 @@
             "Key": "0f4999c4-3719-47da-a56d-ed1b07e0fe20",
             "Value": {
                 "id": "0015ab7e-2a0b-414b-a9e4-a3db9e0a80ac",
-                "resourcePath": "scripts\\sc_check_resistance_dmg\\sc_check_resistance_dmg.yy",
+                "resourcePath": "scripts\\sc_calculate_numeric_damage\\sc_calculate_numeric_damage.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1066,7 +1066,7 @@
             "Key": "3a9aa72f-1a7a-4c1a-b72f-d91151a16eb9",
             "Value": {
                 "id": "950d99f9-a846-4773-86a8-0c755fe80818",
-                "resourcePath": "scripts\\sc_calculate_damage\\sc_calculate_damage.yy",
+                "resourcePath": "scripts\\sc_calculate_action_damage\\sc_calculate_action_damage.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1892,6 +1892,14 @@
                 "id": "4557e916-7456-4295-9aa6-d304f87d8b4c",
                 "resourcePath": "sprites\\sp_attack_29\\sp_attack_29.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6523a17b-4474-4b34-84c5-b5d9a9d6f15c",
+            "Value": {
+                "id": "9b3b5696-fdb0-475c-9991-cadc148de9a3",
+                "resourcePath": "objects\\ob_state_mutual\\ob_state_mutual.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -4702,9 +4710,9 @@
         "034cca7b-10c5-4c79-ba84-31df1acd9bbc",
         "69729fc8-b376-4e73-92c1-6a98bfcf4545",
         "3a9aa72f-1a7a-4c1a-b72f-d91151a16eb9",
+        "0f4999c4-3719-47da-a56d-ed1b07e0fe20",
         "a6230cba-baf5-46a5-96ed-9bbbd980e446",
         "bf1abc6c-528f-4912-97c2-acf5101d3dbb",
-        "0f4999c4-3719-47da-a56d-ed1b07e0fe20",
         "5bca9910-906b-423d-a975-b5761440f0f3",
         "111f8f08-ad8d-4af8-bc9c-52df8898a2b5",
         "478d9861-af87-4667-84d6-e3bf8e9c6207",

@@ -1,8 +1,8 @@
 /// @desc Deal damage
 
 with pokemon_id {
-	var _coeff = sc_check_resistance_dmg(id,other.action[? "element"],-1)
-	sc_hurt(other.damage * _coeff)
+	var _dmg = sc_calculate_numeric_damage(other.damage, id, other.action[? "element"], -1)
+	sc_hurt(_dmg)
 }
 /* //debug message
 var _el = ds_map_find_value(pokemon_id.pokemon_map,"elemental_type")

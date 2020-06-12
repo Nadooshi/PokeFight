@@ -12,4 +12,8 @@ with instance_create_depth(x, y, depth, ob_explosion) {
 	init_sprite_index = sprite_index
 }
 
+for (var i=0; i<ds_list_size(states); i++)
+if instance_exists(states[| i])
+	instance_destroy(states[| i])
+
 instance_deactivate_object(id)
