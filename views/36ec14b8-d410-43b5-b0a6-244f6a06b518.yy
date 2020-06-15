@@ -10,7 +10,9 @@
         "5678d111-049a-4c08-be94-df356291bb1e",
         "95f7cfa3-acde-41ee-8545-9462239a6928",
         "821abb8d-1184-4025-bffb-063b7601ecc6",
-        "6523a17b-4474-4b34-84c5-b5d9a9d6f15c"
+        "6523a17b-4474-4b34-84c5-b5d9a9d6f15c",
+        "43407042-28ae-4963-8bd2-26164d70cb98",
+        "97b64e97-5a02-4ab7-922e-bf7fb15f97c8"
     ],
     "filterType": "GMObject",
     "folderName": "state",

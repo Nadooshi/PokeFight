@@ -58,6 +58,8 @@ health_reg = 0.5
 hurt_cur = 0
 hurt_reg = 0.5
 
+shield = 0 // for barrier state
+
 attack_warmup = 0   // sec
 
 trainer = noone

@@ -17,3 +17,5 @@
 	In ds_map_copy(action, action) ability it contains isn't being copied! After CleanUp event of one object,
 ability in copied action of other objects is destroyed... This causes a crash
 
+15.06.20
+	Damage area must save id of pokemon, that dealt damage in one time.

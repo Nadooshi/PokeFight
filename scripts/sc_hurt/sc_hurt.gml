@@ -10,3 +10,5 @@ hurt_cur += _dmg
 // death
 if health_cur = 0 
 	event_perform(ev_destroy, 0)
+	
+return _dmg

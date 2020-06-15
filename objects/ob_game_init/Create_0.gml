@@ -356,6 +356,8 @@ state_object[_ABILITY_STATE.bleed		] = ob_state_bleeding;
 state_object[_ABILITY_STATE.leech		] = ob_state_leech;
 state_object[_ABILITY_STATE.paralyze	] = ob_state_paralyze;
 state_object[_ABILITY_STATE.mutual		] = ob_state_mutual;
+state_object[_ABILITY_STATE.barrier		] = ob_state_barrier;
+state_object[_ABILITY_STATE.block		] = ob_state_blok;
 
 #endregion
 
