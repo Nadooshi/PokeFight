@@ -5,8 +5,6 @@ if not init
 
 event_inherited()
 
-event_perform_object(ob_composed, ev_step, ev_step_normal)
-
 if not shot_done {
 	var _t = 60 * 0.1 * action[? "range"]
 	var _d = 999
@@ -33,5 +31,3 @@ if not shot_done {
 	sc_play_sound_element("material")
 }
 
-if anim_ended
-	instance_destroy()

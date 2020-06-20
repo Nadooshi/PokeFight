@@ -25,7 +25,3 @@ if o_part_step < part_step {
 	}
 }
 
-
-if anim_ended
-	instance_destroy()
-

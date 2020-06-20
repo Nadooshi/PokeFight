@@ -5,11 +5,6 @@ if not init
 
 event_perform_object(ob_composed, ev_step, ev_step_normal)
 
-if not instance_exists(pokemon_id) {
-	instance_destroy()
-	exit;
-}
-
 if not instance_exists(bullet) {
 	pokemon_id.canMove = true
 	pokemon_id.scBehaviour = sc_player_stop_set
@@ -23,3 +18,6 @@ _z = bullet._z
 pokemon_id.x  = bullet.x
 pokemon_id.y  = bullet.y
 pokemon_id._z = bullet._z
+
+if not instance_exists(pokemon_id)
+	instance_destroy()

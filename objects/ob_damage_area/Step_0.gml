@@ -4,30 +4,31 @@
 
 var _d = 0
 
-ds_list_clear(last_damaged) // list to be damaged
+ds_list_clear(just_damaged) // list to be damaged
 
 var _action = action
 var _damage_area = id
 var _ok = true
 
 if sc_does_exist(accuracy_done_for)
-	ds_list_add(last_damaged, accuracy_done_for)
+if ds_list_find_index(last_damaged, accuracy_done_for) = -1
+	ds_list_add(just_damaged, accuracy_done_for)
 
 with ob_player
-if id != other.accuracy_done_for {
+if ds_list_find_index(other.last_damaged, id) = -1 {
 	_d = distance_to_point(other.x, other.y)
 	if _d <= other.radius {
 		if hurt_timeout <= 0
 		if (_action[? "tgTo"] & position_stage) != 0 
 		if sc_check_affect(other.pokemon_id, id, _action[? "affect"]) 
 		if sc_check_accuracy(other.id, id, _action) 
-			ds_list_add(other.last_damaged, id)
+			ds_list_add(other.just_damaged, id)
 	}
 }
 
 // do damage
-for (var i=0; i<ds_list_size(last_damaged); i++) 
-with last_damaged[| i] {
+for (var i=0; i<ds_list_size(just_damaged); i++) 
+with just_damaged[| i] {
 	if _action[? "delay"] = 0 {
 		// deal damage
 		if hurt_timeout <= 0 {
@@ -62,8 +63,10 @@ with last_damaged[| i] {
 			ds_list_add(delayed_bullet, _bullet)
 		}
 	}
-
 }
+
+for (var i=0; i<ds_list_size(just_damaged); i++)
+	ds_list_add(last_damaged, just_damaged[| i])
 
 if timeout>0 {
 	timeout--

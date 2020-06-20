@@ -15,3 +15,5 @@ if (_a_map[? "tgFrom"] & position_stage) != 0 {
 		doActionNum = -1
 } else
 	doActionNum = -1
+
+sc_battle_update_actions()

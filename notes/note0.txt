@@ -18,4 +18,5 @@
 ability in copied action of other objects is destroyed... This causes a crash
 
 15.06.20
-	Damage area must save id of pokemon, that dealt damage in one time.
+	Damage area must save ids of all damaged pokemons to deal damage to them just once
+	

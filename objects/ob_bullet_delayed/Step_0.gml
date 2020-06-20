@@ -8,10 +8,10 @@ if instance_exists(pokemon_id_damaged) {
 } else
 	instance_destroy(id, false)
 
+_sz = 3 + sin(counter*0.4)*1
+
 if timeout > 0 {
 	timeout -= dTime
 	if timeout <=0 
 		instance_destroy()
 }
-
-_sz = 3 + sin(counter*0.4)*1

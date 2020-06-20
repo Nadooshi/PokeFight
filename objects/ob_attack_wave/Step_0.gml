@@ -29,5 +29,5 @@ if not shot_done {
 	sc_play_sound_element("material")
 }
 
-if anim_ended
+if not instance_exists(pokemon_id) or anim_ended
 	instance_destroy()

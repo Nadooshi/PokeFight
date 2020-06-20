@@ -11,6 +11,7 @@ if _action[? "bullet_phys"] = _BULLET_PH.chain
 with other
 	chain_dmg_target = sc_chain_damage()
 
+// apply state
 if ds_exists(states, ds_type_list)
 if not ds_list_empty(states) {
 	var _list = ds_list_create();
@@ -52,5 +53,4 @@ if sc_does_exist(_action[? "active"]) {
 		}
 		ds_list_add(states, _state_inst)
 	}
-	
 }

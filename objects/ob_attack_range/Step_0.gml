@@ -3,8 +3,6 @@
 if not init 
 	event_perform(ev_other, ev_user0)
 
-event_inherited()
-
 event_perform_object(ob_composed, ev_step, ev_step_normal)
 
 if not shot_done {
@@ -25,5 +23,5 @@ if not shot_done {
 	sc_play_sound_element("material")
 }
 
-if anim_ended
+if not instance_exists(pokemon_id) or anim_ended
 	instance_destroy()

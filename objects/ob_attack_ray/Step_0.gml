@@ -5,8 +5,5 @@ if not init
 
 event_inherited()
 
-if not instance_exists(pokemon_id)
-	exit
-
-if anim_ended
+if not instance_exists(pokemon_id) or anim_ended
 	instance_destroy()

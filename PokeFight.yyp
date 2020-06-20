@@ -2047,6 +2047,14 @@
             }
         },
         {
+            "Key": "7074ed69-6cb4-4029-b4a5-26be436557e9",
+            "Value": {
+                "id": "760f1c04-ee80-4148-8815-620e95d84568",
+                "resourcePath": "objects\\ob_battle_action_icon\\ob_battle_action_icon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "70edace5-2b88-4f03-a18d-296d63724f2e",
             "Value": {
                 "id": "aa1540a8-55fc-4d31-9f7e-2775d07aa8d4",

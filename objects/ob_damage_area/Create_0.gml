@@ -10,8 +10,9 @@ action = ds_map_create()
 hurt_time = 0
 timeout = -1
 
-last_damaged = ds_list_create()
+last_damaged = ds_list_create() // already damaged
 list_missed = ds_list_create()
+just_damaged = ds_list_create() // to be damaged
 accuracy_done_for = noone
 
 image_xscale = 1.5
