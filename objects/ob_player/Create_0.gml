@@ -46,7 +46,6 @@ scBehaviour = noone
 selected = false
 timeout = 0
 hurt_timeout = 0  // timeout after taking damage (sec)
-//dead = false
 
 power_max = 100
 power_cur = 100
@@ -61,6 +60,10 @@ hurt_reg = 0.5
 shield = 0 // for barrier state
 
 attack_warmup = 0   // sec
+damage_mod = 1 // умножение в sc_calculate_action_damage
+speed_mod = 0 // прибавление в sc_player_move_set
+accuracy_mod = 0 //прибавление в sc_check_accuracy
+dodge_mod = 0 //прибавление в sc_check_accuracy
 
 trainer = noone
 position_stage = _ATTACK_TG.ground

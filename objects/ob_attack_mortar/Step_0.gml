@@ -18,6 +18,8 @@ if not shot_done {
 	ds_map_copy(bullet.action, action)
 	bullet.pokemon_id = pokemon_id
 	bullet.hurt_time = hurt_time
+	bullet.damage_mod = damage_mod
+	bullet.accuracy_mod = accuracy_mod
 	bullet.timeout = _t //60 * 0.1 * action[? "range"]
 	bullet.upgea = _t
 	bullet.direction = pokemon_id.direction

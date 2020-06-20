@@ -39,7 +39,7 @@ for (var i=0; i<_count; i++) {
 	with instance_create_layer(_x, _y, "Game", ob_barrier) {
 		ds_map_copy(action, other.action)
 		pokemon_id = other.pokemon_id
-		health_cur = action[? "damage"]
+		health_cur = action[? "damage"] * damage_mod
 		health_max = health_cur
 		sprite_index = asset_get_index(action[? "p_anim"])
 		image_blend = sc_make_attack_colour(action)

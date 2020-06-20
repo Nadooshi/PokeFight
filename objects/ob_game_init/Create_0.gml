@@ -304,26 +304,26 @@ enum _ABILITY_STATE {
 
 globalvar ability_text;
 i=0
-ability_text[i++] = "incineration"  // горение
+ability_text[i++] = "incineration"  // горение*
 ability_text[i++] = "burn"          // ожог
-ability_text[i++] = "bleed"
-ability_text[i++] = "leech"
-ability_text[i++] = "poison"
-ability_text[i++] = "paralyze"
+ability_text[i++] = "bleed"			//*
+ability_text[i++] = "leech"			//*
+ability_text[i++] = "poison"		//*
+ability_text[i++] = "paralyze"		//*
 ability_text[i++] = "powerup"       // +1 к атаке
-ability_text[i++] = "weak"
+ability_text[i++] = "weak"			//*
 ability_text[i++] = "speedup"       // +1 к ОД
-ability_text[i++] = "slowdown"
-ability_text[i++] = "trap"
-ability_text[i++] = "random"
+ability_text[i++] = "slowdown"		//*
+ability_text[i++] = "trap"			//*
+ability_text[i++] = "random"		//*
 ability_text[i++] = "lulling"       // усыпление
 ability_text[i++] = "stun"          // ошеломление
 ability_text[i++] = "terror"        // ужас
 ability_text[i++] = "flee"          // escape.mid
 ability_text[i++] = "wastetime"
 ability_text[i++] = "disgust"
-ability_text[i++] = "target"
-ability_text[i++] = "loser"         // неуклюжесть
+ability_text[i++] = "target"		//*
+ability_text[i++] = "loser"         // неуклюжесть*
 ability_text[i++] = "knockdown"     // отдача. толчок с падением
 ability_text[i++] = "blast"
 ability_text[i++] = "revenge"
@@ -340,11 +340,11 @@ ability_text[i++] = "cure"
 ability_text[i++] = "clear"         // снятие эффектов
 ability_text[i++] = "confidence"    // уверенность
 ability_text[i++] = "reflect"
-ability_text[i++] = "block"
+ability_text[i++] = "block"			//*
 ability_text[i++] = "mirror"
-ability_text[i++] = "mutual"	
-ability_text[i++] = "wreck"
-ability_text[i++] = "barrier"
+ability_text[i++] = "mutual"		//*
+ability_text[i++] = "wreck"			//*
+ability_text[i++] = "barrier"		//*
 
 globalvar state_object;
 for (var i=0; i<_ABILITY_STATE.count-1; i++)
@@ -358,6 +358,14 @@ state_object[_ABILITY_STATE.paralyze	] = ob_state_paralyze;
 state_object[_ABILITY_STATE.mutual		] = ob_state_mutual;
 state_object[_ABILITY_STATE.barrier		] = ob_state_barrier;
 state_object[_ABILITY_STATE.block		] = ob_state_blok;
+state_object[_ABILITY_STATE.powerup		] = ob_state_powerup;
+state_object[_ABILITY_STATE.weak		] = ob_state_weak;
+state_object[_ABILITY_STATE.speedup		] = ob_state_speedup;
+state_object[_ABILITY_STATE.slowdown	] = ob_state_slowdown;
+state_object[_ABILITY_STATE.target		] = ob_state_target;
+state_object[_ABILITY_STATE.loser		] = ob_state_loser;
+state_object[_ABILITY_STATE.trap		] = ob_state_trap;
+state_object[_ABILITY_STATE.wreck		] = ob_state_wreck;
 
 #endregion
 

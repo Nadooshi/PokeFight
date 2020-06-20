@@ -9,6 +9,8 @@ action = ds_map_create() // copy of pokemon action
 pokemon_id = 0
 hurt_time = 0
 timeout = 0
+damage_mod = 1
+accuracy_mod = 0
 
 moveSpeed = 3
 image_xscale = 1.5

@@ -15,6 +15,8 @@ shot_done = false
 
 bullet = noone
 hurt_time = 1
+damage_mod = 1
+accuracy_mod = 0
 
 dir = d.Right
 _z = 0

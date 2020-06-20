@@ -45,6 +45,7 @@ for (var _pe = 0; _pe < 2; _pe++)
 for (var _ae = 0; _ae < 2; _ae++) 
 	potential_damage += _dmg[_pe, _ae]
 potential_damage *= 0.5
+potential_damage *= damage_mod
 result = potential_damage // previously
 
 // apply state x2,x3,x4

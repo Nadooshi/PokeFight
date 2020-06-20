@@ -14,6 +14,8 @@ with ob_player {
 			radius = 4
 			pokemon_id = _bullet.pokemon_id
 			hurt_time = _bullet.hurt_time
+			damage_mod = _bullet.damage_mod
+			accuracy_mod = _bullet.accuracy_mod
 			image_blend =  _bullet.image_blend	
 			timeout = 1
 		}

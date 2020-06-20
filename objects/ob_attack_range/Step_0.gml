@@ -13,6 +13,8 @@ if not shot_done {
 	bullet.pokemon_id = pokemon_id
 	bullet.hurt_time = hurt_time
 	bullet.timeout = 60 * 0.1 * action[? "range"] //* 18 / moveSpeed
+	bullet.damage_mod = damage_mod
+	bullet.accuracy_mod = accuracy_mod
 	bullet.direction = pokemon_id.direction
 	bullet.image_angle = bullet.direction
 	bullet.sprite_index = asset_get_index(action[? "p_anim"])

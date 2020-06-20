@@ -7,6 +7,9 @@ with instance_create_layer(pokemon_id_damaged.x, pokemon_id_damaged.y+12, "Parti
 	radius = 1
 	pokemon_id = other.pokemon_id_attack
 	hurt_time = other.hurt_time
+	damage_mod = other.damage_mod
+	accuracy_mod = other.accuracy_mod
+	
 	var _spr = asset_get_index(action[? "ex_anim"])
 	if sprite_exists(_spr) {
 //		image_angle = other.direction

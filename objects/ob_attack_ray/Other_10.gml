@@ -12,6 +12,8 @@ if not instance_exists(pokemon_id)
 	bullet.pokemon_id = pokemon_id
 	bullet.hurt_time = hurt_time
 	bullet.timeout = 30
+	bullet.damage_mod = damage_mod
+	bullet.accuracy_mod = accuracy_mod
 	bullet.direction = pokemon_id.direction
 	bullet.image_angle = bullet.direction
 	bullet.sprite_index = asset_get_index(action[? "p_anim"])

@@ -28,6 +28,8 @@ if not instance_exists(pokemon_id)
 	bullet.upgea = _t
 	bullet.direction = pokemon_id.direction
 	bullet.moveSpeed = _pokemon_speed
+	bullet.damage_mod = damage_mod
+	bullet.accuracy_mod = accuracy_mod
 //	bullet.image_angle = bullet.direction
 //	bullet.sprite_index = asset_get_index(action[? "p_anim"])
 //	bullet.image_blend = sc_make_attack_colour(action)

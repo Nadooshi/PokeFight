@@ -58,6 +58,7 @@ with just_damaged[| i] {
 				ds_map_copy(action, _action)
 				timeout = action[? "delay"]
 				hurt_time = _damage_area.hurt_time
+				damage_mod = other.damage_mod
 				image_blend  = _damage_area.image_blend
 			}
 			ds_list_add(delayed_bullet, _bullet)

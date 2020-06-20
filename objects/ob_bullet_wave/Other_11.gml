@@ -47,6 +47,8 @@ if size/5 * _wave_dots[i] > 0.5 {
 	bullet.pokemon_id = pokemon_id
 	bullet.hurt_time = hurt_time
 	bullet.timeout = timeout
+	bullet.damage_mod = damage_mod
+	bullet.accuracy_mod = accuracy_mod
 	bullet.direction = direction
 	bullet.sprite_index =sprite_index
 	bullet.image_blend = image_blend

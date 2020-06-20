@@ -31,7 +31,6 @@ switch action[? "type"]{
 	}
 	default: _d = 1
 }
-
 hurt_time = _d
 event_inherited()
 

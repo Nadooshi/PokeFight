@@ -164,6 +164,8 @@ with attack_ob_id {
 	ds_map_copy(action, _a_map)
 	action[? "num"] = other.doActionNum;
 	pokemon_id = other.id
+	damage_mod = other.damage_mod
+	accuracy_mod = other.accuracy_mod
 	_z = other._z
 	sprite_index = asset_get_index(_a_map[? "anim"])
 	image_blend = sc_make_attack_colour(_a_map)
