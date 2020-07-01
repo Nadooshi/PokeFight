@@ -6,7 +6,7 @@ var _pokemon = ds_map_create()
 sc_load_pokemon_dex(_name, _pokemon)
 
 	_pokemon[? "exp"] = 0
-	_pokemon[? "level"] = 0
+	_pokemon[? "level"] = 1 // 1 lvl in start
 	_pokemon[? "loses"] = 0
 	_pokemon[? "wins"] = 0
 	_pokemon[? "artefact"] = noone

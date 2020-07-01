@@ -1,5 +1,6 @@
 /// @arg action_map
 /// @arg target_pokemon_map
+/// @arg pokemon_attacker
 
 enum _e {
 	element  = 0,
@@ -8,6 +9,7 @@ enum _e {
 
 var _action = argument0
 var	_p_target = argument1
+var _p_attack = argument2
 
 var _dmg
 _dmg[0, _e.element ] = _action[? "dmg_element"]
@@ -45,7 +47,7 @@ for (var _pe = 0; _pe < 2; _pe++)
 for (var _ae = 0; _ae < 2; _ae++) 
 	potential_damage += _dmg[_pe, _ae]
 potential_damage *= 0.5
-potential_damage *= damage_mod
+potential_damage *= _p_attack.damage_mod
 result = potential_damage // previously
 
 // apply state x2,x3,x4

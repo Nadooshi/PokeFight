@@ -295,7 +295,7 @@ enum _ABILITY_STATE {
 	confidence,    // уверенность
 	reflect,
 	block,
-	mirror,
+	dextery,	   // уклонение
 	mutual,	
 	wreck,
 	barrier,
@@ -341,7 +341,7 @@ ability_text[i++] = "clear"         // снятие эффектов
 ability_text[i++] = "confidence"    // уверенность
 ability_text[i++] = "reflect"
 ability_text[i++] = "block"			//*
-ability_text[i++] = "mirror"
+ability_text[i++] = "dextery"		// уклонение
 ability_text[i++] = "mutual"		//*
 ability_text[i++] = "wreck"			//*
 ability_text[i++] = "barrier"		//*
@@ -366,6 +366,8 @@ state_object[_ABILITY_STATE.target		] = ob_state_target;
 state_object[_ABILITY_STATE.loser		] = ob_state_loser;
 state_object[_ABILITY_STATE.trap		] = ob_state_trap;
 state_object[_ABILITY_STATE.wreck		] = ob_state_wreck;
+state_object[_ABILITY_STATE.confusion	] = ob_state_confusion;
+state_object[_ABILITY_STATE.dextery		] = ob_state_dextery;
 
 #endregion
 

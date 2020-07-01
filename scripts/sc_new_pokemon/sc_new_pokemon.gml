@@ -9,7 +9,7 @@ if ds_exists(_ds, ds_type_map) {
 	_ds[? "title"] = ""
 	_ds[? "evolution"] = ""
 	_ds[? "health"] = 0
-	_ds[? "ap"] = 0       // action point
+	_ds[? "ap"] = 0       // move speed
 	_ds[? "size"] = _SIZE.normal
 	_ds[? "flyable"] = 0   // 0/1
 	_ds[? "digable"] = 0   // 0/1
@@ -23,7 +23,7 @@ if ds_exists(_ds, ds_type_map) {
 	_ds[? "maxlevel"] = 100
 	
 	_ds[? "exp"] = 0
-	_ds[? "level"] = 0
+	_ds[? "level"] = 1 // 1 lvl in start
 	_ds[? "loses"] = 0
 	_ds[? "wins"] = 0
 	_ds[? "artefact"] = noone

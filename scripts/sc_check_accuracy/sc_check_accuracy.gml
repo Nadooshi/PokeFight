@@ -20,7 +20,7 @@ if ds_list_find_index(_obj.list_missed, _tg_p) = -1 {
 		_rate_coeff = 2
 		break
 	}
-	_rate_coeff += _tg_p.dodge_mod
+	_rate_coeff += _tg_p.dodge_mod // !!! dodge_mod reduce dodge 
 	var _hit_rate = _action[? "accuracy"] * (_rate_coeff + _obj.accuracy_mod)
 	var _random = random(1.0)
 	var _success = _random <= _hit_rate

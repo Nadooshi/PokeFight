@@ -5,7 +5,7 @@
 
 var _action = argument0
 var _pokemon_id_attack = argument1
-var _dmg = sc_calculate_action_damage(_action, pokemon_map)
+var _dmg = sc_calculate_action_damage(_action, pokemon_map, _pokemon_id_attack)
 
 if _action[? "bullet_phys"] = _BULLET_PH.chain
 with other
@@ -31,7 +31,6 @@ if not ds_list_empty(states) {
 }
 sc_hurt(_dmg);
 
-// apply state
 if sc_does_exist(_action[? "active"]) {
 	var _state = ds_map_find_value(_action[? "active"], "state");
 	var _state_obj = state_object[_state];

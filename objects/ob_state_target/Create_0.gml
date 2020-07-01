@@ -1,4 +1,4 @@
-/// @desc 
+/// @desc Increase accuracy
 
 event_inherited()
 
