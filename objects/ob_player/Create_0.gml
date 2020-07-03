@@ -61,6 +61,8 @@ shield = 0 // for barrier state
 
 attack_warmup = 0   // sec
 damage_mod = 1 // умножение в sc_calculate_action_damage
+range_damage_mod = 1 // превращается в damage_mod в sc_player_attack_set
+melee_damage_mod = 1 // -----//------
 speed_mod = 0 // прибавление в sc_player_move_set
 accuracy_mod = 0 //прибавление в sc_check_accuracy
 dodge_mod = 0 //прибавление в sc_check_accuracy

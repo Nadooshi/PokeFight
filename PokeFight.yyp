@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "16a4a24b-2ea9-41bd-8f91-b48f2633cb8a",
+            "Value": {
+                "id": "c83cb014-750f-4146-abd3-c7937c63af1e",
+                "resourcePath": "sprites\\sp_attack_28___4\\sp_attack_28___4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1707c176-87d5-4077-ae3f-89b1c40e0361",
             "Value": {
                 "id": "9219035b-c963-48e3-9428-4607c6ffdc9b",
@@ -1759,6 +1767,14 @@
             }
         },
         {
+            "Key": "5c1cc880-4fd9-40e1-8437-d9335b30b088",
+            "Value": {
+                "id": "9814acc9-7ef8-4da2-92f8-8a895c130e9e",
+                "resourcePath": "sprites\\sp_attack_31___4\\sp_attack_31___4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5c2d6332-86e5-45be-a890-2ebda9cae181",
             "Value": {
                 "id": "fa8a51a3-aede-4de0-b03f-e15695297a09",
@@ -1788,6 +1804,14 @@
                 "id": "f20554a5-337d-448b-b972-491c531f54d3",
                 "resourcePath": "sounds\\snd_attack_cloud_2\\snd_attack_cloud_2.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "5e4c2fd9-ecc0-454b-ad72-50dcdb92ee95",
+            "Value": {
+                "id": "ac03be54-1108-4a9b-9c27-37aec9cfe60a",
+                "resourcePath": "objects\\ob_state_stun\\ob_state_stun.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2252,6 +2276,14 @@
                 "id": "a091a6f8-1aad-41d0-a268-810e94a47a8c",
                 "resourcePath": "sprites\\sp_beautyMedButton\\sp_beautyMedButton.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "77b6a49d-3798-47f8-a905-4d7f4c3e5974",
+            "Value": {
+                "id": "4d6d66b0-ae99-447a-9841-0b3a8c933c51",
+                "resourcePath": "objects\\ob_state_terror\\ob_state_terror.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3047,6 +3079,14 @@
             }
         },
         {
+            "Key": "a37abc6b-e1f7-4b91-8d50-d463d967d598",
+            "Value": {
+                "id": "a1fa4019-0141-428e-a0bf-a22103afa620",
+                "resourcePath": "objects\\ob_state_rangeup\\ob_state_rangeup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a38d5a16-258c-4a43-82d2-e0148c9dfdb0",
             "Value": {
                 "id": "42719303-743f-4b7b-9733-19321429c400",
@@ -3375,6 +3415,14 @@
             }
         },
         {
+            "Key": "b1c3f996-272a-47d2-8de7-e9e3812ef558",
+            "Value": {
+                "id": "e65c886f-c09d-496d-8a81-d158dcf3fa40",
+                "resourcePath": "sprites\\sp_attack_30___4\\sp_attack_30___4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b1ec689f-0758-4624-a562-d1267a226e51",
             "Value": {
                 "id": "f0eae561-3ae0-4e44-9e51-bb9d1f222be8",
@@ -3516,6 +3564,14 @@
                 "id": "f92cbf17-cafa-4319-a299-11368a30cfa5",
                 "resourcePath": "sprites\\sp_pr_attack_29___S\\sp_pr_attack_29___S.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b87e2740-63b9-4844-b33b-fa37a98c03da",
+            "Value": {
+                "id": "6fbe0748-a5c8-4f08-b889-6fb9694f2230",
+                "resourcePath": "objects\\ob_state_meleeup\\ob_state_meleeup.yy",
+                "resourceType": "GMObject"
             }
         },
         {

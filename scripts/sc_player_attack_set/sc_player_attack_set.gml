@@ -16,6 +16,7 @@ switch (_a_map[? "type"]) {
 		moveSpeed = pokemon_map[? "ap"] * 0.66
 		attack_ob_id.timeout = 60 * 0.1 * _a_map[? "range"]
 		frameSpeed = 0
+		damage_mod = melee_damage_mod
 		scBehaviour = sc_player_attack_lunge
 		break
 	case _ATTACK_TYPE.range:
@@ -25,6 +26,7 @@ switch (_a_map[? "type"]) {
 		canMove = false
 		sc_player_stop_set()
 		frameSpeed = 0
+		damage_mod = range_damage_mod
 		scBehaviour = sc_player_attack_wait_anim
 		// set direction image
 		sc_player_move()
@@ -36,6 +38,7 @@ switch (_a_map[? "type"]) {
 		canMove = false
 		sc_player_stop_set()
 		frameSpeed = 0
+		damage_mod = range_damage_mod
 		scBehaviour = sc_player_attack_wait_anim
 		// set direction image
 		sc_player_move()
@@ -48,6 +51,7 @@ switch (_a_map[? "type"]) {
 		canMove = false
 		sc_player_stop_set()
 		frameSpeed = 0
+		damage_mod = melee_damage_mod
 		scBehaviour = sc_player_attack_wait_anim
 		// set direction image
 		sc_player_move()
@@ -61,6 +65,7 @@ switch (_a_map[? "type"]) {
 		canMove = false
 		sc_player_stop_set()
 		frameSpeed = 0
+		damage_mod = melee_damage_mod
 		scBehaviour = sc_player_attack_front
 		// set direction image
 		sc_player_move()
@@ -77,6 +82,7 @@ switch (_a_map[? "type"]) {
 		canMove = false
 		sc_player_stop_set()
 		frameSpeed = 0
+		damage_mod = range_damage_mod
 		scBehaviour = sc_player_attack_wait_anim
 		// set direction image
 		sc_player_move()
@@ -90,6 +96,7 @@ switch (_a_map[? "type"]) {
 		canMove = false
 		sc_player_stop_set()
 		frameSpeed = 0
+		damage_mod = range_damage_mod
 		scBehaviour = sc_player_attack_wait_anim
 		// set direction image
 		sc_player_move()
@@ -137,6 +144,7 @@ switch (_a_map[? "type"]) {
 		moveSpeed = pokemon_map[? "ap"] * 0.66
 
 		event_perform(ev_other, ev_user5) // swoop
+		damage_mod = melee_damage_mod
 		scBehaviour = sc_player_attack_wait_anim
 		// set direction image
 		sc_player_move()
@@ -148,6 +156,7 @@ switch (_a_map[? "type"]) {
 		canMove = false
 		sc_player_stop_set()
 		frameSpeed = 0
+		damage_mod = range_damage_mod
 		scBehaviour = sc_player_attack_wait_anim
 		// set direction image
 		sc_player_move()

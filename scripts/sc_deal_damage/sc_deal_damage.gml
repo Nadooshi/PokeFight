@@ -22,7 +22,7 @@ if not ds_list_empty(states) {
 		with instance_create_layer(x, y, "Particles", ob_particle_text)
 			caption = "Immune!"
 	}
-//	if ds_list_find_index(_list, state_object[_ABILITY_STATE.mirror]) { // создаёт атаку направленную в обратную сторону
+//	if ds_list_find_index(_list, state_object[_ABILITY_STATE.reflect]) { // создаёт атаку направленную в обратную сторону
 	if ds_list_find_index(_list, state_object[_ABILITY_STATE.barrier])>=0 {
 		_dmg = sc_shield_damage(_dmg)
 	}

@@ -47,8 +47,10 @@ for (var _pe = 0; _pe < 2; _pe++)
 for (var _ae = 0; _ae < 2; _ae++) 
 	potential_damage += _dmg[_pe, _ae]
 potential_damage *= 0.5
+	var _debug_val = potential_damage
 potential_damage *= _p_attack.damage_mod
 result = potential_damage // previously
+	show_message("Clear damage: " + string(_debug_val) + " modify: " + string(_p_attack.damage_mod) + " result: " + string(result))
 
 // apply state x2,x3,x4
 var _mlt = 1
@@ -99,28 +101,38 @@ if sc_does_exist(_abil) {
 	}
 }
 //-----------------------------------------------------
-// apply state 'random damage'
 if sc_does_exist(_abil) {
+	// apply state 'random damage'
 	if _abil[? "state"] = _ABILITY_STATE.random_x {
 		_r_ = _abil[? "state_value"]
 		switch _r_ {
 			case 0:{
 				potential_damage = round(random_range(0,potential_damage))
-//				show_message(string(potential_damage))
 				break;
 			}
 			case 1:{
 				potential_damage = round(random_range(potential_damage*0.5,potential_damage*1.5))
-//				show_message(string(potential_damage))
 				break;
 			}
 			default:{
 				potential_damage = round(random_range(potential_damage,potential_damage*_r_))
-//				show_message(string(potential_damage))
 				break;
 			}
 		}
 	}
+	// apply state 'revenge'
+	if _abil[? "state"] = _ABILITY_STATE.revenge {
+		potential_damage = _p_attack.health_max - _p_attack.health_cur
+		show_message(string(potential_damage))
+	}
+	if _abil[? "state"] = _ABILITY_STATE.kamikaze {
+		potential_damage = _p_attack.health_cur
+		with _p_attack
+			sc_hurt(health_cur + 1)
+		
+		show_message(string(potential_damage))
+	}
+	//
 }
 //-----------------------------------------------------
 
