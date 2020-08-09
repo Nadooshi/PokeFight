@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "ob_frame_pokemon",
     "eventList": [
-        {
-            "id": "fa062a6a-0509-49fe-8b24-207f5d5c833f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 53,
-            "eventtype": 6,
-            "m_owner": "43007b37-96cd-4ed2-bde4-f6e0d34963e2"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
