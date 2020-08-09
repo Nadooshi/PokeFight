@@ -11,7 +11,7 @@ with instance_create_layer(x, y, "Particles", ob_particle_text)
 	caption = "Shield!"
 
 if shield < 0 {
-	_dmg = shield *-1
+	_dmg = -shield
 	shield = 0
 	return _dmg // возвращает значение урона, если не = 0
 }

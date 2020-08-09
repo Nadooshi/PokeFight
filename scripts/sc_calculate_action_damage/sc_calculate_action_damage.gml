@@ -47,10 +47,10 @@ for (var _pe = 0; _pe < 2; _pe++)
 for (var _ae = 0; _ae < 2; _ae++) 
 	potential_damage += _dmg[_pe, _ae]
 potential_damage *= 0.5
-	var _debug_val = potential_damage
+//	var _debug_val = potential_damage
 potential_damage *= _p_attack.damage_mod
 result = potential_damage // previously
-	show_message("Clear damage: " + string(_debug_val) + " modify: " + string(_p_attack.damage_mod) + " result: " + string(result))
+	//show_message("Clear damage: " + string(_debug_val) + " modify: " + string(_p_attack.damage_mod) + " result: " + string(result))
 
 // apply state x2,x3,x4
 var _mlt = 1

@@ -6,6 +6,8 @@ event_inherited();
 
 
 current_pokemon = ds_list_find_value(map[? parameter_name], index)
+if not sc_does_exist(current_pokemon)
+	exit;
 
 with frame_pokemon {
 	map = current_pokemon

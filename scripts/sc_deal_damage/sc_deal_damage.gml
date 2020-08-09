@@ -39,16 +39,27 @@ if sc_does_exist(_action[? "active"]) {
 	var _r_ = random_range(0, 100)
 	if object_exists(_state_obj)
 	if ds_exists(states, ds_type_list)
-	// check apply state rate
+		// check apply state rate
 	if _r_ <= _rate {
-	//if ds_list_find_index(states, _state_obj) < 0 {
-        var _state_inst = instance_create_layer(x, y, "Particles", _state_obj)
+		// create state instance
+	    var _state_inst = instance_create_layer(x, y, "Particles", _state_obj)
 		with _state_inst {
 			damage = _dmg
 			index = ds_list_size(other.states)
 			pokemon_id = other.id;
 			pokemon_id_attack = _pokemon_id_attack; // атакующий
+			name = ds_map_find_value(_action[? "active"], "name");
 			ds_map_copy(action, _action);
+		}
+		// check duplicate
+		var _st
+		for (var i=0; i<ds_list_size(states); i++) {
+			_st = ds_list_find_value(states, i)
+			if instance_exists(_st)
+			if _st.name = _state_inst.name {
+				instance_destroy(_st)
+				break;
+			}
 		}
 		ds_list_add(states, _state_inst)
 	}

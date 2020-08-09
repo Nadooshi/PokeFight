@@ -9,8 +9,8 @@ with sc_create_player(_list[| i], player1_trainer) {
 		x = _start_area.bbox_left + random(_start_area.bbox_right  - _start_area.bbox_left)
 		y = _start_area.bbox_top  + random(_start_area.bbox_bottom - _start_area.bbox_top )
 	}
-	sc_composed_add_component(cmp_control_keyb, true)
-//	sc_composed_add_component(cmp_control_dummy, true)
+//	sc_composed_add_component(cmp_control_keyb, true)
+	sc_composed_add_component(cmp_control_dummy, true)
 
 	// set pokemon id for ob_pokeface
 	with ob_ui_pokeface_1
