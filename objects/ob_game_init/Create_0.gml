@@ -391,41 +391,44 @@ enum _FORCE {
 }
 
 globalvar force_text;
-force_text[_FORCE.paltry]	 = "Paltry"
-force_text[_FORCE.frail]	 = "Frail"
-force_text[_FORCE.helpless]	 = "Helpless"
-force_text[_FORCE.preferred] = "Preferred"
-force_text[_FORCE.reliable]	 = "Reliable"
-force_text[_FORCE.strong]	 = "Strong"
-force_text[_FORCE.selective] = "Selective"
-force_text[_FORCE.elite]	 = "Elite"
-force_text[_FORCE.legendary] = "Legendary"
-force_text[_FORCE.incredible]= "Incredible"
+force_text[_FORCE.paltry	] = "Paltry"
+force_text[_FORCE.frail		] = "Frail"
+force_text[_FORCE.helpless	] = "Helpless"
+force_text[_FORCE.preferred	] = "Preferred"
+force_text[_FORCE.reliable	] = "Reliable"
+force_text[_FORCE.strong	] = "Strong"
+force_text[_FORCE.selective	] = "Selective"
+force_text[_FORCE.elite		] = "Elite"
+force_text[_FORCE.legendary	] = "Legendary"
+force_text[_FORCE.incredible] = "Incredible"
 
 globalvar coef_force;
-coef_force[_FORCE.paltry	 ] = 0.91
-coef_force[_FORCE.frail	 ] = 0.95 
-coef_force[_FORCE.helpless ] = 0.98 
-coef_force[_FORCE.preferred] = 1	
-coef_force[_FORCE.reliable ] = 1.03 
-coef_force[_FORCE.strong	 ] = 1.07 
-coef_force[_FORCE.selective] = 1.12 
-coef_force[_FORCE.elite    ] = 1.18 
-coef_force[_FORCE.legendary] = 1.25
+coef_force[_FORCE.paltry	] = 0.91
+coef_force[_FORCE.frail		] = 0.95 
+coef_force[_FORCE.helpless	] = 0.98 
+coef_force[_FORCE.preferred	] = 1	
+coef_force[_FORCE.reliable	] = 1.03 
+coef_force[_FORCE.strong	] = 1.07 
+coef_force[_FORCE.selective	] = 1.12 
+coef_force[_FORCE.elite		] = 1.18 
+coef_force[_FORCE.legendary	] = 1.25
 coef_force[_FORCE.incredible] = 1.33
 
 globalvar coef_level;
-coef_level[_FORCE.paltry	 ] = 0.045
-coef_level[_FORCE.frail	 ] = 0.043
-coef_level[_FORCE.helpless ] = 0.0418
-coef_level[_FORCE.preferred] = 0.041
-coef_level[_FORCE.reliable ] = 0.04
-coef_level[_FORCE.strong	 ] = 0.039
-coef_level[_FORCE.selective] = 0.038	
-coef_level[_FORCE.elite	 ] = 0.0368
-coef_level[_FORCE.legendary] = 0.0343
+coef_level[_FORCE.paltry	] = 0.045
+coef_level[_FORCE.frail		] = 0.043
+coef_level[_FORCE.helpless	] = 0.0418
+coef_level[_FORCE.preferred	] = 0.041
+coef_level[_FORCE.reliable	] = 0.04
+coef_level[_FORCE.strong	] = 0.039
+coef_level[_FORCE.selective	] = 0.038	
+coef_level[_FORCE.elite		] = 0.0368
+coef_level[_FORCE.legendary	] = 0.0343
 coef_level[_FORCE.incredible] = 0.032
-
+enum custom {
+	_health = 150, //custom 1st healt proferred force
+	_dmg = 100,
+}
 
 #endregion
 //////////////////////////////////

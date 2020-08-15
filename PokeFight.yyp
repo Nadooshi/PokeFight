@@ -1231,6 +1231,14 @@
             }
         },
         {
+            "Key": "459b7bf3-4777-4859-81a0-6fe46b6852cd",
+            "Value": {
+                "id": "9ab507c8-8aa1-465d-8f3f-36987b80e976",
+                "resourcePath": "sprites\\sp_transparenter\\sp_transparenter.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "45ab80b6-26b5-46c5-8317-49ef6363cc46",
             "Value": {
                 "id": "59f6bfe3-70ba-4cd5-96dc-9fad6ba39ce8",
@@ -3319,6 +3327,14 @@
             }
         },
         {
+            "Key": "ad223fa7-cf5e-4ca2-87b9-ea5df8807251",
+            "Value": {
+                "id": "897fba0a-baf5-4c6a-911a-a5728938514a",
+                "resourcePath": "objects\\ob_num_label_level\\ob_num_label_level.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ad96c59b-ad1b-4491-9a31-70b312cb92ab",
             "Value": {
                 "id": "3bbd6a11-1cac-437d-91dc-4908db6bc2ef",
@@ -4263,6 +4279,14 @@
             }
         },
         {
+            "Key": "e01eeb3f-b97d-4039-9fd3-d8ed2163928e",
+            "Value": {
+                "id": "e1a849f8-4f66-4fbd-9d13-dc1144d3c885",
+                "resourcePath": "scripts\\sc_calculate_formula\\sc_calculate_formula.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e0223468-5a82-457a-a9ef-51409a8896d7",
             "Value": {
                 "id": "99b32ed9-a98b-4001-9974-4081a8918ef2",
@@ -4890,6 +4914,7 @@
         "5c85c07a-de40-4089-9d95-54f1a69ece8b",
         "a520878b-490c-4e7f-900c-db1b28e4cd72",
         "898e0598-8b22-4f8c-a7b8-0a94b4b59cfd",
+        "e01eeb3f-b97d-4039-9fd3-d8ed2163928e",
         "fdc40fad-75a6-4422-8a3e-ef523a0feec4",
         "034cca7b-10c5-4c79-ba84-31df1acd9bbc",
         "69729fc8-b376-4e73-92c1-6a98bfcf4545",
