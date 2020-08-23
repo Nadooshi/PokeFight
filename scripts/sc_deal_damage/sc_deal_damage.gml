@@ -22,7 +22,35 @@ if not ds_list_empty(states) {
 		with instance_create_layer(x, y, "Particles", ob_particle_text)
 			caption = "Immune!"
 	}
-//	if ds_list_find_index(_list, state_object[_ABILITY_STATE.reflect]) { // создаёт атаку направленную в обратную сторону
+	if ds_list_find_index(_list, state_object[_ABILITY_STATE.reflect])>=0 { // создаёт атаку направленную в обратную сторону
+		_dmg = 0
+		with instance_create_layer(x, y, "Particles", ob_particle_text)
+			caption = "Reflect!"
+		switch _action[? "type"]{
+			case _ATTACK_TYPE.range:{
+				with instance_create_layer(x, y+9, "Particles", ob_bullet_range){
+					ds_map_copy(action, _action)
+					pokemon_id = other.id
+					hurt_time = _action[? "hurt_time"]
+					timeout = 30 * 0.1 * _action[? "range"]
+					damage_mod = other.damage_mod
+					accuracy_mod = other.accuracy_mod
+					direction = 180 - _action[? "dir"]
+					image_angle = direction
+					sprite_index = asset_get_index(_action[? "p_anim"])
+					image_blend = sc_make_attack_colour(_action)
+				}
+				break;
+			}
+			case _ATTACK_TYPE.ray:{
+				break;
+			}
+			case _ATTACK_TYPE.wave:{
+				break;
+			}
+		}
+	}
+
 	if ds_list_find_index(_list, state_object[_ABILITY_STATE.barrier])>=0 {
 		_dmg = sc_shield_damage(_dmg)
 	}

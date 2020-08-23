@@ -9,6 +9,10 @@ ds_list_clear(just_damaged) // list to be damaged
 var _action = action
 var _damage_area = id
 var _ok = true
+_action[? "lastX"] = x
+_action[? "lastY"] = y
+_action[? "dir"] = direction
+_action[? "hurt_time"] = hurt_time
 
 if sc_does_exist(accuracy_done_for)
 if ds_list_find_index(last_damaged, accuracy_done_for) = -1

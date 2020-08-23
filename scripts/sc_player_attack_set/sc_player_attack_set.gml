@@ -166,7 +166,6 @@ switch (_a_map[? "type"]) {
 //		canMove = false
 		sc_player_stop_set()
 		attack_ob_id = instance_create_layer(x, y, "Particles", ob_attack)
-		scBehaviour = sc_player_attack
 }
 
 with attack_ob_id {

@@ -312,7 +312,7 @@ ability_text[i++] = "poison"		//*
 ability_text[i++] = "paralyze"		//*
 ability_text[i++] = "powerup"       // +1 к атаке *
 ability_text[i++] = "weak"			//*
-ability_text[i++] = "speedup"       // +1 к ОД
+ability_text[i++] = "speedup"       // +1 к ОД*
 ability_text[i++] = "slowdown"		//*
 ability_text[i++] = "trap"			//*
 ability_text[i++] = "random"		//*
@@ -324,8 +324,8 @@ ability_text[i++] = "wastetime"		//
 ability_text[i++] = "disgust"		// отвращение
 ability_text[i++] = "target"		//*
 ability_text[i++] = "loser"         // неуклюжесть*
-ability_text[i++] = "knockdown"     // отдача. толчок с падением
-ability_text[i++] = "blast"			//
+ability_text[i++] = "knockdown"     // отдача. толчок с падением*
+ability_text[i++] = "blast"			//*
 ability_text[i++] = "revenge"		//*
 ability_text[i++] = "kamikaze"		//
 ability_text[i++] = "mindcontrol"   // гипноз
@@ -364,6 +364,8 @@ state_object[_ABILITY_STATE.speedup		] = ob_state_speedup;
 state_object[_ABILITY_STATE.slowdown	] = ob_state_slowdown;
 state_object[_ABILITY_STATE.target		] = ob_state_target;
 state_object[_ABILITY_STATE.loser		] = ob_state_loser;
+state_object[_ABILITY_STATE.knockdown	] = ob_state_knockdown;
+state_object[_ABILITY_STATE.blast		] = ob_state_blast;
 state_object[_ABILITY_STATE.trap		] = ob_state_trap;
 state_object[_ABILITY_STATE.wreck		] = ob_state_wreck;
 state_object[_ABILITY_STATE.confusion	] = ob_state_confusion;
@@ -372,6 +374,7 @@ state_object[_ABILITY_STATE.stun		] = ob_state_stun;
 state_object[_ABILITY_STATE.terror		] = ob_state_terror;
 state_object[_ABILITY_STATE.meleeup		] = ob_state_meleeup;
 state_object[_ABILITY_STATE.rangeup		] = ob_state_rangeup;
+state_object[_ABILITY_STATE.reflect		] = ob_state_reflect;
 
 #endregion
 
@@ -511,16 +514,3 @@ maxchannel = 5
 audio_channel_num(maxchannel)
 audio_set_master_gain(0, 0.5)
 
-//math_set_epsilon(0.001)
-
-//var _snd = noone
-//var _name = ""
-//for (var i=0; i<_ELEMENTAL.count; i++) {
-//	_name = "snd_element_"+string(elemental_text[i])
-//	_snd = asset_get_index(_name)
-//	if audio_exists(_snd) {
-//		sc_play_sound(_snd)
-//		show_message(_name)
-//	} else
-//		show_message(_name + " does not exist!")
-//}

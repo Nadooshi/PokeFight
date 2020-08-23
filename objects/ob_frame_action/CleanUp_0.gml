@@ -3,7 +3,8 @@
 // Inherit the parent event
 event_inherited();
 
-if sc_does_exist(map) {
+if not is_undefined(map)
+if ds_exists(map, ds_type_map) {
 	if sc_does_exist(map[? "active"])
 		ds_map_destroy(map[? "active"])
 	
