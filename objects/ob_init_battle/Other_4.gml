@@ -1,4 +1,4 @@
-/// @desc
+/// @desc Set AI player
 
 var _start_area = instance_find(ob_start_area, 0)
 

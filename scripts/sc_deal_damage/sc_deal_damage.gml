@@ -43,12 +43,56 @@ if not ds_list_empty(states) {
 				break;
 			}
 			case _ATTACK_TYPE.ray:{
+				with instance_create_layer(x, y+9, "Particles", ob_bullet_ray) {
+						ds_map_copy(action, _action)
+						pokemon_id = other.id
+						hurt_time = _action[? "hurt_time"]
+						timeout = 30
+						damage_mod = other.damage_mod
+						accuracy_mod = other.accuracy_mod
+						direction = 180 - _action[? "dir"]
+						image_angle = direction
+						sprite_index = asset_get_index(_action[? "p_anim"])
+						image_blend = sc_make_attack_colour(_action)
+				}
 				break;
 			}
 			case _ATTACK_TYPE.wave:{
+				with instance_create_layer(x, y+9, "Particles", ob_bullet_wave) {
+					ds_map_copy(action, _action)
+					pokemon_id = other.id
+					hurt_time = _action[? "hurt_time"]
+					timeout = 30 * 0.1 * _action[? "range"]
+					damage_mod = other.damage_mod
+					accuracy_mod = other.accuracy_mod
+					direction = 180 - _action[? "dir"]
+					image_angle = direction
+					sprite_index = asset_get_index(_action[? "p_anim"])
+					image_blend = sc_make_attack_colour(_action)
+					if _action[? "range"] = 0
+						d_size = 0
+					else
+						d_size = ((_action[? "radius"]) / timeout)					
+				}
 				break;
 			}
 		}
+	}
+	if ds_list_find_index(_list, state_object[_ABILITY_STATE.disgust])>=0 {
+		switch _action[? "type"] {			
+			case _ATTACK_TYPE.front:
+			case _ATTACK_TYPE.lunge:
+			case _ATTACK_TYPE.melee:
+			case _ATTACK_TYPE.swoop:
+			var stun_action = ds_map_create()
+			var stun_active = ds_map_create()
+			stun_active[? "name"] = "stun"
+			stun_active[? "state_time"] = ds_map_find_value(_action[? "active"], "state_time")
+			stun_action[? "active"] = stun_active
+			with _pokemon_id_attack
+				sc_apply_state(ob_state_stun, 0, _pokemon_id_attack, stun_action);
+			ds_map_destroy(stun_action)
+		}	
 	}
 
 	if ds_list_find_index(_list, state_object[_ABILITY_STATE.barrier])>=0 {
@@ -66,29 +110,7 @@ if sc_does_exist(_action[? "active"]) {
 	var _rate = 25*(_s_rate + 1)
 	var _r_ = random_range(0, 100)
 	if object_exists(_state_obj)
-	if ds_exists(states, ds_type_list)
 		// check apply state rate
-	if _r_ <= _rate {
-		// create state instance
-	    var _state_inst = instance_create_layer(x, y, "Particles", _state_obj)
-		with _state_inst {
-			damage = _dmg
-			index = ds_list_size(other.states)
-			pokemon_id = other.id;
-			pokemon_id_attack = _pokemon_id_attack; // атакующий
-			name = ds_map_find_value(_action[? "active"], "name");
-			ds_map_copy(action, _action);
-		}
-		// check duplicate
-		var _st
-		for (var i=0; i<ds_list_size(states); i++) {
-			_st = ds_list_find_value(states, i)
-			if instance_exists(_st)
-			if _st.name = _state_inst.name {
-				instance_destroy(_st)
-				break;
-			}
-		}
-		ds_list_add(states, _state_inst)
-	}
+	if _r_ <= _rate
+		sc_apply_state(_state_obj, _dmg, _pokemon_id_attack, _action);
 }

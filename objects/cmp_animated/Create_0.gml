@@ -12,7 +12,7 @@ dirframe[d.Up   ] = 0
 dirframe[d.Left ] = 0
 dirframe[d.Down ] = 0
 
-p_looped = false
+p_looped = true
 p_4dir   = false
 p_stable = false  // not turning
 p_ray	 = false

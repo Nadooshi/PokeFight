@@ -1,4 +1,7 @@
 /// @desc After collision
+var _damage_done = false;
+if damage_done
+	exit;
 
 if action[? "bullet_phys"] != _BULLET_PH.piercer {
 	// sort by distance
@@ -36,7 +39,15 @@ if sc_does_exist(collided_with_list[| i]) {
 					y2 = y1 + lengthdir_y(length, direction)
 					x = collided_with.x
 					y = collided_with.y
-					event_perform_object(ob_bullet, ev_destroy, 0)
+					// do damage
+					with instance_copy(false) {
+						instance_change(ob_bullet, false)
+						action = ds_map_create()
+						list_missed = ds_list_create()
+						ds_map_copy(action, other.action)
+						instance_destroy()
+					}
+					_damage_done:=true;
 					break
 				}
 			}
@@ -48,7 +59,17 @@ if sc_does_exist(collided_with_list[| i]) {
 		y2 = y1 + lengthdir_y(length, direction)
 		x = collided_with.x
 		y = collided_with.y
-		event_perform_object(ob_bullet, ev_destroy, 0)
+		// do damage
+		with instance_copy(false) {
+			instance_change(ob_bullet, false)
+			action = ds_map_create()
+			list_missed = ds_list_create()
+			ds_map_copy(action, other.action)
+			instance_destroy()
+		}
+		_damage_done:=true;
 		break
 	}
 }
+
+damage_done:=_damage_done

@@ -1,6 +1,6 @@
 /// @desc Init
 
-// Inherit the parent event
+
 length = action[? "range"] * 18
 x1 = x
 y1 = y

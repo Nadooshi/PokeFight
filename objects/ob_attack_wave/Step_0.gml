@@ -12,14 +12,13 @@ if not shot_done {
 	ds_map_copy(bullet.action, action)
 	bullet.pokemon_id = pokemon_id
 	bullet.hurt_time = hurt_time
-	bullet.timeout = 60 * 0.1 * action[? "range"] * 2
+	bullet.timeout = 60 * 0.1 * action[? "range"]
 	bullet.damage_mod = damage_mod
 	bullet.accuracy_mod = accuracy_mod
 	bullet.direction = pokemon_id.direction
 	bullet.image_angle = bullet.direction
 	bullet.sprite_index = asset_get_index(action[? "p_anim"])
 	bullet.image_blend = sc_make_attack_colour(action)
-	bullet.size = 1
 	if action[? "range"] = 0
 		bullet.d_size = 0
 	else

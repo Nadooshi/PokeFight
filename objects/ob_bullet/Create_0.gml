@@ -1,7 +1,7 @@
 /// @desc 
 
 sc_composed_add_component(cmp_moving)
-sc_composed_add_component(cmp_animated)
+sc_composed_add_component(cmp_animated_loop)
 
 event_inherited();
 

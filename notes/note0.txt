@@ -24,5 +24,6 @@ ability in copied action of other objects is destroyed... This causes a crash
 	* Летающие покемоны () не попадают по летающим покемонам
 	* Лазер не рисуется если он попадает во что-то.
 	* Слишком быстрые надписи "Miss", "Block", "Reflect"
+	[ DONE! ]
 	
 

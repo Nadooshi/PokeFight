@@ -303,7 +303,7 @@ enum _ABILITY_STATE {
 }
 
 globalvar ability_text;
-i=0
+i=1
 ability_text[i++] = "incineration"  // горение*
 ability_text[i++] = "burn"          // ожог - шрам
 ability_text[i++] = "bleed"			//*
@@ -321,25 +321,25 @@ ability_text[i++] = "stun"          // ошеломление*
 ability_text[i++] = "terror"        // ужас*
 ability_text[i++] = "flee"          // escape.mid
 ability_text[i++] = "wastetime"		//
-ability_text[i++] = "disgust"		// отвращение
+ability_text[i++] = "disgust"		// отвращение*
 ability_text[i++] = "target"		//*
 ability_text[i++] = "loser"         // неуклюжесть*
 ability_text[i++] = "knockdown"     // отдача. толчок с падением*
 ability_text[i++] = "blast"			//*
 ability_text[i++] = "revenge"		//*
-ability_text[i++] = "kamikaze"		//
+ability_text[i++] = "kamikaze"		//*
 ability_text[i++] = "mindcontrol"   // гипноз
 ability_text[i++] = "confusion"     // смущение*
-ability_text[i++] = "telekinesis"
-ability_text[i++] = "teleport"
+ability_text[i++] = "telekinesis"	
+ability_text[i++] = "teleport"		
 ability_text[i++] = "meleeup"		//*
 ability_text[i++] = "rangeup"		//*
 ability_text[i++] = "heal"			//
-ability_text[i++] = "medicine"
-ability_text[i++] = "cure"
+ability_text[i++] = "medicine"		
+ability_text[i++] = "cure"			
 ability_text[i++] = "clear"         // снятие эффектов
 ability_text[i++] = "confidence"    // уверенность
-ability_text[i++] = "reflect"		// рикошет
+ability_text[i++] = "reflect"		// рикошет*
 ability_text[i++] = "block"			//*
 ability_text[i++] = "dextery"		// уклонение*
 ability_text[i++] = "mutual"		//*
@@ -375,6 +375,7 @@ state_object[_ABILITY_STATE.terror		] = ob_state_terror;
 state_object[_ABILITY_STATE.meleeup		] = ob_state_meleeup;
 state_object[_ABILITY_STATE.rangeup		] = ob_state_rangeup;
 state_object[_ABILITY_STATE.reflect		] = ob_state_reflect;
+state_object[_ABILITY_STATE.disgust		] = ob_state_disgust;
 
 #endregion
 
